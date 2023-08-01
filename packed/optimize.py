@@ -7,7 +7,7 @@ def main():
     for _, _, xs in os.walk("./oleans"):
         total += len(xs)
     curr = 0
-    os.system("mkdir tmp")
+    os.system("mkdir optimize_tmp")
     for path, _, fileNames in os.walk("./oleans"):
         for fileName in fileNames:
             filePath = path + "/" + fileName
@@ -17,7 +17,7 @@ def main():
                 os.system("mv tmp/" + fileName + " " + filePath)
             curr += 1
             print("done:", curr, "/", total)
-    os.system("rm -rf tmp")
+    os.system("rm -rf optimize_tmp")
 
 if __name__ == '__main__':
     main()
