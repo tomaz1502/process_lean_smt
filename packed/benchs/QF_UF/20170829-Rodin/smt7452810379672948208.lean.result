@@ -1,0 +1,75 @@
+./benchs/QF_UF/20170829-Rodin/smt7452810379672948208.lean:35:67: warning: `Implies` has been deprecated
+
+./benchs/QF_UF/20170829-Rodin/smt7452810379672948208.lean:35:125: warning: `Implies` has been deprecated
+
+./benchs/QF_UF/20170829-Rodin/smt7452810379672948208.lean:35:167: warning: `Implies` has been deprecated
+
+./benchs/QF_UF/20170829-Rodin/smt7452810379672948208.lean:40:15: warning: `Implies` has been deprecated
+
+./benchs/QF_UF/20170829-Rodin/smt7452810379672948208.lean:41:15: warning: `Implies` has been deprecated
+
+./benchs/QF_UF/20170829-Rodin/smt7452810379672948208.lean:42:15: warning: `Implies` has been deprecated
+
+./benchs/QF_UF/20170829-Rodin/smt7452810379672948208.lean:36:4: warning: unused variable `lean_a0` [linter.unusedVariables]
+
+./benchs/QF_UF/20170829-Rodin/smt7452810379672948208.lean:38:4: warning: unused variable `lean_a2` [linter.unusedVariables]
+
+./benchs/QF_UF/20170829-Rodin/smt7452810379672948208.lean:39:4: warning: unused variable `lean_a3` [linter.unusedVariables]
+
+./benchs/QF_UF/20170829-Rodin/smt7452810379672948208.lean:42:4: warning: unused variable `lean_a6` [linter.unusedVariables]
+
+./benchs/QF_UF/20170829-Rodin/smt7452810379672948208.lean:43:4: warning: unused variable `lean_a7` [linter.unusedVariables]
+
+./benchs/QF_UF/20170829-Rodin/smt7452810379672948208.lean:44:4: warning: unused variable `lean_a8` [linter.unusedVariables]
+
+./benchs/QF_UF/20170829-Rodin/smt7452810379672948208.lean:45:4: warning: unused variable `lean_a9` [linter.unusedVariables]
+
+./benchs/QF_UF/20170829-Rodin/smt7452810379672948208.lean:46:4: warning: unused variable `lean_a10` [linter.unusedVariables]
+
+./benchs/QF_UF/20170829-Rodin/smt7452810379672948208.lean:47:4: warning: unused variable `lean_a11` [linter.unusedVariables]
+
+[smt.profile] [`cnfEquivNeg1] start time: 6117034178038ns
+[smt.profile] [`cnfEquivNeg1] end time: 6117034303955ns
+
+[smt.profile] [`impliesElim] start time: 6117034577710ns
+[smt.profile] [`impliesElim]  end time: 6117034717625ns
+
+[smt.profile] [(Term.explicit "@" `cnfAndPos)] start time: 6117034983798ns
+[smt.profile] [(Term.explicit "@" `cnfAndPos)]  end time: 6117036423862ns
+
+[smt.profile] [resolution_2] start time: 6117036691764ns
+[smt.profile] [resolution_2] end time: 6117037722043ns
+
+[smt.profile] [resolution_1] start time: 6117037911631ns
+[smt.profile] [resolution_1] end time: 6117038842127ns
+
+[smt.profile] [resolution_1] start time: 6117038981759ns
+[smt.profile] [resolution_1] end time: 6117039942312ns
+
+[smt.profile] [(Term.explicit "@" `cnfAndPos)] start time: 6117040188212ns
+[smt.profile] [(Term.explicit "@" `cnfAndPos)]  end time: 6117041095580ns
+
+[smt.profile] [`impliesElim] start time: 6117041422480ns
+[smt.profile] [`impliesElim]  end time: 6117041570628ns
+
+[smt.profile] [(Term.explicit "@" `cnfAndPos)] start time: 6117041877888ns
+[smt.profile] [(Term.explicit "@" `cnfAndPos)]  end time: 6117043171926ns
+
+[smt.profile] [resolution_2] start time: 6117043485369ns
+[smt.profile] [resolution_2] end time: 6117044362156ns
+
+[smt.profile] [resolution_1] start time: 6117044572136ns
+[smt.profile] [resolution_1] end time: 6117045570399ns
+
+[smt.profile] [resolution_1] start time: 6117045790164ns
+[smt.profile] [resolution_1] end time: 6117046683635ns
+
+[smt.profile] [resolution_1] start time: 6117046954791ns
+[smt.profile] [resolution_1] end time: 6117047848029ns
+
+[smt.profile] [`contradiction] start time: 6117048039505ns
+[smt.profile] [`contradiction]  end time: 6117048164052ns
+
+valid
+0.34user 0.07system 0:00.42elapsed 99%CPU (0avgtext+0avgdata 1052480maxresident)k
+8inputs+8outputs (0major+37772minor)pagefaults 0swaps

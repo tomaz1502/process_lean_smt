@@ -1,0 +1,23 @@
+./benchs/QF_UF/20170829-Rodin/smt3166111930664231918.lean:19:70: warning: `Implies` has been deprecated
+
+./benchs/QF_UF/20170829-Rodin/smt3166111930664231918.lean:24:15: warning: `Implies` has been deprecated
+
+./benchs/QF_UF/20170829-Rodin/smt3166111930664231918.lean:21:4: warning: unused variable `lean_a1` [linter.unusedVariables]
+
+./benchs/QF_UF/20170829-Rodin/smt3166111930664231918.lean:23:4: warning: unused variable `lean_a3` [linter.unusedVariables]
+
+[smt.profile] [`impliesElim] start time: 6119908007091ns
+[smt.profile] [`impliesElim]  end time: 6119908183585ns
+
+[smt.profile] [`eqResolve] start time: 6119908326020ns
+[smt.profile] [`eqResolve]  end time: 6119908463635ns
+
+[smt.profile] [resolution_2] start time: 6119908620436ns
+[smt.profile] [resolution_2] end time: 6119909626495ns
+
+[smt.profile] [`contradiction] start time: 6119909797039ns
+[smt.profile] [`contradiction]  end time: 6119909911358ns
+
+valid
+0.30user 0.08system 0:00.38elapsed 100%CPU (0avgtext+0avgdata 1050072maxresident)k
+8inputs+8outputs (0major+37203minor)pagefaults 0swaps

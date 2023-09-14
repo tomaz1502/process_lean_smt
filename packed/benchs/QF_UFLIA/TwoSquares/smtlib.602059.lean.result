@@ -1,0 +1,62 @@
+./benchs/QF_UFLIA/TwoSquares/smtlib.602059.lean:20:414: warning: `Implies` has been deprecated
+
+./benchs/QF_UFLIA/TwoSquares/smtlib.602059.lean:25:20: warning: `Implies` has been deprecated
+
+./benchs/QF_UFLIA/TwoSquares/smtlib.602059.lean:26:46: warning: `Implies` has been deprecated
+
+./benchs/QF_UFLIA/TwoSquares/smtlib.602059.lean:31:20: warning: `Implies` has been deprecated
+
+./benchs/QF_UFLIA/TwoSquares/smtlib.602059.lean:31:164: warning: `Implies` has been deprecated
+
+./benchs/QF_UFLIA/TwoSquares/smtlib.602059.lean:32:25: warning: `Implies` has been deprecated
+
+./benchs/QF_UFLIA/TwoSquares/smtlib.602059.lean:32:175: warning: `Implies` has been deprecated
+
+./benchs/QF_UFLIA/TwoSquares/smtlib.602059.lean:33:21: warning: `Implies` has been deprecated
+
+./benchs/QF_UFLIA/TwoSquares/smtlib.602059.lean:36:22: warning: `Implies` has been deprecated
+
+./benchs/QF_UFLIA/TwoSquares/smtlib.602059.lean:24:4: warning: unused variable `lean_a3` [linter.unusedVariables]
+
+[smt.profile] ["flipCongrArg"] start time: 61842202069408ns
+[smt.profile] ["flipCongrArg"]  end time: 61842202329656ns
+
+[smt.profile] ["flipCongrArg"] start time: 61842202458013ns
+[smt.profile] ["flipCongrArg"]  end time: 61842202915663ns
+
+[smt.profile] [`rfl] start time: 61842203248980ns
+[smt.profile] [`rfl] end time: 61842203343458ns
+
+[smt.profile] [`congr] start time: 61842205415278ns
+[smt.profile] [`congr]  end time: 61842205685439ns
+
+[smt.profile] [`Eq.trans] start time: 61842207045823ns
+[smt.profile] [`Eq.trans]  end time: 61842207261356ns
+
+[smt.profile] [`congr] start time: 61842208987785ns
+[smt.profile] [`congr]  end time: 61842209273569ns
+
+[smt.profile] ["flipCongrArg"] start time: 61842211072289ns
+[smt.profile] ["flipCongrArg"]  end time: 61842211330120ns
+
+[smt.profile] [`eqResolve] start time: 61842212007636ns
+[smt.profile] [`eqResolve]  end time: 61842212171467ns
+
+[smt.profile] [`notImplies2] start time: 61842212654560ns
+[smt.profile] [`notImplies2]  end time: 61842212829814ns
+
+[smt.profile] [`notNotElim] start time: 61842213298582ns
+[smt.profile] [`notNotElim]  end time: 61842213468080ns
+
+[smt.profile] [`eqResolve] start time: 61842214159476ns
+[smt.profile] [`eqResolve]  end time: 61842214319837ns
+
+[smt.profile] [`notImplies1] start time: 61842214820698ns
+[smt.profile] [`notImplies1]  end time: 61842214985412ns
+
+[smt.profile] [`contradiction] start time: 61842215301116ns
+[smt.profile] [`contradiction]  end time: 61842215445219ns
+
+valid
+0.32user 0.12system 0:00.45elapsed 99%CPU (0avgtext+0avgdata 1050384maxresident)k
+8inputs+8outputs (0major+37704minor)pagefaults 0swaps

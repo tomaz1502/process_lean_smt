@@ -1,0 +1,223 @@
+open Classical
+open Smt.Reconstruction.Certifying
+
+
+
+set_option maxRecDepth 10000
+set_option maxHeartbeats 500000
+
+variable {skoS : Rat}
+variable {skoX : Rat}
+variable {skoC : Rat}
+variable {skoX : Rat}
+variable {skoS : Rat}
+variable {skoC : Rat}
+
+theorem th0 :
+  let let1 := (Int.ofNat 0)
+  let let2 := (binrel% HDiv.hDiv (Int.ofNat 3) (Int.ofNat 13))
+  let let3 := (binrel% HAdd.hAdd skoS (binrel% HMul.hMul (Neg.neg let2) skoC))
+  let let4 := (binrel% GE.ge let3 let1)
+  let let5 := (Rat.ofInt 0)
+  let let6 := (binrel% GE.ge let3 let5)
+  let let7 := (Rat.ofInt 1)
+  let let8 := (Neg.neg let7)
+  let let9 := (binrel% LT.lt let8 let1)
+  let let10 := (binrel% GT.gt let7 let1)
+  let let11 := (binrel% HMul.hMul let2 skoC)
+  let let12 := (Neg.neg (Int.ofNat 1))
+  let let13 := (binrel% HAdd.hAdd (binrel% HMul.hMul let12 skoS) let11)
+  let let14 := (binrel% GE.ge let13 let1)
+  let let15 := (binrel% LE.le let3 let5)
+  let let16 := (binrel% HMul.hMul let7 let3)
+  let let17 := (binrel% LE.le skoS let11)
+  let let18 := (binrel% HAdd.hAdd let3 let13)
+  let let19 := (Not let4)
+  let let20 := (Not let19)
+  let let21 := (binrel% HMul.hMul skoC let2)
+  let let22 := (binrel% HMul.hMul let8 let3)
+  let let23 := (binrel% GE.ge (binrel% HMul.hMul let12 skoX) let1)
+  let let24 := (binrel% LE.le skoX let5)
+  let let25 := (binrel% HMul.hMul let7 let5)
+  let let26 := (binrel% HDiv.hDiv (Rat.ofInt 3) (Rat.ofInt 13))
+  let let27 := (Not let15)
+  let let28 := (binrel% GT.gt let3 let5)
+  let let29 := (binrel% GE.ge let5 let5)
+  let let30 := (binrel% HMul.hMul let8 let5)
+  let let31 := (binrel% HAdd.hAdd let25 let30)
+  let let32 := (binrel% HAdd.hAdd let16 let22)
+  let let33 := (binrel% GE.ge let32 let31)
+  let let34 := (Not let33)
+  let let35 := (binrel% LT.lt let32 let31)
+  let let36 := (binrel% LE.le let11 skoS)
+  let let37 := (Not let14)
+  let let38 := (Not let37)
+  let let39 := (Not let6)
+  let let40 := (binrel% LT.lt let3 let5)
+  let let41 := (Not True)
+  let let42 := (binrel% HMul.hMul skoC let26)
+  let let43 := (binrel% LE.le skoS let42)
+  let let44 := (Not let43)
+  let let45 := (Not let24)
+  let let46 := (binrel% LE.le let42 skoS)
+  let let47 := (Not let46)
+  let let48 := (And let47 (And let45 let44))
+  let let49 := (binrel% HAdd.hAdd let5 let5)
+  let let50 := (Not let23)
+  let let51 := (And let19 (And let50 let37))
+  let let52 := (Eq let48 let51)
+  let let53 := (Or let4 let14)
+  let let54 := (Or let20 let38)
+  let let55 := (binrel% LT.lt let22 let30)
+  let let56 := (And let9 let28)
+  let let57 := (binrel% LT.lt let16 let25)
+  let let58 := (And let10 let40)
+(Eq let6 let4) → (Eq let9 True) → (Eq let10 True) → (Eq let15 let14) → (Eq let16 let3) → (Eq let17 let14) → (Eq let18 let5) → (Eq let20 let4) → (Eq let21 let11) → (Eq let22 let13) → (Eq let24 let23) → (Eq let25 let5) → (Eq let26 let2) → (Eq let28 let27) → (Eq let29 True) → (Eq let35 let34) → (Eq let36 let4) → (Eq let30 let5) → (Eq let38 let14) → (Eq let40 let39) → (Eq let41 False) → (Eq let48 let48) → (Eq let49 let5) → let48 → False :=
+  let let1 := (Int.ofNat 0)
+  let let2 := (binrel% HDiv.hDiv (Int.ofNat 3) (Int.ofNat 13))
+  let let3 := (binrel% HAdd.hAdd skoS (binrel% HMul.hMul (Neg.neg let2) skoC))
+  let let4 := (binrel% GE.ge let3 let1)
+  let let5 := (Rat.ofInt 0)
+  let let6 := (binrel% GE.ge let3 let5)
+  let let7 := (Rat.ofInt 1)
+  let let8 := (Neg.neg let7)
+  let let9 := (binrel% LT.lt let8 let1)
+  let let10 := (binrel% GT.gt let7 let1)
+  let let11 := (binrel% HMul.hMul let2 skoC)
+  let let12 := (Neg.neg (Int.ofNat 1))
+  let let13 := (binrel% HAdd.hAdd (binrel% HMul.hMul let12 skoS) let11)
+  let let14 := (binrel% GE.ge let13 let1)
+  let let15 := (binrel% LE.le let3 let5)
+  let let16 := (binrel% HMul.hMul let7 let3)
+  let let17 := (binrel% LE.le skoS let11)
+  let let18 := (binrel% HAdd.hAdd let3 let13)
+  let let19 := (Not let4)
+  let let20 := (Not let19)
+  let let21 := (binrel% HMul.hMul skoC let2)
+  let let22 := (binrel% HMul.hMul let8 let3)
+  let let23 := (binrel% GE.ge (binrel% HMul.hMul let12 skoX) let1)
+  let let24 := (binrel% LE.le skoX let5)
+  let let25 := (binrel% HMul.hMul let7 let5)
+  let let26 := (binrel% HDiv.hDiv (Rat.ofInt 3) (Rat.ofInt 13))
+  let let27 := (Not let15)
+  let let28 := (binrel% GT.gt let3 let5)
+  let let29 := (binrel% GE.ge let5 let5)
+  let let30 := (binrel% HMul.hMul let8 let5)
+  let let31 := (binrel% HAdd.hAdd let25 let30)
+  let let32 := (binrel% HAdd.hAdd let16 let22)
+  let let33 := (binrel% GE.ge let32 let31)
+  let let34 := (Not let33)
+  let let35 := (binrel% LT.lt let32 let31)
+  let let36 := (binrel% LE.le let11 skoS)
+  let let37 := (Not let14)
+  let let38 := (Not let37)
+  let let39 := (Not let6)
+  let let40 := (binrel% LT.lt let3 let5)
+  let let41 := (Not True)
+  let let42 := (binrel% HMul.hMul skoC let26)
+  let let43 := (binrel% LE.le skoS let42)
+  let let44 := (Not let43)
+  let let45 := (Not let24)
+  let let46 := (binrel% LE.le let42 skoS)
+  let let47 := (Not let46)
+  let let48 := (And let47 (And let45 let44))
+  let let49 := (binrel% HAdd.hAdd let5 let5)
+  let let50 := (Not let23)
+  let let51 := (And let19 (And let50 let37))
+  let let52 := (Eq let48 let51)
+  let let53 := (Or let4 let14)
+  let let54 := (Or let20 let38)
+  let let55 := (binrel% LT.lt let22 let30)
+  let let56 := (And let9 let28)
+  let let57 := (binrel% LT.lt let16 let25)
+  let let58 := (And let10 let40)
+fun lean_r0 : (Eq let6 let4) => -- THEORY_REWRITE_ARITH
+fun lean_r1 : (Eq let9 True) => -- EVALUATE
+fun lean_r2 : (Eq let10 True) => -- EVALUATE
+fun lean_r3 : (Eq let15 let14) => -- THEORY_REWRITE_ARITH
+fun lean_r4 : (Eq let16 let3) => -- THEORY_REWRITE_ARITH
+fun lean_r5 : (Eq let17 let14) => -- THEORY_REWRITE_ARITH
+fun lean_r6 : (Eq let18 let5) => -- THEORY_REWRITE_ARITH
+fun lean_r7 : (Eq let20 let4) => -- THEORY_REWRITE_BOOL
+fun lean_r8 : (Eq let21 let11) => -- THEORY_REWRITE_ARITH
+fun lean_r9 : (Eq let22 let13) => -- THEORY_REWRITE_ARITH
+fun lean_r10 : (Eq let24 let23) => -- THEORY_REWRITE_ARITH
+fun lean_r11 : (Eq let25 let5) => -- THEORY_REWRITE_ARITH
+fun lean_r12 : (Eq let26 let2) => -- THEORY_REWRITE_ARITH
+fun lean_r13 : (Eq let28 let27) => -- THEORY_REWRITE_ARITH
+fun lean_r14 : (Eq let29 True) => -- THEORY_REWRITE_ARITH
+fun lean_r15 : (Eq let35 let34) => -- THEORY_REWRITE_ARITH
+fun lean_r16 : (Eq let36 let4) => -- THEORY_REWRITE_ARITH
+fun lean_r17 : (Eq let30 let5) => -- THEORY_REWRITE_ARITH
+fun lean_r18 : (Eq let38 let14) => -- THEORY_REWRITE_BOOL
+fun lean_r19 : (Eq let40 let39) => -- THEORY_REWRITE_ARITH
+fun lean_r20 : (Eq let41 False) => -- THEORY_REWRITE_BOOL
+fun lean_r21 : (Eq let48 let48) => -- THEORY_REWRITE_BOOL
+fun lean_r22 : (Eq let49 let5) => -- THEORY_REWRITE_ARITH
+fun lean_a23 : let48 => by
+have lean_s0 : (Or let20 (Or let38 False)) :=
+  (scope (fun lean_a24 : let19 =>
+    (scope (fun lean_a25 : let37 =>
+      have lean_s0 : let10 := by timed trueElim lean_r2
+      have lean_s1 : (Eq let39 let19) := by timed flipCongrArg lean_r0 [Not]
+      have lean_s2 : (Eq let40 let19) := by timed Eq.trans lean_r19 lean_s1
+      have lean_s3 : (Eq let19 let40) := by timed Eq.symm lean_s2
+      have lean_s4 : let40 := by timed eqResolve lean_a24 lean_s3
+      have lean_s5 : let58 := by timed And.intro lean_s0 lean_s4
+      have lean_s6 : (Implies let58 let57) := by arithMulPos [let3, let5, let7], 0
+      have lean_s7 : let57 := by timed modusPonens lean_s5 lean_s6
+      have lean_s8 : let9 := by timed trueElim lean_r1
+      have lean_s9 : (Eq let27 let37) := by timed flipCongrArg lean_r3 [Not]
+      have lean_s10 : (Eq let28 let37) := by timed Eq.trans lean_r13 lean_s9
+      have lean_s11 : (Eq let37 let28) := by timed Eq.symm lean_s10
+      have lean_s12 : let28 := by timed eqResolve lean_a25 lean_s11
+      have lean_s13 : let56 := by timed And.intro lean_s8 lean_s12
+      have lean_s14 : (Implies let56 let55) := by arithMulNeg [let3, let5, let8], 2
+      have lean_s15 : let55 := by timed modusPonens lean_s13 lean_s14
+      have lean_s16 : let35 := by sumBounds [lean_s7, lean_s15]
+      let lean_s17 := by timed flipCongrArg lean_r4 [HAdd.hAdd]
+      have lean_s18 : (Eq let32 let18) := by timed congr lean_s17 lean_r9
+      have lean_s19 : (Eq let32 let5) := by timed Eq.trans lean_s18 lean_r6
+      let lean_s20 := by timed flipCongrArg lean_s19 [GE.ge]
+      let lean_s21 := by timed flipCongrArg lean_r11 [HAdd.hAdd]
+      have lean_s22 : (Eq let31 let49) := by timed congr lean_s21 lean_r17
+      have lean_s23 : (Eq let31 let5) := by timed Eq.trans lean_s22 lean_r22
+      have lean_s24 : (Eq let33 let29) := by timed congr lean_s20 lean_s23
+      have lean_s25 : (Eq let33 True) := by timed Eq.trans lean_s24 lean_r14
+      have lean_s26 : (Eq let34 let41) := by timed flipCongrArg lean_s25 [Not]
+      have lean_s27 : (Eq let34 False) := by timed Eq.trans lean_s26 lean_r20
+      have lean_s28 : (Eq let35 False) := by timed Eq.trans lean_r15 lean_s27
+      show False from by timed eqResolve lean_s16 lean_s28
+  ))))
+have lean_s1 : (Not (And let19 let37)) := by liftOrNToNeg lean_s0
+have lean_s2 : let54 := by timed flipNotAnd lean_s1 [let19, let37]
+let lean_s3 := by timed flipCongrArg lean_r7 [Or]
+have lean_s4 : (Eq let54 let53) := by timed congr lean_s3 lean_r18
+have lean_s5 : let53 := by timed eqResolve lean_s2 lean_s4
+have lean_s6 : (Eq And And) := by timed rfl
+have lean_s7 : (Eq skoC skoC) := by timed rfl
+let lean_s8 := by timed flipCongrArg lean_s7 [HMul.hMul]
+have lean_s9 : (Eq let42 let21) := by timed congr lean_s8 lean_r12
+have lean_s10 : (Eq let42 let11) := by timed Eq.trans lean_s9 lean_r8
+let lean_s11 := by timed flipCongrArg lean_s10 [LE.le]
+have lean_s12 : (Eq skoS skoS) := by timed rfl
+have lean_s13 : (Eq let46 let36) := by timed congr lean_s11 lean_s12
+have lean_s14 : (Eq let46 let4) := by timed Eq.trans lean_s13 lean_r16
+have lean_s15 : (Eq let47 let19) := by timed flipCongrArg lean_s14 [Not]
+let lean_s16 := by timed congr lean_s6 lean_s15
+have lean_s17 : (Eq let45 let50) := by timed flipCongrArg lean_r10 [Not]
+let lean_s18 := by timed congr lean_s6 lean_s17
+let lean_s19 := by timed flipCongrArg lean_s12 [LE.le]
+have lean_s20 : (Eq let43 let17) := by timed congr lean_s19 lean_s10
+have lean_s21 : (Eq let43 let14) := by timed Eq.trans lean_s20 lean_r5
+have lean_s22 : (Eq let44 let37) := by timed flipCongrArg lean_s21 [Not]
+let lean_s23 := by timed congr lean_s18 lean_s22
+have lean_s24 : let52 := by timed congr lean_s16 lean_s23
+have lean_s25 : let52 := by timed Eq.trans lean_r21 lean_s24
+have lean_s26 : let51 := by timed eqResolve lean_a23 lean_s25
+have lean_s27 : let37 := by andElim lean_s26, 2
+let lean_s28 := by R1 lean_s5, lean_s27, let14, [(- 1), 0]
+have lean_s29 : let19 := by andElim lean_s26, 0
+exact (show False from by R1 lean_s28, lean_s29, let4, [0, 0])
+
+

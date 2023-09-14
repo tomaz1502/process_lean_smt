@@ -1,0 +1,781 @@
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:41:13308: error: application type mismatch
+  -(Int.ofNat 41855 / Int.ofNat 11468) * Int.ofNat 0 = Rat.ofInt 0
+argument
+  Rat.ofInt 0
+has type
+  ℚ : Type
+but is expected to have type
+  ℤ : Type
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:41:42101: error: application type mismatch
+  Int.ofNat 11671 / Int.ofNat 5734 * Int.ofNat 0 = Rat.ofInt 0
+argument
+  Rat.ofInt 0
+has type
+  ℚ : Type
+but is expected to have type
+  ℤ : Type
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:41:67761: error: application type mismatch
+  Int.ofNat 2905 / Int.ofNat 11468 * Int.ofNat 0 = Rat.ofInt 0
+argument
+  Rat.ofInt 0
+has type
+  ℚ : Type
+but is expected to have type
+  ℤ : Type
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:41:97191: error: application type mismatch
+  Int.ofNat 15893 / Int.ofNat 2867 * Int.ofNat 0 = Rat.ofInt 0
+argument
+  Rat.ofInt 0
+has type
+  ℚ : Type
+but is expected to have type
+  ℤ : Type
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:41:100295: error: application type mismatch
+  Int.ofNat 22929 / Int.ofNat 11468 * Int.ofNat 0 = Rat.ofInt 0
+argument
+  Rat.ofInt 0
+has type
+  ℚ : Type
+but is expected to have type
+  ℤ : Type
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:41:100719: error: application type mismatch
+  -(Int.ofNat 4025 / Int.ofNat 11468) * Int.ofNat 0 = Rat.ofInt 0
+argument
+  Rat.ofInt 0
+has type
+  ℚ : Type
+but is expected to have type
+  ℤ : Type
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:65:119: error: application type mismatch
+  -(Int.ofNat 41855 / Int.ofNat 11468) * Int.ofNat 0 = Rat.ofInt 0
+argument
+  Rat.ofInt 0
+has type
+  ℚ : Type
+but is expected to have type
+  ℤ : Type
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:120:108: error: application type mismatch
+  Int.ofNat 11671 / Int.ofNat 5734 * Int.ofNat 0 = Rat.ofInt 0
+argument
+  Rat.ofInt 0
+has type
+  ℚ : Type
+but is expected to have type
+  ℤ : Type
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:150:109: error: application type mismatch
+  Int.ofNat 2905 / Int.ofNat 11468 * Int.ofNat 0 = Rat.ofInt 0
+argument
+  Rat.ofInt 0
+has type
+  ℚ : Type
+but is expected to have type
+  ℤ : Type
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:193:109: error: application type mismatch
+  Int.ofNat 15893 / Int.ofNat 2867 * Int.ofNat 0 = Rat.ofInt 0
+argument
+  Rat.ofInt 0
+has type
+  ℚ : Type
+but is expected to have type
+  ℤ : Type
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:204:110: error: application type mismatch
+  Int.ofNat 22929 / Int.ofNat 11468 * Int.ofNat 0 = Rat.ofInt 0
+argument
+  Rat.ofInt 0
+has type
+  ℚ : Type
+but is expected to have type
+  ℤ : Type
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:207:119: error: application type mismatch
+  -(Int.ofNat 4025 / Int.ofNat 11468) * Int.ofNat 0 = Rat.ofInt 0
+argument
+  Rat.ofInt 0
+has type
+  ℚ : Type
+but is expected to have type
+  ℤ : Type
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:230:54: warning: `Implies` has been deprecated
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:234:54: warning: `Implies` has been deprecated
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:240:55: warning: `Implies` has been deprecated
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:246:55: warning: `Implies` has been deprecated
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:253:55: warning: `Implies` has been deprecated
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:260:55: warning: `Implies` has been deprecated
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:264:55: warning: `Implies` has been deprecated
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:271:55: warning: `Implies` has been deprecated
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:275:55: warning: `Implies` has been deprecated
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:279:55: warning: `Implies` has been deprecated
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:285:55: warning: `Implies` has been deprecated
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:289:55: warning: `Implies` has been deprecated
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:295:55: warning: `Implies` has been deprecated
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:299:55: warning: `Implies` has been deprecated
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:306:55: warning: `Implies` has been deprecated
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:310:55: warning: `Implies` has been deprecated
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:327:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:326:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:325:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:324:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:323:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:322:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:321:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:320:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:319:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:318:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:317:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:316:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:315:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:314:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:313:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:312:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:311:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:310:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:309:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:308:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:307:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:306:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:305:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:304:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:303:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:302:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:301:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:300:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:299:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:298:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:297:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:296:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:295:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:294:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:293:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:292:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:291:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:290:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:289:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:288:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:287:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:286:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:285:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:284:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:283:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:282:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:281:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:280:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:279:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:278:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:277:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:276:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:275:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:274:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:273:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:272:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:271:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:270:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:269:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:268:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:267:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:266:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:265:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:264:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:263:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:262:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:261:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:260:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:259:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:258:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:257:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:256:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:255:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:254:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:253:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:252:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:251:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:250:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:249:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:248:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:247:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:246:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:245:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:244:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:243:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:242:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:241:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:240:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:239:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:238:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:237:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:236:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:235:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:234:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:233:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:232:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:231:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:230:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:229:38: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:227:44: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:227:36: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:225:40: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:224:38: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:223:36: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:222:34: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:221:32: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:220:30: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:219:28: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:218:26: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:217:24: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:216:22: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:215:20: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:214:18: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:213:16: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:212:14: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:211:12: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:210:10: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:210:2: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:228:119: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:229:340: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:230:660: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:231:368: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:232:160: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:233:540: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:234:1101: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:235:609: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:236:151: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:237:682: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:238:369: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:239:461: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:240:933: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:241:521: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:242:151: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:243:419: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:244:237: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:245:328: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:246:666: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:247:387: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:248:152: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:249:803: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:250:429: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:251:434: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:252:521: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:253:1053: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:254:581: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:255:151: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:256:325: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:257:190: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:258:195: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:259:281: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:260:572: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:261:340: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:262:161: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:263:425: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:264:870: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:265:494: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:266:151: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:267:643: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:268:349: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:269:354: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:270:440: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:271:890: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:272:499: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:273:162: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:274:541: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:275:1103: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:276:611: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:277:162: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:278:493: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:279:1007: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:280:563: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:281:151: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:282:555: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:283:305: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:284:396: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:285:802: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:286:455: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:287:161: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:288:473: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:289:966: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:290:542: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:291:151: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:292:891: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:293:473: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:294:564: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:295:1138: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:296:623: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:297:162: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:298:450: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:299:921: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:300:520: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:301:149: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:302:507: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:303:281: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:304:296: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:305:380: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:306:768: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:307:437: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:308:161: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:309:447: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:310:914: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:311:516: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:312:7443: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:313:63: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:314:63: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:315:63: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:316:63: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:317:63: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:318:63: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:319:63: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:320:63: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:321:63: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:322:63: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:323:63: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:324:63: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:325:63: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:326:63: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:327:14878: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:328:5636: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:329:64: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean:330:55: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+[smt.profile] [`trueElim] start time: 73018966771427ns
+
+[smt.profile] [`And.intro] start time: 73018968208732ns
+
+[smt.profile] [arithMulNeg] start time: 73018969589975ns
+
+[smt.profile] [`modusPonens] start time: 73018970891948ns
+
+[smt.profile] [`trueElim] start time: 73018972232387ns
+
+[smt.profile] [`And.intro] start time: 73018973677305ns
+
+[smt.profile] [arithMulNeg] start time: 73018975401048ns
+
+[smt.profile] [`modusPonens] start time: 73018977261999ns
+
+[smt.profile] [`trueElim] start time: 73018979156245ns
+
+[smt.profile] [`Eq.symm] start time: 73018981222843ns
+
+[smt.profile] [`eqResolve] start time: 73018983289059ns
+
+[smt.profile] [`And.intro] start time: 73018985430530ns
+
+[smt.profile] [arithMulPos] start time: 73018987759540ns
+
+[smt.profile] [`modusPonens] start time: 73018990188604ns
+
+[smt.profile] [`trueElim] start time: 73018992659118ns
+
+[smt.profile] [`Eq.symm] start time: 73018995211940ns
+
+[smt.profile] [`eqResolve] start time: 73018997815250ns
+
+[smt.profile] [`And.intro] start time: 73019000474317ns
+
+[smt.profile] [arithMulPos] start time: 73019003292911ns
+
+[smt.profile] [`modusPonens] start time: 73019006176903ns
+
+[smt.profile] [`trueElim] start time: 73019009020121ns
+
+[smt.profile] [`Eq.symm] start time: 73019012014723ns
+
+[smt.profile] [`eqResolve] start time: 73019015039074ns
+
+[smt.profile] [`And.intro] start time: 73019021389073ns
+
+[smt.profile] [arithMulPos] start time: 73019024898746ns
+
+[smt.profile] [`modusPonens] start time: 73019028482513ns
+
+[smt.profile] [`trueElim] start time: 73019032123264ns
+
+[smt.profile] [`Eq.symm] start time: 73019035939353ns
+
+[smt.profile] [`eqResolve] start time: 73019039799244ns
+
+[smt.profile] [`And.intro] start time: 73019047543956ns
+
+[smt.profile] [arithMulPos] start time: 73019051441542ns
+
+[smt.profile] [`modusPonens] start time: 73019055335075ns
+
+[smt.profile] [`trueElim] start time: 73019059187854ns
+
+[smt.profile] [`And.intro] start time: 73019063141068ns
+
+[smt.profile] [arithMulNeg] start time: 73019067272116ns
+
+[smt.profile] [`modusPonens] start time: 73019071462069ns
+
+[smt.profile] [`trueElim] start time: 73019075610971ns
+
+[smt.profile] [`Eq.symm] start time: 73019079936962ns
+
+[smt.profile] [`eqResolve] start time: 73019084315533ns
+
+[smt.profile] [`And.intro] start time: 73019093211508ns
+
+[smt.profile] [arithMulPos] start time: 73019097948621ns
+
+[smt.profile] [`modusPonens] start time: 73019102753549ns
+
+[smt.profile] [`trueElim] start time: 73019107551645ns
+
+[smt.profile] [`And.intro] start time: 73019112464644ns
+
+[smt.profile] [arithMulNeg] start time: 73019117653019ns
+
+[smt.profile] [`modusPonens] start time: 73019122965274ns
+
+[smt.profile] [`trueElim] start time: 73019128243005ns
+
+[smt.profile] [`And.intro] start time: 73019133614526ns
+
+[smt.profile] [arithMulNeg] start time: 73019139241633ns
+
+[smt.profile] [`modusPonens] start time: 73019144953551ns
+
+[smt.profile] [`trueElim] start time: 73019150665602ns
+
+[smt.profile] [`Eq.symm] start time: 73019156502923ns
+
+[smt.profile] [`eqResolve] start time: 73019162420256ns
+
+[smt.profile] [`And.intro] start time: 73019168340613ns
+
+[smt.profile] [arithMulPos] start time: 73019174473723ns
+
+[smt.profile] [`modusPonens] start time: 73019180714040ns
+
+[smt.profile] [`trueElim] start time: 73019186977300ns
+
+[smt.profile] [`And.intro] start time: 73019193396222ns
+
+[smt.profile] [arithMulNeg] start time: 73019199959070ns
+
+[smt.profile] [`modusPonens] start time: 73019206630737ns
+
+[smt.profile] [`trueElim] start time: 73019213346793ns
+
+[smt.profile] [`Eq.symm] start time: 73019220294422ns
+
+[smt.profile] [`eqResolve] start time: 73019227301858ns
+
+[smt.profile] [`And.intro] start time: 73019234549203ns
+
+[smt.profile] [arithMulPos] start time: 73019241904553ns
+
+[smt.profile] [`modusPonens] start time: 73019249352767ns
+
+[smt.profile] [`trueElim] start time: 73019256792028ns
+
+[smt.profile] [`And.intro] start time: 73019264377455ns
+
+[smt.profile] [arithMulNeg] start time: 73019272137378ns
+
+[smt.profile] [`modusPonens] start time: 73019279977703ns
+
+[smt.profile] [`trueElim] start time: 73019287825250ns
+
+[smt.profile] [`Eq.symm] start time: 73019295984273ns
+
+[smt.profile] [`eqResolve] start time: 73019304179643ns
+
+[smt.profile] [`And.intro] start time: 73019320918365ns
+
+[smt.profile] [arithMulPos] start time: 73019329406025ns
+
+[smt.profile] [`modusPonens] start time: 73019337982565ns
+
+[smt.profile] [`trueElim] start time: 73019346582864ns
+
+[smt.profile] [`And.intro] start time: 73019355277605ns
+
+[smt.profile] [arithMulNeg] start time: 73019364238262ns
+
+[smt.profile] [`modusPonens] start time: 73019373265930ns
+
+[smt.profile] [`congrHAdd] start time: 73019391382636ns
+
+[smt.profile] [`congrHAdd] start time: 73019400431330ns
+
+[smt.profile] [`congrHAdd] start time: 73019409500019ns
+
+[smt.profile] [`congrHAdd] start time: 73019418698567ns
+
+[smt.profile] [`congrHAdd] start time: 73019427809923ns
+
+[smt.profile] [`congrHAdd] start time: 73019436895853ns
+
+[smt.profile] [`congrHAdd] start time: 73019446148580ns
+
+[smt.profile] [`congrHAdd] start time: 73019455226577ns
+
+[smt.profile] [`congrHAdd] start time: 73019464285599ns
+
+[smt.profile] [`congrHAdd] start time: 73019473282768ns
+
+[smt.profile] [`congrHAdd] start time: 73019482444751ns
+
+[smt.profile] [`congrHAdd] start time: 73019491658611ns
+
+[smt.profile] [`congrHAdd] start time: 73019500760254ns
+
+[smt.profile] [`congrHAdd] start time: 73019509962143ns
+
+[smt.profile] [`congrHAdd] start time: 73019519225732ns
+
+[smt.profile] [`Eq.trans] start time: 73019528550515ns
+
+[smt.profile] ["flipCongrArg"] start time: 73019537802350ns
+
+[smt.profile] [`congrHAdd] start time: 73019547042082ns
+
+invalid
+130.48user 2.94system 2:13.43elapsed 99%CPU (0avgtext+0avgdata 5731228maxresident)k
+1288inputs+128outputs (0major+2443137minor)pagefaults 0swaps

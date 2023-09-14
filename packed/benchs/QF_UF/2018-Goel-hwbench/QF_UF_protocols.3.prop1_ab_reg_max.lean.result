@@ -1,0 +1,110 @@
+./benchs/QF_UF/2018-Goel-hwbench/QF_UF_protocols.3.prop1_ab_reg_max.lean:169:68: error: function expected at
+  yx24n0s8 ≠ yx24n1s8
+term has type
+  Prop
+
+./benchs/QF_UF/2018-Goel-hwbench/QF_UF_protocols.3.prop1_ab_reg_max.lean:169:102: error: function expected at
+  yx24n2s32 ≠ yx24n1s32
+term has type
+  Prop
+
+./benchs/QF_UF/2018-Goel-hwbench/QF_UF_protocols.3.prop1_ab_reg_max.lean:171:15: error: function expected at
+  yx24n0s8 ≠ yx24n1s8
+term has type
+  Prop
+
+./benchs/QF_UF/2018-Goel-hwbench/QF_UF_protocols.3.prop1_ab_reg_max.lean:172:15: error: function expected at
+  yx24n2s32 ≠ yx24n1s32
+term has type
+  Prop
+
+[smt.profile] [`cnfEquivPos1] start time: 14174103280781ns
+[smt.profile] [`cnfEquivPos1] end time: 14174103441813ns
+
+[smt.profile] [`eqResolve] start time: 14174104566086ns
+[smt.profile] [`eqResolve]  end time: 14174104727652ns
+
+[smt.profile] [andElim] start time: 14174104919359ns
+[smt.profile] [andElim] end time: 14174105947611ns
+
+[smt.profile] [`rfl] start time: 14174106212395ns
+[smt.profile] [`rfl] end time: 14174106316635ns
+
+[smt.profile] ["flipCongrArg"] start time: 14174106477269ns
+[smt.profile] ["flipCongrArg"]  end time: 14174106814188ns
+
+[smt.profile] [`congr] start time: 14174107289912ns
+[smt.profile] [`congr]  end time: 14174107568388ns
+
+[smt.profile] [`eqResolve] start time: 14174107888980ns
+[smt.profile] [`eqResolve]  end time: 14174108027949ns
+
+[smt.profile] [`eqResolve] start time: 14174108287207ns
+[smt.profile] [`eqResolve]  end time: 14174108416286ns
+
+[smt.profile] [`equivElim1] start time: 14174108665106ns
+[smt.profile] [`equivElim1]  end time: 14174108802268ns
+
+[smt.profile] [`equivElim1] start time: 14174109086146ns
+[smt.profile] [`equivElim1]  end time: 14174109232155ns
+
+[smt.profile] [`eqResolve] start time: 14174110320030ns
+[smt.profile] [`eqResolve]  end time: 14174110458856ns
+
+[smt.profile] [andElim] start time: 14174110641756ns
+[smt.profile] [andElim] end time: 14174111608184ns
+
+[smt.profile] [resolution_2] start time: 14174111854358ns
+[smt.profile] [resolution_2] end time: 14174112896456ns
+
+[smt.profile] [resolution_1] start time: 14174113146845ns
+[smt.profile] [resolution_1] end time: 14174114060969ns
+
+[smt.profile] [`Eq.symm] start time: 14174114379199ns
+[smt.profile] [`Eq.symm]  end time: 14174114546023ns
+
+[smt.profile] [`eqResolve] start time: 14174114742669ns
+[smt.profile] [`eqResolve]  end time: 14174114879092ns
+
+[smt.profile] [resolution_2] start time: 14174115045303ns
+[smt.profile] [resolution_2] end time: 14174116039484ns
+
+[smt.profile] [(Term.explicit "@" `cnfAndPos)] start time: 14174116365623ns
+[smt.profile] [(Term.explicit "@" `cnfAndPos)]  end time: 14174117645314ns
+
+[smt.profile] [`eqResolve] start time: 14174118813246ns
+[smt.profile] [`eqResolve]  end time: 14174118964912ns
+
+[smt.profile] [andElim] start time: 14174119176491ns
+[smt.profile] [andElim] end time: 14174119533173ns
+
+[smt.profile] [`eqResolve] start time: 14174120670108ns
+[smt.profile] [`eqResolve]  end time: 14174120816696ns
+
+[smt.profile] [andElim] start time: 14174121014403ns
+[smt.profile] [andElim] end time: 14174121386164ns
+
+[smt.profile] [`And.intro] start time: 14174121649165ns
+[smt.profile] [`And.intro]  end time: 14174121780084ns
+
+[smt.profile] [`Eq.symm] start time: 14174122089447ns
+[smt.profile] [`Eq.symm]  end time: 14174122249621ns
+
+[smt.profile] [`eqResolve] start time: 14174122447076ns
+[smt.profile] [`eqResolve]  end time: 14174122574253ns
+
+[smt.profile] [`eqResolve] start time: 14174122807644ns
+[smt.profile] [`eqResolve]  end time: 14174122940768ns
+
+[smt.profile] [resolution_1] start time: 14174123201676ns
+[smt.profile] [resolution_1] end time: 14174124117907ns
+
+[smt.profile] [resolution_1] start time: 14174124479210ns
+[smt.profile] [resolution_1] end time: 14174125449376ns
+
+[smt.profile] [`contradiction] start time: 14174125715929ns
+[smt.profile] [`contradiction]  end time: 14174125846671ns
+
+invalid
+0.70user 0.07system 0:00.78elapsed 99%CPU (0avgtext+0avgdata 1088188maxresident)k
+32inputs+8outputs (0major+46944minor)pagefaults 0swaps

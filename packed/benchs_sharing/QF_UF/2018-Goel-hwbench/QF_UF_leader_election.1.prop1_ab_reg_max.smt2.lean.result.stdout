@@ -1,0 +1,114 @@
+./benchs_new/QF_UF/2018-Goel-hwbench/QF_UF_leader_election.1.prop1_ab_reg_max.smt2.lean:691:18: error: function expected at
+  yx24n0s8 ≠ yx24n24s8
+term has type
+  Prop
+
+./benchs_new/QF_UF/2018-Goel-hwbench/QF_UF_leader_election.1.prop1_ab_reg_max.smt2.lean:691:205: error: function expected at
+  yx24n30s32 ≠ yx24n1s32
+term has type
+  Prop
+
+./benchs_new/QF_UF/2018-Goel-hwbench/QF_UF_leader_election.1.prop1_ab_reg_max.smt2.lean:708:15: error: function expected at
+  yx24n0s8 ≠ yx24n24s8
+term has type
+  Prop
+
+./benchs_new/QF_UF/2018-Goel-hwbench/QF_UF_leader_election.1.prop1_ab_reg_max.smt2.lean:709:15: error: function expected at
+  yx24n30s32 ≠ yx24n1s32
+term has type
+  Prop
+
+[smt.profile] [`eqResolve] start time: 24912827837970ns
+[smt.profile] [`eqResolve]  end time: 24912828172709ns
+
+[smt.profile] [andElim] start time: 24912828577642ns
+[smt.profile] [andElim] end time: 24912834389944ns
+
+[smt.profile] [`rfl] start time: 24912834923727ns
+[smt.profile] [`rfl] end time: 24912835100002ns
+
+[smt.profile] ["flipCongrArg"] start time: 24912835429231ns
+[smt.profile] ["flipCongrArg"]  end time: 24912836096277ns
+
+[smt.profile] [`congr] start time: 24912836583830ns
+[smt.profile] [`congr]  end time: 24912837061427ns
+
+[smt.profile] [`eqResolve] start time: 24912837433442ns
+[smt.profile] [`eqResolve]  end time: 24912837645742ns
+
+[smt.profile] [`eqResolve] start time: 24912838010062ns
+[smt.profile] [`eqResolve]  end time: 24912838223357ns
+
+[smt.profile] [`equivElim1] start time: 24912838660974ns
+[smt.profile] [`equivElim1]  end time: 24912838919597ns
+
+[smt.profile] [`equivElim1] start time: 24912839365060ns
+[smt.profile] [`equivElim1]  end time: 24912839615227ns
+
+[smt.profile] [`eqResolve] start time: 24912839968828ns
+[smt.profile] [`eqResolve]  end time: 24912840174764ns
+
+[smt.profile] [andElim] start time: 24912840531497ns
+[smt.profile] [andElim] end time: 24912846230106ns
+
+[smt.profile] [resolution_2] start time: 24912846663998ns
+[smt.profile] [resolution_2] end time: 24912848269982ns
+
+[smt.profile] [resolution_1] start time: 24912848679419ns
+[smt.profile] [resolution_1] end time: 24912850046994ns
+
+[smt.profile] [`Eq.symm] start time: 24912850568975ns
+[smt.profile] [`Eq.symm]  end time: 24912850848868ns
+
+[smt.profile] [`eqResolve] start time: 24912851241758ns
+[smt.profile] [`eqResolve]  end time: 24912851468630ns
+
+[smt.profile] [`eqResolve] start time: 24912851844910ns
+[smt.profile] [`eqResolve]  end time: 24912852049674ns
+
+[smt.profile] [andElim] start time: 24912852424343ns
+[smt.profile] [andElim] end time: 24912852972852ns
+
+[smt.profile] [`equivElim2] start time: 24912853483616ns
+[smt.profile] [`equivElim2]  end time: 24912853758465ns
+
+[smt.profile] [`equivElim1] start time: 24912854250827ns
+[smt.profile] [`equivElim1]  end time: 24912854507915ns
+
+[smt.profile] [`eqResolve] start time: 24912854894104ns
+[smt.profile] [`eqResolve]  end time: 24912855100779ns
+
+[smt.profile] [andElim] start time: 24912855485360ns
+[smt.profile] [andElim] end time: 24912861426218ns
+
+[smt.profile] [resolution_2] start time: 24912861882824ns
+[smt.profile] [resolution_2] end time: 24912863355325ns
+
+[smt.profile] [resolution_1] start time: 24912863804159ns
+[smt.profile] [resolution_1] end time: 24912865206784ns
+
+[smt.profile] ["flipNotAnd"] start time: 24912865765367ns
+[smt.profile] ["flipNotAnd"]  end time: 24912868446256ns
+
+[smt.profile] [`eqResolve] start time: 24912868897019ns
+[smt.profile] [`eqResolve]  end time: 24912869135257ns
+
+[smt.profile] [andElim] start time: 24912869532659ns
+[smt.profile] [andElim] end time: 24912875263762ns
+
+[smt.profile] [resolution_2] start time: 24912875719968ns
+[smt.profile] [resolution_2] end time: 24912877160779ns
+
+[smt.profile] [`Eq.symm] start time: 24912877735265ns
+[smt.profile] [`Eq.symm]  end time: 24912878029791ns
+
+[smt.profile] [`eqResolve] start time: 24912878446058ns
+[smt.profile] [`eqResolve]  end time: 24912878695876ns
+
+[smt.profile] [`eqResolve] start time: 24912879090377ns
+[smt.profile] [`eqResolve]  end time: 24912879323965ns
+
+[smt.profile] [`contradiction] start time: 24912879817552ns
+[smt.profile] [`contradiction]  end time: 24912880023193ns
+
+invalid

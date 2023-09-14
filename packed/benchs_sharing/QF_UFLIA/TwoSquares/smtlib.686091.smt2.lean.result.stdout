@@ -1,0 +1,163 @@
+./benchs_new/QF_UFLIA/TwoSquares/smtlib.686091.smt2.lean:118:50: error: application type mismatch
+  congr lean_s0
+argument
+  lean_s0
+has type
+  GE.ge let13 = GE.ge let5 : Prop
+but is expected to have type
+  Int.NonNeg = Int.NonNeg : Prop
+
+./benchs_new/QF_UFLIA/TwoSquares/smtlib.686091.smt2.lean:138:51: error: application type mismatch
+  congr lean_s21
+argument
+  lean_s21
+has type
+  HMul.hMul let11 = HMul.hMul let11 : Prop
+but is expected to have type
+  (Int.add.match_1 (fun m n => ℤ) let11 let13 (fun m n => Int.ofNat (m * n)) (fun m n => Int.negOfNat (m * Nat.succ n))
+      fun m n => Int.negOfNat (Nat.succ m * n)) =
+    Int.add.match_1 (fun m n => ℤ) let11 let5 (fun m n => Int.ofNat (m * n)) (fun m n => Int.negOfNat (m * Nat.succ n))
+      fun m n => Int.negOfNat (Nat.succ m * n) : Prop
+
+./benchs_new/QF_UFLIA/TwoSquares/smtlib.686091.smt2.lean:140:51: error: application type mismatch
+  congr lean_s19
+argument
+  lean_s19
+has type
+  HAdd.hAdd let23 = HAdd.hAdd let6 : Prop
+but is expected to have type
+  (Int.add.match_1 (fun m n => ℤ) let23 let22 (fun m n => Int.ofNat (m + n)) (fun m n => Int.subNatNat m (Nat.succ n))
+      fun m n => Int.subNatNat n (Nat.succ m)) =
+    Int.add.match_1 (fun m n => ℤ) let6 let26 (fun m n => Int.ofNat (m + n)) (fun m n => Int.subNatNat m (Nat.succ n))
+      fun m n => Int.subNatNat n (Nat.succ m) : Prop
+
+./benchs_new/QF_UFLIA/TwoSquares/smtlib.686091.smt2.lean:144:51: error: application type mismatch
+  congr lean_s27
+argument
+  lean_s27
+has type
+  HAdd.hAdd let25 = HAdd.hAdd let20 : Prop
+but is expected to have type
+  (Int.add.match_1 (fun m n => ℤ) let25 let16 (fun m n => Int.ofNat (m + n)) (fun m n => Int.subNatNat m (Nat.succ n))
+      fun m n => Int.subNatNat n (Nat.succ m)) =
+    Int.add.match_1 (fun m n => ℤ) let20 let16 (fun m n => Int.ofNat (m + n)) (fun m n => Int.subNatNat m (Nat.succ n))
+      fun m n => Int.subNatNat n (Nat.succ m) : Prop
+
+./benchs_new/QF_UFLIA/TwoSquares/smtlib.686091.smt2.lean:146:51: error: application type mismatch
+  congr lean_s18
+argument
+  lean_s18
+has type
+  GE.ge let23 = GE.ge let6 : Prop
+but is expected to have type
+  Int.NonNeg = Int.NonNeg : Prop
+
+[smt.profile] ["flipCongrArg"] start time: 37800842962722ns
+[smt.profile] ["flipCongrArg"]  end time: 37800843845934ns
+
+[smt.profile] [`rfl] start time: 37800844237017ns
+[smt.profile] [`rfl] end time: 37800844394759ns
+
+[smt.profile] [`congr] start time: 37800844727082ns
+[smt.profile] [`congr]  end time: 37800858465994ns
+
+[smt.profile] [`Eq.trans] start time: 37800858958458ns
+[smt.profile] [`Eq.trans]  end time: 37800859350458ns
+
+[smt.profile] ["flipCongrArg"] start time: 37800859741891ns
+[smt.profile] ["flipCongrArg"]  end time: 37800860186756ns
+
+[smt.profile] [`Eq.trans] start time: 37800860547381ns
+[smt.profile] [`Eq.trans]  end time: 37800860923241ns
+
+[smt.profile] ["flipCongrArg"] start time: 37800861293391ns
+[smt.profile] ["flipCongrArg"]  end time: 37800861699699ns
+
+[smt.profile] [`Eq.trans] start time: 37800862074077ns
+[smt.profile] [`Eq.trans]  end time: 37800862423720ns
+
+[smt.profile] [`eqResolve] start time: 37800862682490ns
+[smt.profile] [`eqResolve]  end time: 37800862979366ns
+
+[smt.profile] ["flipCongrArg"] start time: 37800863218166ns
+[smt.profile] ["flipCongrArg"]  end time: 37800863597897ns
+
+[smt.profile] [`rfl] start time: 37800863989953ns
+[smt.profile] [`rfl] end time: 37800864151483ns
+
+[smt.profile] [`rfl] start time: 37800864517388ns
+[smt.profile] [`rfl] end time: 37800864665197ns
+
+[smt.profile] [`congrHAdd] start time: 37800864896455ns
+[smt.profile] [`congrHAdd]  end time: 37800865863665ns
+
+[smt.profile] [`congrHAdd] start time: 37800866288793ns
+[smt.profile] [`congrHAdd]  end time: 37800867385155ns
+
+[smt.profile] [`Eq.trans] start time: 37800867809563ns
+[smt.profile] [`Eq.trans]  end time: 37800868183443ns
+
+[smt.profile] [`Eq.trans] start time: 37800868597946ns
+[smt.profile] [`Eq.trans]  end time: 37800868967639ns
+
+[smt.profile] [`Eq.trans] start time: 37800869373864ns
+[smt.profile] [`Eq.trans]  end time: 37800869743481ns
+
+[smt.profile] [`congr] start time: 37800870119818ns
+[smt.profile] [`congr]  end time: 37800870590115ns
+
+[smt.profile] ["flipCongrArg"] start time: 37800870873547ns
+[smt.profile] ["flipCongrArg"]  end time: 37800871664379ns
+
+[smt.profile] ["flipCongrArg"] start time: 37800871939393ns
+[smt.profile] ["flipCongrArg"]  end time: 37800873133109ns
+
+[smt.profile] [`rfl] start time: 37800873596634ns
+[smt.profile] [`rfl] end time: 37800873783576ns
+
+[smt.profile] ["flipCongrArg"] start time: 37800874056608ns
+[smt.profile] ["flipCongrArg"]  end time: 37800875257182ns
+
+[smt.profile] [`congr] start time: 37800875709149ns
+[smt.profile] [`congr]  end time: 37800891636118ns
+
+[smt.profile] [`Eq.trans] start time: 37800892236211ns
+[smt.profile] [`Eq.trans]  end time: 37800892613194ns
+
+[smt.profile] [`congr] start time: 37800893047554ns
+[smt.profile] [`congr]  end time: 37800904760921ns
+
+[smt.profile] [`Eq.trans] start time: 37800905320417ns
+[smt.profile] [`Eq.trans]  end time: 37800905692717ns
+
+[smt.profile] [`Eq.trans] start time: 37800906122509ns
+[smt.profile] [`Eq.trans]  end time: 37800906499277ns
+
+[smt.profile] ["flipCongrArg"] start time: 37800906785408ns
+[smt.profile] ["flipCongrArg"]  end time: 37800907940760ns
+
+[smt.profile] [`congr] start time: 37800908401476ns
+[smt.profile] [`congr]  end time: 37800922970171ns
+
+[smt.profile] [`Eq.trans] start time: 37800923631032ns
+[smt.profile] [`Eq.trans]  end time: 37800924037961ns
+
+[smt.profile] [`congr] start time: 37800924498941ns
+[smt.profile] [`congr]  end time: 37800941256839ns
+
+[smt.profile] [`Eq.trans] start time: 37800941862668ns
+[smt.profile] [`Eq.trans]  end time: 37800942245049ns
+
+[smt.profile] ["flipCongrArg"] start time: 37800942684387ns
+[smt.profile] ["flipCongrArg"]  end time: 37800943118569ns
+
+[smt.profile] [`Eq.trans] start time: 37800943574250ns
+[smt.profile] [`Eq.trans]  end time: 37800943976054ns
+
+[smt.profile] [`eqResolve] start time: 37800944330291ns
+[smt.profile] [`eqResolve]  end time: 37800944630627ns
+
+[smt.profile] [`contradiction] start time: 37800945034820ns
+[smt.profile] [`contradiction]  end time: 37800945264054ns
+
+invalid

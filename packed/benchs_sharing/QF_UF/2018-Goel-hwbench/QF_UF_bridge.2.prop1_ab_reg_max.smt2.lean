@@ -1,0 +1,1887 @@
+open Classical
+open Smt.Reconstruction.Certifying
+
+
+
+set_option maxRecDepth 10000
+set_option maxHeartbeats 500000
+
+
+universe u
+variable {uttx2432 : Type u} [Nonempty uttx2432]
+variable {uttx248 : Type u} [Nonempty uttx248]
+variable {yx24n20s8 : uttx248}
+variable {yx24n30s8 : uttx248}
+variable {yx24n25s8 : uttx248}
+variable {yx24n10s8 : uttx248}
+variable {yx24n5s8 : uttx248}
+variable {yx24n1s8 : uttx248}
+variable {yx24n1s32 : uttx2432}
+variable {yx24n140s32 : uttx2432}
+variable {yx24ax5ffree : Prop}
+variable {yx24ax5fgox5fleftx5fsoldierx5f1 : Prop}
+variable {yx24ax5fleftx5fsoldierx5f6 : Prop}
+variable {yx24ax5fone : Prop}
+variable {yx24ax5frightx5fsoldierx5f1 : Prop}
+variable {yx24ax5frightx5fsoldierx5f2 : Prop}
+variable {yx24ax5frightx5fsoldierx5f3 : Prop}
+variable {yx24ax5frightx5fsoldierx5f4 : Prop}
+variable {yx24ax5frightx5fsoldierx5f5 : Prop}
+variable {yx24ax5frightx5fsoldierx5f6 : Prop}
+variable {yx24ax5ftwo : Prop}
+variable {yx24dvex5finvalid : Prop}
+variable {yx24vx5ftime1 : uttx248}
+variable {yx24vx5ftime2 : uttx248}
+variable {yx24vx5ftotalx5ftime : uttx248}
+variable {yx24n0s8 : uttx248}
+variable {yx24vx5fwherex5fisx5ftorch : uttx248}
+variable {yx24n6s8 : uttx248}
+variable {yx24ax5fleftx5fsoldierx5f5 : Prop}
+variable {yx24ax5fleftx5fsoldierx5f6 : Prop}
+variable {yx2453 : Prop}
+variable {yx24n0s8 : uttx248}
+variable {yx24ax5fgox5fleftx5fsoldierx5f4 : Prop}
+variable {yx242961 : Prop}
+variable {yx242964 : Prop}
+variable {yx241 : Prop}
+variable {yx245 : Prop}
+variable {yx247 : Prop}
+variable {yx249 : Prop}
+variable {yx2445 : Prop}
+variable {yx24ax5frightx5fsoldierx5f1 : Prop}
+variable {yx243 : Prop}
+variable {yx24ax5fgox5fleftx5fsoldierx5f2 : Prop}
+variable {yx2411 : Prop}
+variable {yx24ax5fleftx5fsoldierx5f1 : Prop}
+variable {yx24ax5frightx5fsoldierx5f2 : Prop}
+variable {yx2413 : Prop}
+variable {yx24ax5frightx5fsoldierx5f3 : Prop}
+variable {yx2415 : Prop}
+variable {yx2455 : Prop}
+variable {yx24ax5fgox5frightx5fsoldierx5f2 : Prop}
+variable {yx2457 : Prop}
+variable {yx2460 : Prop}
+variable {yx2462 : Prop}
+variable {yx2443 : Prop}
+variable {yx24ax5frightx5fsoldierx5f4 : Prop}
+variable {yx2455 : Prop}
+variable {yx247 : Prop}
+variable {yx2417 : Prop}
+variable {yx2431 : Prop}
+variable {yx24ax5frightx5fsoldierx5f5 : Prop}
+variable {yx2419 : Prop}
+variable {yx2466 : Prop}
+variable {yx24ax5frightx5fsoldierx5f6 : Prop}
+variable {yx245 : Prop}
+variable {yx24ax5fgox5fleftx5fsoldierx5f3 : Prop}
+variable {yx2421 : Prop}
+variable {yx24ax5fgox5frightx5fsoldierx5f3 : Prop}
+variable {yx2468 : Prop}
+variable {yx24ax5fleftx5fsoldierx5f2 : Prop}
+variable {yx24ax5ftwo : Prop}
+variable {yx2423 : Prop}
+variable {yx2451 : Prop}
+variable {yx2441 : Prop}
+variable {yx243033 : Prop}
+variable {yx24vx5fwherex5fisx5ftorch : uttx248}
+variable {yx24ax5fgox5frightx5fsoldierx5f1 : Prop}
+variable {yx2449 : Prop}
+variable {yx242965 : Prop}
+variable {yx243041 : Prop}
+variable {yx24ax5fgox5fleftx5fsoldierx5f5 : Prop}
+variable {yx243041 : Prop}
+variable {yx2447 : Prop}
+variable {yx24vx5ftime2 : uttx248}
+variable {yx24vx5ftime1 : uttx248}
+variable {yx2443 : Prop}
+variable {yx24vx5ftotalx5ftime : uttx248}
+variable {yx2439 : Prop}
+variable {yx24ax5fleftx5fsoldierx5f5 : Prop}
+variable {yx24vx5fonx5fright : uttx248}
+variable {yx2462 : Prop}
+variable {yx2441 : Prop}
+variable {yx24prop : Prop}
+variable {yx243 : Prop}
+variable {yx2411 : Prop}
+variable {yx24ax5fgox5fleftx5fsoldierx5f6 : Prop}
+variable {yx2439 : Prop}
+variable {yx2437 : Prop}
+variable {yx2413 : Prop}
+variable {yx2435 : Prop}
+variable {yx2433 : Prop}
+variable {yx24n6s8 : uttx248}
+variable {yx2437 : Prop}
+variable {yx2431 : Prop}
+variable {yx2429 : Prop}
+variable {yx24dvex5finvalid : Prop}
+variable {yx2425 : Prop}
+variable {yx24id38x5fop : Prop}
+variable {yx2433 : Prop}
+variable {yx24ax5fgoing : Prop}
+variable {yx24ax5fleftx5fsoldierx5f4 : Prop}
+variable {yx24ax5fleftx5fsoldierx5f3 : Prop}
+variable {yx24ax5fleftx5fsoldierx5f1 : Prop}
+variable {yx2451 : Prop}
+variable {yx241 : Prop}
+variable {yx24ax5fgoing : Prop}
+variable {yx24ax5fgox5frightx5fsoldierx5f6 : Prop}
+variable {yx24ax5fgox5frightx5fsoldierx5f6 : Prop}
+variable {yx24ax5fgox5frightx5fsoldierx5f5 : Prop}
+variable {yx24ax5fgox5frightx5fsoldierx5f3 : Prop}
+variable {yx2449 : Prop}
+variable {yx24ax5fgox5frightx5fsoldierx5f2 : Prop}
+variable {yx24ax5fgox5frightx5fsoldierx5f5 : Prop}
+variable {yx24ax5fgox5frightx5fsoldierx5f1 : Prop}
+variable {yx24ax5fgox5fleftx5fsoldierx5f6 : Prop}
+variable {yx24ax5fgox5fleftx5fsoldierx5f4 : Prop}
+variable {yx2447 : Prop}
+variable {yx24ax5fgox5fleftx5fsoldierx5f3 : Prop}
+variable {yx24ax5fgox5frightx5fsoldierx5f4 : Prop}
+variable {yx24ax5fgox5fleftx5fsoldierx5f2 : Prop}
+variable {yx24ax5fgox5fleftx5fsoldierx5f1 : Prop}
+variable {yx24n140s32 : uttx2432}
+variable {yx24n1s32 : uttx2432}
+variable {yx24vx5fonx5fright : uttx248}
+variable {yx2435 : Prop}
+variable {yx24n1s8 : uttx248}
+variable {yx24n5s8 : uttx248}
+variable {yx24ax5fleftx5fsoldierx5f3 : Prop}
+variable {yx24n10s8 : uttx248}
+variable {yx24ax5fleftx5fsoldierx5f4 : Prop}
+variable {yx24n25s8 : uttx248}
+variable {yx2460 : Prop}
+variable {yx24n30s8 : uttx248}
+variable {yx24n20s8 : uttx248}
+variable {yx2427 : Prop}
+variable {yx249 : Prop}
+variable {yx242965 : Prop}
+variable {yx243033 : Prop}
+variable {yx2468 : Prop}
+variable {yx2466 : Prop}
+variable {yx2464 : Prop}
+variable {yx2457 : Prop}
+variable {yx24ax5fone : Prop}
+variable {yx2429 : Prop}
+variable {yx24ax5fleftx5fsoldierx5f2 : Prop}
+variable {yx2427 : Prop}
+variable {yx24ax5fgox5frightx5fsoldierx5f4 : Prop}
+variable {yx2425 : Prop}
+variable {yx24ax5fgox5fleftx5fsoldierx5f5 : Prop}
+variable {yx2423 : Prop}
+variable {yx24id38x5fop : Prop}
+variable {yx24ax5ffree : Prop}
+variable {yx2421 : Prop}
+variable {yx242961 : Prop}
+variable {yx2464 : Prop}
+variable {yx2419 : Prop}
+variable {yx2453 : Prop}
+variable {yx2417 : Prop}
+variable {yx2445 : Prop}
+variable {yx2415 : Prop}
+variable {yx242964 : Prop}
+variable {yx24prop : Prop}
+
+theorem th0 :
+  let let1 := (Eq yx24n1s8 yx24n6s8)
+  let let2 := (Not let1)
+  let let3 := (Eq yx24n5s8 yx24n6s8)
+  let let4 := (Not let3)
+  let let5 := (And let4 let2)
+  let let6 := (Eq yx24n5s8 yx24n1s8)
+  let let7 := (Not let6)
+  let let8 := (Eq yx24n10s8 yx24n6s8)
+  let let9 := (Not let8)
+  let let10 := (Not (Eq yx24n10s8 yx24n1s8))
+  let let11 := (Not (Eq yx24n10s8 yx24n5s8))
+  let let12 := (Eq yx24n25s8 yx24n6s8)
+  let let13 := (Not let12)
+  let let14 := (Eq yx24n25s8 yx24n1s8)
+  let let15 := (Not let14)
+  let let16 := (Not (Eq yx24n25s8 yx24n5s8))
+  let let17 := (Eq yx24n25s8 yx24n10s8)
+  let let18 := (Not let17)
+  let let19 := (Eq yx24n30s8 yx24n6s8)
+  let let20 := (Not let19)
+  let let21 := (Eq yx24n30s8 yx24n1s8)
+  let let22 := (Not let21)
+  let let23 := (Not (Eq yx24n30s8 yx24n5s8))
+  let let24 := (Eq yx24n30s8 yx24n10s8)
+  let let25 := (Not let24)
+  let let26 := (Eq yx24n30s8 yx24n25s8)
+  let let27 := (Not let26)
+  let let28 := (Eq yx24n20s8 yx24n6s8)
+  let let29 := (Not let28)
+  let let30 := (Eq yx24n20s8 yx24n1s8)
+  let let31 := (Not let30)
+  let let32 := (Not (Eq yx24n20s8 yx24n5s8))
+  let let33 := (Eq yx24n20s8 yx24n10s8)
+  let let34 := (Not let33)
+  let let35 := (Not (Eq yx24n20s8 yx24n25s8))
+  let let36 := (Not (Eq yx24n20s8 yx24n30s8))
+  let let37 := (Eq yx24n0s8 yx24n6s8)
+  let let38 := (Not let37)
+  let let39 := (Eq yx24n0s8 yx24n1s8)
+  let let40 := (Not let39)
+  let let41 := (Eq yx24n0s8 yx24n5s8)
+  let let42 := (Not let41)
+  let let43 := (Eq yx24n0s8 yx24n10s8)
+  let let44 := (Not let43)
+  let let45 := (Eq yx24n0s8 yx24n25s8)
+  let let46 := (Not let45)
+  let let47 := (Eq yx24n0s8 yx24n30s8)
+  let let48 := (Not let47)
+  let let49 := (Eq yx24n0s8 yx24n20s8)
+  let let50 := (Not let49)
+  let let51 := (And let50 (And let48 (And let46 (And let44 (And let42 (And let40 (And let38 (And let36 (And let35 (And let34 (And let32 (And let31 (And let29 (And let27 (And let25 (And let23 (And let22 (And let20 (And let18 (And let16 (And let15 (And let13 (And let11 (And let10 (And let9 (And let7 let5))))))))))))))))))))))))))
+  let let52 := (Ne yx24n0s8 yx24n20s8 yx24n30s8 yx24n25s8 yx24n10s8 yx24n5s8 yx24n1s8 yx24n6s8)
+  let let53 := (Eq yx24n25s8 yx24n30s8)
+  let let54 := (Eq yx24n10s8 yx24n30s8)
+  let let55 := (Eq yx24n1s8 yx24n30s8)
+  let let56 := (Eq yx24n6s8 yx24vx5fwherex5fisx5ftorch)
+  let let57 := (And True let56)
+  let let58 := (Not yx242964)
+  let let59 := (Eq yx242964 False)
+  let let60 := (Eq yx243033 True)
+  let let61 := (Eq yx2457 True)
+  let let62 := (Eq yx2455 True)
+  let let63 := (Eq yx2453 True)
+  let let64 := (Eq yx2451 True)
+  let let65 := (Eq yx2449 True)
+  let let66 := (Eq yx2447 True)
+  let let67 := (Eq yx2445 True)
+  let let68 := (Eq yx2443 True)
+  let let69 := (Eq yx2441 True)
+  let let70 := (Eq yx2439 True)
+  let let71 := (Eq yx243 True)
+  let let72 := (Eq yx245 True)
+  let let73 := (Eq yx242964 yx24prop)
+  let let74 := (Eq yx24prop yx242964)
+  let let75 := (Eq yx24n30s8 yx24vx5fwherex5fisx5ftorch)
+  let let76 := (Eq yx24vx5fwherex5fisx5ftorch yx24n30s8)
+  let let77 := (Eq yx2425 True)
+  let let78 := (Eq yx24n25s8 yx24vx5fwherex5fisx5ftorch)
+  let let79 := (Eq yx24vx5fwherex5fisx5ftorch yx24n25s8)
+  let let80 := (Eq yx24n10s8 yx24vx5fwherex5fisx5ftorch)
+  let let81 := (Eq yx24vx5fwherex5fisx5ftorch yx24n10s8)
+  let let82 := (Eq yx2421 True)
+  let let83 := (Eq yx24n5s8 yx24vx5fwherex5fisx5ftorch)
+  let let84 := (Eq yx24vx5fwherex5fisx5ftorch yx24n5s8)
+  let let85 := (Eq yx2419 True)
+  let let86 := (Eq yx24n10s8 yx24n25s8)
+  let let87 := (Eq yx24n1s8 yx24vx5fwherex5fisx5ftorch)
+  let let88 := (Eq yx24vx5fwherex5fisx5ftorch yx24n1s8)
+  let let89 := (Eq yx24n1s8 yx24n5s8)
+  let let90 := (Eq yx2417 True)
+  let let91 := (Eq yx24n1s8 yx24n25s8)
+  let let92 := (Eq yx24vx5fwherex5fisx5ftorch yx24vx5fwherex5fisx5ftorch)
+  let let93 := (Eq yx2415 True)
+  let let94 := (Eq yx241 True)
+  let let95 := (Not True)
+  let let96 := (Eq yx24n20s8 yx24vx5fwherex5fisx5ftorch)
+  let let97 := (Eq yx24vx5fwherex5fisx5ftorch yx24n20s8)
+  let let98 := (Eq yx2427 True)
+  let let99 := (Eq yx2423 True)
+  let let100 := (Not let87)
+  let let101 := (Not let83)
+  let let102 := (Not let89)
+  let let103 := (Not let80)
+  let let104 := (Not let78)
+  let let105 := (Not let91)
+  let let106 := (Not let86)
+  let let107 := (Not let75)
+  let let108 := (Not let55)
+  let let109 := (Not let54)
+  let let110 := (Not let53)
+  let let111 := (Not let96)
+  let let112 := (Eq yx24n1s8 yx24n20s8)
+  let let113 := (Not let112)
+  let let114 := (Eq yx24n10s8 yx24n20s8)
+  let let115 := (Not let114)
+  let let116 := (And let36 (And let35 (And let115 (And let32 (And let113 (And let111 (And let110 (And let109 (And let23 (And let108 (And let107 (And let106 (And let16 (And let105 (And let104 (And let11 (And let10 (And let103 (And let102 (And let101 let100))))))))))))))))))))
+  let let117 := (And let111 (And let107 (And let104 (And let103 (And let101 (And let100 (And False let116)))))))
+  let let118 := (Eq yx2431 True)
+  let let119 := (Eq yx247 True)
+  let let120 := (Eq yx249 True)
+  let let121 := (Eq yx2411 True)
+  let let122 := (Eq yx2413 True)
+  let let123 := (Eq yx2429 True)
+  let let124 := (Eq yx2433 True)
+  let let125 := (Eq yx2435 True)
+  let let126 := (Eq yx2437 True)
+  let let127 := (Eq yx24ax5ffree (Not yx241))
+  let let128 := (Eq yx24ax5fgox5fleftx5fsoldierx5f1 (Not yx243))
+  let let129 := (Eq yx24ax5fgox5fleftx5fsoldierx5f2 (Not yx245))
+  let let130 := (Eq yx24ax5fgox5fleftx5fsoldierx5f3 (Not yx247))
+  let let131 := (Eq yx24ax5fgox5fleftx5fsoldierx5f4 (Not yx249))
+  let let132 := (Eq yx24ax5fgox5fleftx5fsoldierx5f5 (Not yx2411))
+  let let133 := (Eq yx24ax5fgox5fleftx5fsoldierx5f6 (Not yx2413))
+  let let134 := (Eq yx24ax5fgox5frightx5fsoldierx5f1 (Not yx2415))
+  let let135 := (Eq yx24ax5fgox5frightx5fsoldierx5f2 (Not yx2417))
+  let let136 := (Eq yx24ax5fgox5frightx5fsoldierx5f3 (Not yx2419))
+  let let137 := (Eq yx24ax5fgox5frightx5fsoldierx5f4 (Not yx2421))
+  let let138 := (Eq yx24ax5fgox5frightx5fsoldierx5f5 (Not yx2423))
+  let let139 := (Eq yx24ax5fgox5frightx5fsoldierx5f6 (Not yx2425))
+  let let140 := (Eq yx24ax5fgoing (Not yx2427))
+  let let141 := (Eq yx24ax5fleftx5fsoldierx5f1 (Not yx2429))
+  let let142 := (Eq yx24ax5fleftx5fsoldierx5f2 (Not yx2431))
+  let let143 := (Eq yx24ax5fleftx5fsoldierx5f3 (Not yx2433))
+  let let144 := (Eq yx24ax5fleftx5fsoldierx5f4 (Not yx2435))
+  let let145 := (Eq yx24ax5fleftx5fsoldierx5f5 (Not yx2437))
+  let let146 := (Eq yx24ax5fleftx5fsoldierx5f6 (Not yx2439))
+  let let147 := (Eq yx24ax5fone (Not yx2441))
+  let let148 := (Eq yx24ax5frightx5fsoldierx5f1 (Not yx2443))
+  let let149 := (Eq yx24ax5frightx5fsoldierx5f2 (Not yx2445))
+  let let150 := (Eq yx24ax5frightx5fsoldierx5f3 (Not yx2447))
+  let let151 := (Eq yx24ax5frightx5fsoldierx5f4 (Not yx2449))
+  let let152 := (Eq yx24ax5frightx5fsoldierx5f5 (Not yx2451))
+  let let153 := (Eq yx24ax5frightx5fsoldierx5f6 (Not yx2453))
+  let let154 := (Eq yx24ax5ftwo (Not yx2455))
+  let let155 := (Eq yx24dvex5finvalid (Not yx2457))
+  let let156 := (Eq yx24n0s8 yx24vx5fonx5fright)
+  let let157 := (Eq yx2460 let156)
+  let let158 := (Eq yx24n0s8 yx24vx5ftime1)
+  let let159 := (Eq yx2462 let158)
+  let let160 := (Eq yx24n0s8 yx24vx5ftime2)
+  let let161 := (Eq yx2464 let160)
+  let let162 := (Eq yx24n0s8 yx24vx5ftotalx5ftime)
+  let let163 := (Eq yx2466 let162)
+  let let164 := (Eq yx24n0s8 yx24vx5fwherex5fisx5ftorch)
+  let let165 := (Eq yx2468 let164)
+  let let166 := (Not yx243033)
+  let let167 := (Eq yx24prop let166)
+  let let168 := (Eq yx24n6s8 yx24vx5fonx5fright)
+  let let169 := (Eq yx242961 let168)
+  let let170 := (And yx2457 yx242961)
+  let let171 := (Eq yx24id38x5fop let170)
+  let let172 := (Eq yx242965 let74)
+  let let173 := (And yx241 (And yx243 (And yx245 (And yx247 (And yx249 (And yx2411 (And yx2413 (And yx2415 (And yx2417 (And yx2419 (And yx2421 (And yx2423 (And yx2425 (And yx2427 (And yx2429 (And yx2431 (And yx2433 (And yx2435 (And yx2437 (And yx2439 (And yx2441 (And yx2443 (And yx2445 (And yx2447 (And yx2449 (And yx2451 (And yx2453 (And yx2455 (And yx2457 (And yx2460 (And yx2462 (And yx2464 (And yx2466 (And yx2468 (And yx243033 yx242965)))))))))))))))))))))))))))))))))))
+  let let174 := (Eq yx243041 let173)
+  let let175 := (And let50 (And let48 (And let46 (And let44 (And let42 (And let40 (And let38 (And let36 (And let35 (And let115 (And let32 (And let113 (And let29 (And let110 (And let109 (And let23 (And let108 (And let20 (And let106 (And let16 (And let105 (And let13 (And let11 (And let10 (And let9 (And let102 let5))))))))))))))))))))))))))
+  let let176 := (Not let92)
+  let let177 := (Not let88)
+  let let178 := (Not let84)
+  let let179 := (Not let81)
+  let let180 := (Not let79)
+  let let181 := (Not let76)
+  let let182 := (Not let97)
+  let let183 := (And let182 (And let181 (And let180 (And let179 (And let178 (And let177 (And let176 let116)))))))
+  let let184 := (Eq And And)
+  let let185 := (Eq let102 let102)
+  let let186 := (Eq let10 let10)
+  let let187 := (Eq let11 let11)
+  let let188 := (Eq let105 let105)
+  let let189 := (Eq let16 let16)
+  let let190 := (Eq let106 let106)
+  let let191 := (Eq let108 let108)
+  let let192 := (Eq let23 let23)
+  let let193 := (Eq let109 let109)
+  let let194 := (Eq let110 let110)
+  let let195 := (Eq let113 let113)
+  let let196 := (Eq let32 let32)
+  let let197 := (Eq let115 let115)
+  let let198 := (Eq let35 let35)
+  let let199 := (Eq let36 let36)
+  let let200 := (And let169 (And let167 (And let165 (And let163 (And let161 (And let159 (And let157 (And let155 (And let154 (And let153 (And let152 (And let151 (And let150 (And let149 (And let148 (And let147 (And let146 (And let145 (And let144 (And let143 (And let142 (And let141 (And let140 (And let139 (And let138 (And let137 (And let136 (And let135 (And let134 (And let133 (And let132 (And let131 (And let130 (And let129 (And let128 let127)))))))))))))))))))))))))))))))))))
+  let let201 := (And yx2457 let168)
+  let let202 := (Eq yx24id38x5fop let201)
+  let let203 := (And let202 let200)
+  let let204 := (Eq yx242964 let166)
+  let let205 := (Eq yx242965 let204)
+  let let206 := (And let205 let203)
+  let let207 := (And yx241 (And yx243 (And yx245 (And yx247 (And yx249 (And yx2411 (And yx2413 (And yx2415 (And yx2417 (And yx2419 (And yx2421 (And yx2423 (And yx2425 (And yx2427 (And yx2429 (And yx2431 (And yx2433 (And yx2435 (And yx2437 (And yx2439 (And yx2441 (And yx2443 (And yx2445 (And yx2447 (And yx2449 (And yx2451 (And yx2453 (And yx2455 (And yx2457 (And let156 (And let158 (And let160 (And let162 (And let164 (And yx243033 let204)))))))))))))))))))))))))))))))))))
+  let let208 := (Eq yx243041 let207)
+  let let209 := (And let156 (And let61 (And let62 (And let63 (And let64 (And let65 (And let66 (And let67 (And let68 (And let69 (And let70 (And let126 (And let125 (And let124 (And let118 (And let123 (And let98 (And let77 (And let99 (And let82 (And let85 (And let90 (And let93 (And let122 (And let121 (And let120 (And let119 (And let72 (And let71 (And let94 (And let208 let206)))))))))))))))))))))))))))))))
+  let let210 := (Eq yx24vx5fonx5fright yx24vx5ftime1)
+  let let211 := (And let210 let209)
+  let let212 := (Eq yx24vx5ftime1 yx24vx5ftime2)
+  let let213 := (And let212 let211)
+  let let214 := (Eq yx24vx5ftime2 yx24vx5ftotalx5ftime)
+  let let215 := (And let214 let213)
+  let let216 := (Eq yx24vx5ftotalx5ftime yx24vx5fwherex5fisx5ftorch)
+  let let217 := (And let59 (And let60 (And let216 let215)))
+  let let218 := (Eq yx2457 yx2457)
+  let let219 := (Eq yx242965 let73)
+  let let220 := (Eq yx242965 yx242965)
+  let let221 := (Not yx24prop)
+  let let222 := (Eq yx24vx5fonx5fright yx24vx5fwherex5fisx5ftorch)
+  let let223 := (Eq yx24vx5ftime1 yx24vx5fwherex5fisx5ftorch)
+  let let224 := (Eq yx24vx5ftime2 yx24vx5fwherex5fisx5ftorch)
+(Eq let52 let51) → (Eq let26 let53) → (Eq let24 let54) → (Eq let21 let55) → (Eq let57 let56) → (Eq let59 let58) → (Eq let60 yx243033) → (Eq let61 yx2457) → (Eq let62 yx2455) → (Eq let63 yx2453) → (Eq let64 yx2451) → (Eq let65 yx2449) → (Eq let66 yx2447) → (Eq let67 yx2445) → (Eq let68 yx2443) → (Eq let69 yx2441) → (Eq let70 yx2439) → (Eq let71 yx243) → (Eq let72 yx245) → (Eq let74 let73) → (Eq let76 let75) → (Eq let77 yx2425) → (Eq let79 let78) → (Eq let81 let80) → (Eq let82 yx2421) → (Eq let84 let83) → (Eq let85 yx2419) → (Eq let17 let86) → (Eq let88 let87) → (Eq let6 let89) → (Eq let90 yx2417) → (Eq let14 let91) → (Eq let92 True) → (Eq let93 yx2415) → (Eq let94 yx241) → (Eq let95 False) → (Eq let97 let96) → (Eq let98 yx2427) → (Eq let99 yx2423) → (Eq let117 False) → (Eq let30 let112) → (Eq let118 yx2431) → (Eq let119 yx247) → (Eq let120 yx249) → (Eq let121 yx2411) → (Eq let122 yx2413) → (Eq let123 yx2429) → (Eq let33 let114) → (Eq let124 yx2433) → (Eq let125 yx2435) → (Eq let126 yx2437) → let52 → (Not (Eq yx24n1s32 yx24n140s32)) → let127 → let128 → let129 → let130 → let131 → let132 → let133 → let134 → let135 → let136 → let137 → let138 → let139 → let140 → let141 → let142 → let143 → let144 → let145 → let146 → let147 → let148 → let149 → let150 → let151 → let152 → let153 → let154 → let155 → let157 → let159 → let161 → let163 → let165 → let167 → let169 → let171 → (Eq yx24id38x5fop let58) → let172 → let174 → yx243041 → False :=
+  let let1 := (Eq yx24n1s8 yx24n6s8)
+  let let2 := (Not let1)
+  let let3 := (Eq yx24n5s8 yx24n6s8)
+  let let4 := (Not let3)
+  let let5 := (And let4 let2)
+  let let6 := (Eq yx24n5s8 yx24n1s8)
+  let let7 := (Not let6)
+  let let8 := (Eq yx24n10s8 yx24n6s8)
+  let let9 := (Not let8)
+  let let10 := (Not (Eq yx24n10s8 yx24n1s8))
+  let let11 := (Not (Eq yx24n10s8 yx24n5s8))
+  let let12 := (Eq yx24n25s8 yx24n6s8)
+  let let13 := (Not let12)
+  let let14 := (Eq yx24n25s8 yx24n1s8)
+  let let15 := (Not let14)
+  let let16 := (Not (Eq yx24n25s8 yx24n5s8))
+  let let17 := (Eq yx24n25s8 yx24n10s8)
+  let let18 := (Not let17)
+  let let19 := (Eq yx24n30s8 yx24n6s8)
+  let let20 := (Not let19)
+  let let21 := (Eq yx24n30s8 yx24n1s8)
+  let let22 := (Not let21)
+  let let23 := (Not (Eq yx24n30s8 yx24n5s8))
+  let let24 := (Eq yx24n30s8 yx24n10s8)
+  let let25 := (Not let24)
+  let let26 := (Eq yx24n30s8 yx24n25s8)
+  let let27 := (Not let26)
+  let let28 := (Eq yx24n20s8 yx24n6s8)
+  let let29 := (Not let28)
+  let let30 := (Eq yx24n20s8 yx24n1s8)
+  let let31 := (Not let30)
+  let let32 := (Not (Eq yx24n20s8 yx24n5s8))
+  let let33 := (Eq yx24n20s8 yx24n10s8)
+  let let34 := (Not let33)
+  let let35 := (Not (Eq yx24n20s8 yx24n25s8))
+  let let36 := (Not (Eq yx24n20s8 yx24n30s8))
+  let let37 := (Eq yx24n0s8 yx24n6s8)
+  let let38 := (Not let37)
+  let let39 := (Eq yx24n0s8 yx24n1s8)
+  let let40 := (Not let39)
+  let let41 := (Eq yx24n0s8 yx24n5s8)
+  let let42 := (Not let41)
+  let let43 := (Eq yx24n0s8 yx24n10s8)
+  let let44 := (Not let43)
+  let let45 := (Eq yx24n0s8 yx24n25s8)
+  let let46 := (Not let45)
+  let let47 := (Eq yx24n0s8 yx24n30s8)
+  let let48 := (Not let47)
+  let let49 := (Eq yx24n0s8 yx24n20s8)
+  let let50 := (Not let49)
+  let let51 := (And let50 (And let48 (And let46 (And let44 (And let42 (And let40 (And let38 (And let36 (And let35 (And let34 (And let32 (And let31 (And let29 (And let27 (And let25 (And let23 (And let22 (And let20 (And let18 (And let16 (And let15 (And let13 (And let11 (And let10 (And let9 (And let7 let5))))))))))))))))))))))))))
+  let let52 := (Ne yx24n0s8 yx24n20s8 yx24n30s8 yx24n25s8 yx24n10s8 yx24n5s8 yx24n1s8 yx24n6s8)
+  let let53 := (Eq yx24n25s8 yx24n30s8)
+  let let54 := (Eq yx24n10s8 yx24n30s8)
+  let let55 := (Eq yx24n1s8 yx24n30s8)
+  let let56 := (Eq yx24n6s8 yx24vx5fwherex5fisx5ftorch)
+  let let57 := (And True let56)
+  let let58 := (Not yx242964)
+  let let59 := (Eq yx242964 False)
+  let let60 := (Eq yx243033 True)
+  let let61 := (Eq yx2457 True)
+  let let62 := (Eq yx2455 True)
+  let let63 := (Eq yx2453 True)
+  let let64 := (Eq yx2451 True)
+  let let65 := (Eq yx2449 True)
+  let let66 := (Eq yx2447 True)
+  let let67 := (Eq yx2445 True)
+  let let68 := (Eq yx2443 True)
+  let let69 := (Eq yx2441 True)
+  let let70 := (Eq yx2439 True)
+  let let71 := (Eq yx243 True)
+  let let72 := (Eq yx245 True)
+  let let73 := (Eq yx242964 yx24prop)
+  let let74 := (Eq yx24prop yx242964)
+  let let75 := (Eq yx24n30s8 yx24vx5fwherex5fisx5ftorch)
+  let let76 := (Eq yx24vx5fwherex5fisx5ftorch yx24n30s8)
+  let let77 := (Eq yx2425 True)
+  let let78 := (Eq yx24n25s8 yx24vx5fwherex5fisx5ftorch)
+  let let79 := (Eq yx24vx5fwherex5fisx5ftorch yx24n25s8)
+  let let80 := (Eq yx24n10s8 yx24vx5fwherex5fisx5ftorch)
+  let let81 := (Eq yx24vx5fwherex5fisx5ftorch yx24n10s8)
+  let let82 := (Eq yx2421 True)
+  let let83 := (Eq yx24n5s8 yx24vx5fwherex5fisx5ftorch)
+  let let84 := (Eq yx24vx5fwherex5fisx5ftorch yx24n5s8)
+  let let85 := (Eq yx2419 True)
+  let let86 := (Eq yx24n10s8 yx24n25s8)
+  let let87 := (Eq yx24n1s8 yx24vx5fwherex5fisx5ftorch)
+  let let88 := (Eq yx24vx5fwherex5fisx5ftorch yx24n1s8)
+  let let89 := (Eq yx24n1s8 yx24n5s8)
+  let let90 := (Eq yx2417 True)
+  let let91 := (Eq yx24n1s8 yx24n25s8)
+  let let92 := (Eq yx24vx5fwherex5fisx5ftorch yx24vx5fwherex5fisx5ftorch)
+  let let93 := (Eq yx2415 True)
+  let let94 := (Eq yx241 True)
+  let let95 := (Not True)
+  let let96 := (Eq yx24n20s8 yx24vx5fwherex5fisx5ftorch)
+  let let97 := (Eq yx24vx5fwherex5fisx5ftorch yx24n20s8)
+  let let98 := (Eq yx2427 True)
+  let let99 := (Eq yx2423 True)
+  let let100 := (Not let87)
+  let let101 := (Not let83)
+  let let102 := (Not let89)
+  let let103 := (Not let80)
+  let let104 := (Not let78)
+  let let105 := (Not let91)
+  let let106 := (Not let86)
+  let let107 := (Not let75)
+  let let108 := (Not let55)
+  let let109 := (Not let54)
+  let let110 := (Not let53)
+  let let111 := (Not let96)
+  let let112 := (Eq yx24n1s8 yx24n20s8)
+  let let113 := (Not let112)
+  let let114 := (Eq yx24n10s8 yx24n20s8)
+  let let115 := (Not let114)
+  let let116 := (And let36 (And let35 (And let115 (And let32 (And let113 (And let111 (And let110 (And let109 (And let23 (And let108 (And let107 (And let106 (And let16 (And let105 (And let104 (And let11 (And let10 (And let103 (And let102 (And let101 let100))))))))))))))))))))
+  let let117 := (And let111 (And let107 (And let104 (And let103 (And let101 (And let100 (And False let116)))))))
+  let let118 := (Eq yx2431 True)
+  let let119 := (Eq yx247 True)
+  let let120 := (Eq yx249 True)
+  let let121 := (Eq yx2411 True)
+  let let122 := (Eq yx2413 True)
+  let let123 := (Eq yx2429 True)
+  let let124 := (Eq yx2433 True)
+  let let125 := (Eq yx2435 True)
+  let let126 := (Eq yx2437 True)
+  let let127 := (Eq yx24ax5ffree (Not yx241))
+  let let128 := (Eq yx24ax5fgox5fleftx5fsoldierx5f1 (Not yx243))
+  let let129 := (Eq yx24ax5fgox5fleftx5fsoldierx5f2 (Not yx245))
+  let let130 := (Eq yx24ax5fgox5fleftx5fsoldierx5f3 (Not yx247))
+  let let131 := (Eq yx24ax5fgox5fleftx5fsoldierx5f4 (Not yx249))
+  let let132 := (Eq yx24ax5fgox5fleftx5fsoldierx5f5 (Not yx2411))
+  let let133 := (Eq yx24ax5fgox5fleftx5fsoldierx5f6 (Not yx2413))
+  let let134 := (Eq yx24ax5fgox5frightx5fsoldierx5f1 (Not yx2415))
+  let let135 := (Eq yx24ax5fgox5frightx5fsoldierx5f2 (Not yx2417))
+  let let136 := (Eq yx24ax5fgox5frightx5fsoldierx5f3 (Not yx2419))
+  let let137 := (Eq yx24ax5fgox5frightx5fsoldierx5f4 (Not yx2421))
+  let let138 := (Eq yx24ax5fgox5frightx5fsoldierx5f5 (Not yx2423))
+  let let139 := (Eq yx24ax5fgox5frightx5fsoldierx5f6 (Not yx2425))
+  let let140 := (Eq yx24ax5fgoing (Not yx2427))
+  let let141 := (Eq yx24ax5fleftx5fsoldierx5f1 (Not yx2429))
+  let let142 := (Eq yx24ax5fleftx5fsoldierx5f2 (Not yx2431))
+  let let143 := (Eq yx24ax5fleftx5fsoldierx5f3 (Not yx2433))
+  let let144 := (Eq yx24ax5fleftx5fsoldierx5f4 (Not yx2435))
+  let let145 := (Eq yx24ax5fleftx5fsoldierx5f5 (Not yx2437))
+  let let146 := (Eq yx24ax5fleftx5fsoldierx5f6 (Not yx2439))
+  let let147 := (Eq yx24ax5fone (Not yx2441))
+  let let148 := (Eq yx24ax5frightx5fsoldierx5f1 (Not yx2443))
+  let let149 := (Eq yx24ax5frightx5fsoldierx5f2 (Not yx2445))
+  let let150 := (Eq yx24ax5frightx5fsoldierx5f3 (Not yx2447))
+  let let151 := (Eq yx24ax5frightx5fsoldierx5f4 (Not yx2449))
+  let let152 := (Eq yx24ax5frightx5fsoldierx5f5 (Not yx2451))
+  let let153 := (Eq yx24ax5frightx5fsoldierx5f6 (Not yx2453))
+  let let154 := (Eq yx24ax5ftwo (Not yx2455))
+  let let155 := (Eq yx24dvex5finvalid (Not yx2457))
+  let let156 := (Eq yx24n0s8 yx24vx5fonx5fright)
+  let let157 := (Eq yx2460 let156)
+  let let158 := (Eq yx24n0s8 yx24vx5ftime1)
+  let let159 := (Eq yx2462 let158)
+  let let160 := (Eq yx24n0s8 yx24vx5ftime2)
+  let let161 := (Eq yx2464 let160)
+  let let162 := (Eq yx24n0s8 yx24vx5ftotalx5ftime)
+  let let163 := (Eq yx2466 let162)
+  let let164 := (Eq yx24n0s8 yx24vx5fwherex5fisx5ftorch)
+  let let165 := (Eq yx2468 let164)
+  let let166 := (Not yx243033)
+  let let167 := (Eq yx24prop let166)
+  let let168 := (Eq yx24n6s8 yx24vx5fonx5fright)
+  let let169 := (Eq yx242961 let168)
+  let let170 := (And yx2457 yx242961)
+  let let171 := (Eq yx24id38x5fop let170)
+  let let172 := (Eq yx242965 let74)
+  let let173 := (And yx241 (And yx243 (And yx245 (And yx247 (And yx249 (And yx2411 (And yx2413 (And yx2415 (And yx2417 (And yx2419 (And yx2421 (And yx2423 (And yx2425 (And yx2427 (And yx2429 (And yx2431 (And yx2433 (And yx2435 (And yx2437 (And yx2439 (And yx2441 (And yx2443 (And yx2445 (And yx2447 (And yx2449 (And yx2451 (And yx2453 (And yx2455 (And yx2457 (And yx2460 (And yx2462 (And yx2464 (And yx2466 (And yx2468 (And yx243033 yx242965)))))))))))))))))))))))))))))))))))
+  let let174 := (Eq yx243041 let173)
+  let let175 := (And let50 (And let48 (And let46 (And let44 (And let42 (And let40 (And let38 (And let36 (And let35 (And let115 (And let32 (And let113 (And let29 (And let110 (And let109 (And let23 (And let108 (And let20 (And let106 (And let16 (And let105 (And let13 (And let11 (And let10 (And let9 (And let102 let5))))))))))))))))))))))))))
+  let let176 := (Not let92)
+  let let177 := (Not let88)
+  let let178 := (Not let84)
+  let let179 := (Not let81)
+  let let180 := (Not let79)
+  let let181 := (Not let76)
+  let let182 := (Not let97)
+  let let183 := (And let182 (And let181 (And let180 (And let179 (And let178 (And let177 (And let176 let116)))))))
+  let let184 := (Eq And And)
+  let let185 := (Eq let102 let102)
+  let let186 := (Eq let10 let10)
+  let let187 := (Eq let11 let11)
+  let let188 := (Eq let105 let105)
+  let let189 := (Eq let16 let16)
+  let let190 := (Eq let106 let106)
+  let let191 := (Eq let108 let108)
+  let let192 := (Eq let23 let23)
+  let let193 := (Eq let109 let109)
+  let let194 := (Eq let110 let110)
+  let let195 := (Eq let113 let113)
+  let let196 := (Eq let32 let32)
+  let let197 := (Eq let115 let115)
+  let let198 := (Eq let35 let35)
+  let let199 := (Eq let36 let36)
+  let let200 := (And let169 (And let167 (And let165 (And let163 (And let161 (And let159 (And let157 (And let155 (And let154 (And let153 (And let152 (And let151 (And let150 (And let149 (And let148 (And let147 (And let146 (And let145 (And let144 (And let143 (And let142 (And let141 (And let140 (And let139 (And let138 (And let137 (And let136 (And let135 (And let134 (And let133 (And let132 (And let131 (And let130 (And let129 (And let128 let127)))))))))))))))))))))))))))))))))))
+  let let201 := (And yx2457 let168)
+  let let202 := (Eq yx24id38x5fop let201)
+  let let203 := (And let202 let200)
+  let let204 := (Eq yx242964 let166)
+  let let205 := (Eq yx242965 let204)
+  let let206 := (And let205 let203)
+  let let207 := (And yx241 (And yx243 (And yx245 (And yx247 (And yx249 (And yx2411 (And yx2413 (And yx2415 (And yx2417 (And yx2419 (And yx2421 (And yx2423 (And yx2425 (And yx2427 (And yx2429 (And yx2431 (And yx2433 (And yx2435 (And yx2437 (And yx2439 (And yx2441 (And yx2443 (And yx2445 (And yx2447 (And yx2449 (And yx2451 (And yx2453 (And yx2455 (And yx2457 (And let156 (And let158 (And let160 (And let162 (And let164 (And yx243033 let204)))))))))))))))))))))))))))))))))))
+  let let208 := (Eq yx243041 let207)
+  let let209 := (And let156 (And let61 (And let62 (And let63 (And let64 (And let65 (And let66 (And let67 (And let68 (And let69 (And let70 (And let126 (And let125 (And let124 (And let118 (And let123 (And let98 (And let77 (And let99 (And let82 (And let85 (And let90 (And let93 (And let122 (And let121 (And let120 (And let119 (And let72 (And let71 (And let94 (And let208 let206)))))))))))))))))))))))))))))))
+  let let210 := (Eq yx24vx5fonx5fright yx24vx5ftime1)
+  let let211 := (And let210 let209)
+  let let212 := (Eq yx24vx5ftime1 yx24vx5ftime2)
+  let let213 := (And let212 let211)
+  let let214 := (Eq yx24vx5ftime2 yx24vx5ftotalx5ftime)
+  let let215 := (And let214 let213)
+  let let216 := (Eq yx24vx5ftotalx5ftime yx24vx5fwherex5fisx5ftorch)
+  let let217 := (And let59 (And let60 (And let216 let215)))
+  let let218 := (Eq yx2457 yx2457)
+  let let219 := (Eq yx242965 let73)
+  let let220 := (Eq yx242965 yx242965)
+  let let221 := (Not yx24prop)
+  let let222 := (Eq yx24vx5fonx5fright yx24vx5fwherex5fisx5ftorch)
+  let let223 := (Eq yx24vx5ftime1 yx24vx5fwherex5fisx5ftorch)
+  let let224 := (Eq yx24vx5ftime2 yx24vx5fwherex5fisx5ftorch)
+fun lean_r0 : (Eq let52 let51) => -- THEORY_REWRITE_BUILTIN
+fun lean_r1 : (Eq let26 let53) => -- THEORY_REWRITE_UF
+fun lean_r2 : (Eq let24 let54) => -- THEORY_REWRITE_UF
+fun lean_r3 : (Eq let21 let55) => -- THEORY_REWRITE_UF
+fun lean_r4 : (Eq let57 let56) => -- THEORY_REWRITE_BOOL
+fun lean_r5 : (Eq let59 let58) => -- THEORY_REWRITE_BOOL
+fun lean_r6 : (Eq let60 yx243033) => -- THEORY_REWRITE_BOOL
+fun lean_r7 : (Eq let61 yx2457) => -- THEORY_REWRITE_BOOL
+fun lean_r8 : (Eq let62 yx2455) => -- THEORY_REWRITE_BOOL
+fun lean_r9 : (Eq let63 yx2453) => -- THEORY_REWRITE_BOOL
+fun lean_r10 : (Eq let64 yx2451) => -- THEORY_REWRITE_BOOL
+fun lean_r11 : (Eq let65 yx2449) => -- THEORY_REWRITE_BOOL
+fun lean_r12 : (Eq let66 yx2447) => -- THEORY_REWRITE_BOOL
+fun lean_r13 : (Eq let67 yx2445) => -- THEORY_REWRITE_BOOL
+fun lean_r14 : (Eq let68 yx2443) => -- THEORY_REWRITE_BOOL
+fun lean_r15 : (Eq let69 yx2441) => -- THEORY_REWRITE_BOOL
+fun lean_r16 : (Eq let70 yx2439) => -- THEORY_REWRITE_BOOL
+fun lean_r17 : (Eq let71 yx243) => -- THEORY_REWRITE_BOOL
+fun lean_r18 : (Eq let72 yx245) => -- THEORY_REWRITE_BOOL
+fun lean_r19 : (Eq let74 let73) => -- THEORY_REWRITE_BOOL
+fun lean_r20 : (Eq let76 let75) => -- THEORY_REWRITE_UF
+fun lean_r21 : (Eq let77 yx2425) => -- THEORY_REWRITE_BOOL
+fun lean_r22 : (Eq let79 let78) => -- THEORY_REWRITE_UF
+fun lean_r23 : (Eq let81 let80) => -- THEORY_REWRITE_UF
+fun lean_r24 : (Eq let82 yx2421) => -- THEORY_REWRITE_BOOL
+fun lean_r25 : (Eq let84 let83) => -- THEORY_REWRITE_UF
+fun lean_r26 : (Eq let85 yx2419) => -- THEORY_REWRITE_BOOL
+fun lean_r27 : (Eq let17 let86) => -- THEORY_REWRITE_UF
+fun lean_r28 : (Eq let88 let87) => -- THEORY_REWRITE_UF
+fun lean_r29 : (Eq let6 let89) => -- THEORY_REWRITE_UF
+fun lean_r30 : (Eq let90 yx2417) => -- THEORY_REWRITE_BOOL
+fun lean_r31 : (Eq let14 let91) => -- THEORY_REWRITE_UF
+fun lean_r32 : (Eq let92 True) => -- THEORY_REWRITE_UF
+fun lean_r33 : (Eq let93 yx2415) => -- THEORY_REWRITE_BOOL
+fun lean_r34 : (Eq let94 yx241) => -- THEORY_REWRITE_BOOL
+fun lean_r35 : (Eq let95 False) => -- THEORY_REWRITE_BOOL
+fun lean_r36 : (Eq let97 let96) => -- THEORY_REWRITE_UF
+fun lean_r37 : (Eq let98 yx2427) => -- THEORY_REWRITE_BOOL
+fun lean_r38 : (Eq let99 yx2423) => -- THEORY_REWRITE_BOOL
+fun lean_r39 : (Eq let117 False) => -- THEORY_REWRITE_BOOL
+fun lean_r40 : (Eq let30 let112) => -- THEORY_REWRITE_UF
+fun lean_r41 : (Eq let118 yx2431) => -- THEORY_REWRITE_BOOL
+fun lean_r42 : (Eq let119 yx247) => -- THEORY_REWRITE_BOOL
+fun lean_r43 : (Eq let120 yx249) => -- THEORY_REWRITE_BOOL
+fun lean_r44 : (Eq let121 yx2411) => -- THEORY_REWRITE_BOOL
+fun lean_r45 : (Eq let122 yx2413) => -- THEORY_REWRITE_BOOL
+fun lean_r46 : (Eq let123 yx2429) => -- THEORY_REWRITE_BOOL
+fun lean_r47 : (Eq let33 let114) => -- THEORY_REWRITE_UF
+fun lean_r48 : (Eq let124 yx2433) => -- THEORY_REWRITE_BOOL
+fun lean_r49 : (Eq let125 yx2435) => -- THEORY_REWRITE_BOOL
+fun lean_r50 : (Eq let126 yx2437) => -- THEORY_REWRITE_BOOL
+fun lean_a51 : let52 =>
+fun lean_a52 : (Not (Eq yx24n1s32 yx24n140s32)) =>
+fun lean_a53 : let127 =>
+fun lean_a54 : let128 =>
+fun lean_a55 : let129 =>
+fun lean_a56 : let130 =>
+fun lean_a57 : let131 =>
+fun lean_a58 : let132 =>
+fun lean_a59 : let133 =>
+fun lean_a60 : let134 =>
+fun lean_a61 : let135 =>
+fun lean_a62 : let136 =>
+fun lean_a63 : let137 =>
+fun lean_a64 : let138 =>
+fun lean_a65 : let139 =>
+fun lean_a66 : let140 =>
+fun lean_a67 : let141 =>
+fun lean_a68 : let142 =>
+fun lean_a69 : let143 =>
+fun lean_a70 : let144 =>
+fun lean_a71 : let145 =>
+fun lean_a72 : let146 =>
+fun lean_a73 : let147 =>
+fun lean_a74 : let148 =>
+fun lean_a75 : let149 =>
+fun lean_a76 : let150 =>
+fun lean_a77 : let151 =>
+fun lean_a78 : let152 =>
+fun lean_a79 : let153 =>
+fun lean_a80 : let154 =>
+fun lean_a81 : let155 =>
+fun lean_a82 : let157 =>
+fun lean_a83 : let159 =>
+fun lean_a84 : let161 =>
+fun lean_a85 : let163 =>
+fun lean_a86 : let165 =>
+fun lean_a87 : let167 =>
+fun lean_a88 : let169 =>
+fun lean_a89 : let171 =>
+fun lean_a90 : (Eq yx24id38x5fop let58) =>
+fun lean_a91 : let172 =>
+fun lean_a92 : let174 =>
+fun lean_a93 : yx243041 => by
+have lean_s0 : let184 := by timed rfl
+have lean_s1 : (Eq let50 let50) := by timed rfl
+let lean_s2 := by timed congr lean_s0 lean_s1
+have lean_s3 : (Eq let48 let48) := by timed rfl
+let lean_s4 := by timed congr lean_s0 lean_s3
+have lean_s5 : (Eq let46 let46) := by timed rfl
+let lean_s6 := by timed congr lean_s0 lean_s5
+have lean_s7 : (Eq let44 let44) := by timed rfl
+let lean_s8 := by timed congr lean_s0 lean_s7
+have lean_s9 : (Eq let42 let42) := by timed rfl
+let lean_s10 := by timed congr lean_s0 lean_s9
+have lean_s11 : (Eq let40 let40) := by timed rfl
+let lean_s12 := by timed congr lean_s0 lean_s11
+have lean_s13 : (Eq let38 let38) := by timed rfl
+let lean_s14 := by timed congr lean_s0 lean_s13
+have lean_s15 : let199 := by timed rfl
+let lean_s16 := by timed congr lean_s0 lean_s15
+have lean_s17 : let198 := by timed rfl
+let lean_s18 := by timed congr lean_s0 lean_s17
+have lean_s19 : (Eq let34 let115) := by timed flipCongrArg lean_r47 [Not]
+let lean_s20 := by timed congr lean_s0 lean_s19
+have lean_s21 : let196 := by timed rfl
+let lean_s22 := by timed congr lean_s0 lean_s21
+have lean_s23 : (Eq let31 let113) := by timed flipCongrArg lean_r40 [Not]
+let lean_s24 := by timed congr lean_s0 lean_s23
+have lean_s25 : (Eq let29 let29) := by timed rfl
+let lean_s26 := by timed congr lean_s0 lean_s25
+have lean_s27 : (Eq let27 let110) := by timed flipCongrArg lean_r1 [Not]
+let lean_s28 := by timed congr lean_s0 lean_s27
+have lean_s29 : (Eq let25 let109) := by timed flipCongrArg lean_r2 [Not]
+let lean_s30 := by timed congr lean_s0 lean_s29
+have lean_s31 : let192 := by timed rfl
+let lean_s32 := by timed congr lean_s0 lean_s31
+have lean_s33 : (Eq let22 let108) := by timed flipCongrArg lean_r3 [Not]
+let lean_s34 := by timed congr lean_s0 lean_s33
+have lean_s35 : (Eq let20 let20) := by timed rfl
+let lean_s36 := by timed congr lean_s0 lean_s35
+have lean_s37 : (Eq let18 let106) := by timed flipCongrArg lean_r27 [Not]
+let lean_s38 := by timed congr lean_s0 lean_s37
+have lean_s39 : let189 := by timed rfl
+let lean_s40 := by timed congr lean_s0 lean_s39
+have lean_s41 : (Eq let15 let105) := by timed flipCongrArg lean_r31 [Not]
+let lean_s42 := by timed congr lean_s0 lean_s41
+have lean_s43 : (Eq let13 let13) := by timed rfl
+let lean_s44 := by timed congr lean_s0 lean_s43
+have lean_s45 : let187 := by timed rfl
+let lean_s46 := by timed congr lean_s0 lean_s45
+have lean_s47 : let186 := by timed rfl
+let lean_s48 := by timed congr lean_s0 lean_s47
+have lean_s49 : (Eq let9 let9) := by timed rfl
+let lean_s50 := by timed congr lean_s0 lean_s49
+have lean_s51 : (Eq let7 let102) := by timed flipCongrArg lean_r29 [Not]
+let lean_s52 := by timed congr lean_s0 lean_s51
+have lean_s53 : (Eq let4 let4) := by timed rfl
+let lean_s54 := by timed congr lean_s0 lean_s53
+have lean_s55 : (Eq let2 let2) := by timed rfl
+let lean_s56 := by timed congr lean_s54 lean_s55
+let lean_s57 := by timed congr lean_s52 lean_s56
+let lean_s58 := by timed congr lean_s50 lean_s57
+let lean_s59 := by timed congr lean_s48 lean_s58
+let lean_s60 := by timed congr lean_s46 lean_s59
+let lean_s61 := by timed congr lean_s44 lean_s60
+let lean_s62 := by timed congr lean_s42 lean_s61
+let lean_s63 := by timed congr lean_s40 lean_s62
+let lean_s64 := by timed congr lean_s38 lean_s63
+let lean_s65 := by timed congr lean_s36 lean_s64
+let lean_s66 := by timed congr lean_s34 lean_s65
+let lean_s67 := by timed congr lean_s32 lean_s66
+let lean_s68 := by timed congr lean_s30 lean_s67
+let lean_s69 := by timed congr lean_s28 lean_s68
+let lean_s70 := by timed congr lean_s26 lean_s69
+let lean_s71 := by timed congr lean_s24 lean_s70
+let lean_s72 := by timed congr lean_s22 lean_s71
+let lean_s73 := by timed congr lean_s20 lean_s72
+let lean_s74 := by timed congr lean_s18 lean_s73
+let lean_s75 := by timed congr lean_s16 lean_s74
+let lean_s76 := by timed congr lean_s14 lean_s75
+let lean_s77 := by timed congr lean_s12 lean_s76
+let lean_s78 := by timed congr lean_s10 lean_s77
+let lean_s79 := by timed congr lean_s8 lean_s78
+let lean_s80 := by timed congr lean_s6 lean_s79
+let lean_s81 := by timed congr lean_s4 lean_s80
+have lean_s82 : (Eq let51 let175) := by timed congr lean_s2 lean_s81
+have lean_s83 : (Eq let52 let175) := by timed Eq.trans lean_r0 lean_s82
+have lean_s84 : let184 := by timed rfl
+have lean_s85 : let173 := by timed eqResolve lean_a93 lean_a92
+have lean_s86 : yx242965 := by andElim lean_s85, 35
+have lean_s87 : let220 := by timed rfl
+let lean_s88 := by timed flipCongrArg lean_s87 [Eq]
+have lean_s89 : (Eq let172 let219) := by timed congr lean_s88 lean_r19
+have lean_s90 : let219 := by timed eqResolve lean_a91 lean_s89
+have lean_s91 : let73 := by timed eqResolve lean_s86 lean_s90
+have lean_s92 : (Or let58 yx24prop) := by timed equivElim1 lean_s91
+have lean_s93 : (Or let221 let166) := by timed equivElim1 lean_a87
+have lean_s94 : let173 := by timed eqResolve lean_a93 lean_a92
+have lean_s95 : yx243033 := by andElim lean_s94, 34
+have lean_s96 : let221 := by R2 lean_s93, lean_s95, yx243033, [(- 1), 0]
+have lean_s97 : let58 := by R1 lean_s92, lean_s96, yx24prop, [(- 1), 0]
+have lean_s98 : (Eq let58 yx24id38x5fop) := by timed Eq.symm lean_a90
+have lean_s99 : yx24id38x5fop := by timed eqResolve lean_s97 lean_s98
+have lean_s100 : let58 := by R1 lean_s92, lean_s96, yx24prop, [(- 1), 0]
+have lean_s101 : (Eq let58 let59) := by timed Eq.symm lean_r5
+have lean_s102 : let59 := by timed eqResolve lean_s100 lean_s101
+have lean_s103 : yx243033 := by andElim lean_s94, 34
+have lean_s104 : (Eq yx243033 let60) := by timed Eq.symm lean_r6
+have lean_s105 : let60 := by timed eqResolve lean_s103 lean_s104
+have lean_s106 : let173 := by timed eqResolve lean_a93 lean_a92
+have lean_s107 : yx2468 := by andElim lean_s106, 33
+have lean_s108 : let173 := by timed eqResolve lean_a93 lean_a92
+have lean_s109 : yx2466 := by andElim lean_s108, 32
+have lean_s110 : let173 := by timed eqResolve lean_a93 lean_a92
+have lean_s111 : yx2464 := by andElim lean_s110, 31
+have lean_s112 : let173 := by timed eqResolve lean_a93 lean_a92
+have lean_s113 : yx2462 := by andElim lean_s112, 30
+have lean_s114 : let173 := by timed eqResolve lean_a93 lean_a92
+have lean_s115 : yx2460 := by andElim lean_s114, 29
+have lean_s116 : let156 := by timed eqResolve lean_s115 lean_a82
+have lean_s117 : let173 := by timed eqResolve lean_a93 lean_a92
+have lean_s118 : yx2457 := by andElim lean_s117, 28
+have lean_s119 : (Eq yx2457 let61) := by timed Eq.symm lean_r7
+have lean_s120 : let61 := by timed eqResolve lean_s118 lean_s119
+have lean_s121 : let173 := by timed eqResolve lean_a93 lean_a92
+have lean_s122 : yx2455 := by andElim lean_s121, 27
+have lean_s123 : (Eq yx2455 let62) := by timed Eq.symm lean_r8
+have lean_s124 : let62 := by timed eqResolve lean_s122 lean_s123
+have lean_s125 : let173 := by timed eqResolve lean_a93 lean_a92
+have lean_s126 : yx2453 := by andElim lean_s125, 26
+have lean_s127 : (Eq yx2453 let63) := by timed Eq.symm lean_r9
+have lean_s128 : let63 := by timed eqResolve lean_s126 lean_s127
+have lean_s129 : let173 := by timed eqResolve lean_a93 lean_a92
+have lean_s130 : yx2451 := by andElim lean_s129, 25
+have lean_s131 : (Eq yx2451 let64) := by timed Eq.symm lean_r10
+have lean_s132 : let64 := by timed eqResolve lean_s130 lean_s131
+have lean_s133 : let173 := by timed eqResolve lean_a93 lean_a92
+have lean_s134 : yx2449 := by andElim lean_s133, 24
+have lean_s135 : (Eq yx2449 let65) := by timed Eq.symm lean_r11
+have lean_s136 : let65 := by timed eqResolve lean_s134 lean_s135
+have lean_s137 : let173 := by timed eqResolve lean_a93 lean_a92
+have lean_s138 : yx2447 := by andElim lean_s137, 23
+have lean_s139 : (Eq yx2447 let66) := by timed Eq.symm lean_r12
+have lean_s140 : let66 := by timed eqResolve lean_s138 lean_s139
+have lean_s141 : let173 := by timed eqResolve lean_a93 lean_a92
+have lean_s142 : yx2445 := by andElim lean_s141, 22
+have lean_s143 : (Eq yx2445 let67) := by timed Eq.symm lean_r13
+have lean_s144 : let67 := by timed eqResolve lean_s142 lean_s143
+have lean_s145 : let173 := by timed eqResolve lean_a93 lean_a92
+have lean_s146 : yx2443 := by andElim lean_s145, 21
+have lean_s147 : (Eq yx2443 let68) := by timed Eq.symm lean_r14
+have lean_s148 : let68 := by timed eqResolve lean_s146 lean_s147
+have lean_s149 : let173 := by timed eqResolve lean_a93 lean_a92
+have lean_s150 : yx2441 := by andElim lean_s149, 20
+have lean_s151 : (Eq yx2441 let69) := by timed Eq.symm lean_r15
+have lean_s152 : let69 := by timed eqResolve lean_s150 lean_s151
+have lean_s153 : let173 := by timed eqResolve lean_a93 lean_a92
+have lean_s154 : yx2439 := by andElim lean_s153, 19
+have lean_s155 : (Eq yx2439 let70) := by timed Eq.symm lean_r16
+have lean_s156 : let70 := by timed eqResolve lean_s154 lean_s155
+have lean_s157 : let173 := by timed eqResolve lean_a93 lean_a92
+have lean_s158 : yx2437 := by andElim lean_s157, 18
+have lean_s159 : (Eq yx2437 let126) := by timed Eq.symm lean_r50
+have lean_s160 : let126 := by timed eqResolve lean_s158 lean_s159
+have lean_s161 : let173 := by timed eqResolve lean_a93 lean_a92
+have lean_s162 : yx2435 := by andElim lean_s161, 17
+have lean_s163 : (Eq yx2435 let125) := by timed Eq.symm lean_r49
+have lean_s164 : let125 := by timed eqResolve lean_s162 lean_s163
+have lean_s165 : let173 := by timed eqResolve lean_a93 lean_a92
+have lean_s166 : yx2433 := by andElim lean_s165, 16
+have lean_s167 : (Eq yx2433 let124) := by timed Eq.symm lean_r48
+have lean_s168 : let124 := by timed eqResolve lean_s166 lean_s167
+have lean_s169 : let173 := by timed eqResolve lean_a93 lean_a92
+have lean_s170 : yx2431 := by andElim lean_s169, 15
+have lean_s171 : (Eq yx2431 let118) := by timed Eq.symm lean_r41
+have lean_s172 : let118 := by timed eqResolve lean_s170 lean_s171
+have lean_s173 : let173 := by timed eqResolve lean_a93 lean_a92
+have lean_s174 : yx2429 := by andElim lean_s173, 14
+have lean_s175 : (Eq yx2429 let123) := by timed Eq.symm lean_r46
+have lean_s176 : let123 := by timed eqResolve lean_s174 lean_s175
+have lean_s177 : let173 := by timed eqResolve lean_a93 lean_a92
+have lean_s178 : yx2427 := by andElim lean_s177, 13
+have lean_s179 : (Eq yx2427 let98) := by timed Eq.symm lean_r37
+have lean_s180 : let98 := by timed eqResolve lean_s178 lean_s179
+have lean_s181 : let173 := by timed eqResolve lean_a93 lean_a92
+have lean_s182 : yx2425 := by andElim lean_s181, 12
+have lean_s183 : (Eq yx2425 let77) := by timed Eq.symm lean_r21
+have lean_s184 : let77 := by timed eqResolve lean_s182 lean_s183
+have lean_s185 : let173 := by timed eqResolve lean_a93 lean_a92
+have lean_s186 : yx2423 := by andElim lean_s185, 11
+have lean_s187 : (Eq yx2423 let99) := by timed Eq.symm lean_r38
+have lean_s188 : let99 := by timed eqResolve lean_s186 lean_s187
+have lean_s189 : let173 := by timed eqResolve lean_a93 lean_a92
+have lean_s190 : yx2421 := by andElim lean_s189, 10
+have lean_s191 : (Eq yx2421 let82) := by timed Eq.symm lean_r24
+have lean_s192 : let82 := by timed eqResolve lean_s190 lean_s191
+have lean_s193 : let173 := by timed eqResolve lean_a93 lean_a92
+have lean_s194 : yx2419 := by andElim lean_s193, 9
+have lean_s195 : (Eq yx2419 let85) := by timed Eq.symm lean_r26
+have lean_s196 : let85 := by timed eqResolve lean_s194 lean_s195
+have lean_s197 : let173 := by timed eqResolve lean_a93 lean_a92
+have lean_s198 : yx2417 := by andElim lean_s197, 8
+have lean_s199 : (Eq yx2417 let90) := by timed Eq.symm lean_r30
+have lean_s200 : let90 := by timed eqResolve lean_s198 lean_s199
+have lean_s201 : let173 := by timed eqResolve lean_a93 lean_a92
+have lean_s202 : yx2415 := by andElim lean_s201, 7
+have lean_s203 : (Eq yx2415 let93) := by timed Eq.symm lean_r33
+have lean_s204 : let93 := by timed eqResolve lean_s202 lean_s203
+have lean_s205 : let173 := by timed eqResolve lean_a93 lean_a92
+have lean_s206 : yx2413 := by andElim lean_s205, 6
+have lean_s207 : (Eq yx2413 let122) := by timed Eq.symm lean_r45
+have lean_s208 : let122 := by timed eqResolve lean_s206 lean_s207
+have lean_s209 : let173 := by timed eqResolve lean_a93 lean_a92
+have lean_s210 : yx2411 := by andElim lean_s209, 5
+have lean_s211 : (Eq yx2411 let121) := by timed Eq.symm lean_r44
+have lean_s212 : let121 := by timed eqResolve lean_s210 lean_s211
+have lean_s213 : let173 := by timed eqResolve lean_a93 lean_a92
+have lean_s214 : yx249 := by andElim lean_s213, 4
+have lean_s215 : (Eq yx249 let120) := by timed Eq.symm lean_r43
+have lean_s216 : let120 := by timed eqResolve lean_s214 lean_s215
+have lean_s217 : let173 := by timed eqResolve lean_a93 lean_a92
+have lean_s218 : yx247 := by andElim lean_s217, 3
+have lean_s219 : (Eq yx247 let119) := by timed Eq.symm lean_r42
+have lean_s220 : let119 := by timed eqResolve lean_s218 lean_s219
+have lean_s221 : let173 := by timed eqResolve lean_a93 lean_a92
+have lean_s222 : yx245 := by andElim lean_s221, 2
+have lean_s223 : (Eq yx245 let72) := by timed Eq.symm lean_r18
+have lean_s224 : let72 := by timed eqResolve lean_s222 lean_s223
+have lean_s225 : let173 := by timed eqResolve lean_a93 lean_a92
+have lean_s226 : yx243 := by andElim lean_s225, 1
+have lean_s227 : (Eq yx243 let71) := by timed Eq.symm lean_r17
+have lean_s228 : let71 := by timed eqResolve lean_s226 lean_s227
+have lean_s229 : let173 := by timed eqResolve lean_a93 lean_a92
+have lean_s230 : yx241 := by andElim lean_s229, 0
+have lean_s231 : (Eq yx241 let94) := by timed Eq.symm lean_r34
+have lean_s232 : let94 := by timed eqResolve lean_s230 lean_s231
+have lean_s233 : (Eq yx243041 yx243041) := by timed rfl
+let lean_s234 := by timed flipCongrArg lean_s233 [Eq]
+have lean_s235 : let184 := by timed rfl
+have lean_s236 : (Eq yx241 yx241) := by timed rfl
+let lean_s237 := by timed congr lean_s235 lean_s236
+have lean_s238 : (Eq yx243 yx243) := by timed rfl
+let lean_s239 := by timed congr lean_s235 lean_s238
+have lean_s240 : (Eq yx245 yx245) := by timed rfl
+let lean_s241 := by timed congr lean_s235 lean_s240
+have lean_s242 : (Eq yx247 yx247) := by timed rfl
+let lean_s243 := by timed congr lean_s235 lean_s242
+have lean_s244 : (Eq yx249 yx249) := by timed rfl
+let lean_s245 := by timed congr lean_s235 lean_s244
+have lean_s246 : (Eq yx2411 yx2411) := by timed rfl
+let lean_s247 := by timed congr lean_s235 lean_s246
+have lean_s248 : (Eq yx2413 yx2413) := by timed rfl
+let lean_s249 := by timed congr lean_s235 lean_s248
+have lean_s250 : (Eq yx2415 yx2415) := by timed rfl
+let lean_s251 := by timed congr lean_s235 lean_s250
+have lean_s252 : (Eq yx2417 yx2417) := by timed rfl
+let lean_s253 := by timed congr lean_s235 lean_s252
+have lean_s254 : (Eq yx2419 yx2419) := by timed rfl
+let lean_s255 := by timed congr lean_s235 lean_s254
+have lean_s256 : (Eq yx2421 yx2421) := by timed rfl
+let lean_s257 := by timed congr lean_s235 lean_s256
+have lean_s258 : (Eq yx2423 yx2423) := by timed rfl
+let lean_s259 := by timed congr lean_s235 lean_s258
+have lean_s260 : (Eq yx2425 yx2425) := by timed rfl
+let lean_s261 := by timed congr lean_s235 lean_s260
+have lean_s262 : (Eq yx2427 yx2427) := by timed rfl
+let lean_s263 := by timed congr lean_s235 lean_s262
+have lean_s264 : (Eq yx2429 yx2429) := by timed rfl
+let lean_s265 := by timed congr lean_s235 lean_s264
+have lean_s266 : (Eq yx2431 yx2431) := by timed rfl
+let lean_s267 := by timed congr lean_s235 lean_s266
+have lean_s268 : (Eq yx2433 yx2433) := by timed rfl
+let lean_s269 := by timed congr lean_s235 lean_s268
+have lean_s270 : (Eq yx2435 yx2435) := by timed rfl
+let lean_s271 := by timed congr lean_s235 lean_s270
+have lean_s272 : (Eq yx2437 yx2437) := by timed rfl
+let lean_s273 := by timed congr lean_s235 lean_s272
+have lean_s274 : (Eq yx2439 yx2439) := by timed rfl
+let lean_s275 := by timed congr lean_s235 lean_s274
+have lean_s276 : (Eq yx2441 yx2441) := by timed rfl
+let lean_s277 := by timed congr lean_s235 lean_s276
+have lean_s278 : (Eq yx2443 yx2443) := by timed rfl
+let lean_s279 := by timed congr lean_s235 lean_s278
+have lean_s280 : (Eq yx2445 yx2445) := by timed rfl
+let lean_s281 := by timed congr lean_s235 lean_s280
+have lean_s282 : (Eq yx2447 yx2447) := by timed rfl
+let lean_s283 := by timed congr lean_s235 lean_s282
+have lean_s284 : (Eq yx2449 yx2449) := by timed rfl
+let lean_s285 := by timed congr lean_s235 lean_s284
+have lean_s286 : (Eq yx2451 yx2451) := by timed rfl
+let lean_s287 := by timed congr lean_s235 lean_s286
+have lean_s288 : (Eq yx2453 yx2453) := by timed rfl
+let lean_s289 := by timed congr lean_s235 lean_s288
+have lean_s290 : (Eq yx2455 yx2455) := by timed rfl
+let lean_s291 := by timed congr lean_s235 lean_s290
+have lean_s292 : let218 := by timed rfl
+let lean_s293 := by timed congr lean_s235 lean_s292
+have lean_s294 : let219 := by timed eqResolve lean_a91 lean_s89
+have lean_s295 : let220 := by timed rfl
+let lean_s296 := by timed flipCongrArg lean_s295 [Eq]
+have lean_s297 : (Eq yx242964 yx242964) := by timed rfl
+let lean_s298 := by timed flipCongrArg lean_s297 [Eq]
+have lean_s299 : (Eq yx24id38x5fop yx24id38x5fop) := by timed rfl
+let lean_s300 := by timed flipCongrArg lean_s299 [Eq]
+have lean_s301 : let218 := by timed rfl
+let lean_s302 := by timed flipCongrArg lean_s301 [And]
+let lean_s303 := by timed And.intro lean_a54 lean_a53
+let lean_s304 := by timed And.intro lean_a55 lean_s303
+let lean_s305 := by timed And.intro lean_a56 lean_s304
+let lean_s306 := by timed And.intro lean_a57 lean_s305
+let lean_s307 := by timed And.intro lean_a58 lean_s306
+let lean_s308 := by timed And.intro lean_a59 lean_s307
+let lean_s309 := by timed And.intro lean_a60 lean_s308
+let lean_s310 := by timed And.intro lean_a61 lean_s309
+let lean_s311 := by timed And.intro lean_a62 lean_s310
+let lean_s312 := by timed And.intro lean_a63 lean_s311
+let lean_s313 := by timed And.intro lean_a64 lean_s312
+let lean_s314 := by timed And.intro lean_a65 lean_s313
+let lean_s315 := by timed And.intro lean_a66 lean_s314
+let lean_s316 := by timed And.intro lean_a67 lean_s315
+let lean_s317 := by timed And.intro lean_a68 lean_s316
+let lean_s318 := by timed And.intro lean_a69 lean_s317
+let lean_s319 := by timed And.intro lean_a70 lean_s318
+let lean_s320 := by timed And.intro lean_a71 lean_s319
+let lean_s321 := by timed And.intro lean_a72 lean_s320
+let lean_s322 := by timed And.intro lean_a73 lean_s321
+let lean_s323 := by timed And.intro lean_a74 lean_s322
+let lean_s324 := by timed And.intro lean_a75 lean_s323
+let lean_s325 := by timed And.intro lean_a76 lean_s324
+let lean_s326 := by timed And.intro lean_a77 lean_s325
+let lean_s327 := by timed And.intro lean_a78 lean_s326
+let lean_s328 := by timed And.intro lean_a79 lean_s327
+let lean_s329 := by timed And.intro lean_a80 lean_s328
+let lean_s330 := by timed And.intro lean_a81 lean_s329
+let lean_s331 := by timed And.intro lean_a82 lean_s330
+let lean_s332 := by timed And.intro lean_a83 lean_s331
+let lean_s333 := by timed And.intro lean_a84 lean_s332
+let lean_s334 := by timed And.intro lean_a85 lean_s333
+let lean_s335 := by timed And.intro lean_a86 lean_s334
+let lean_s336 := by timed And.intro lean_a87 lean_s335
+have lean_s337 : let200 := by timed And.intro lean_a88 lean_s336
+have lean_s338 : let169 := by andElim lean_s337, 0
+have lean_s339 : (Eq let170 let201) := by timed congr lean_s302 lean_s338
+have lean_s340 : (Eq let171 let202) := by timed congr lean_s300 lean_s339
+have lean_s341 : let202 := by timed eqResolve lean_a89 lean_s340
+let lean_s342 := by timed And.intro lean_a54 lean_a53
+let lean_s343 := by timed And.intro lean_a55 lean_s342
+let lean_s344 := by timed And.intro lean_a56 lean_s343
+let lean_s345 := by timed And.intro lean_a57 lean_s344
+let lean_s346 := by timed And.intro lean_a58 lean_s345
+let lean_s347 := by timed And.intro lean_a59 lean_s346
+let lean_s348 := by timed And.intro lean_a60 lean_s347
+let lean_s349 := by timed And.intro lean_a61 lean_s348
+let lean_s350 := by timed And.intro lean_a62 lean_s349
+let lean_s351 := by timed And.intro lean_a63 lean_s350
+let lean_s352 := by timed And.intro lean_a64 lean_s351
+let lean_s353 := by timed And.intro lean_a65 lean_s352
+let lean_s354 := by timed And.intro lean_a66 lean_s353
+let lean_s355 := by timed And.intro lean_a67 lean_s354
+let lean_s356 := by timed And.intro lean_a68 lean_s355
+let lean_s357 := by timed And.intro lean_a69 lean_s356
+let lean_s358 := by timed And.intro lean_a70 lean_s357
+let lean_s359 := by timed And.intro lean_a71 lean_s358
+let lean_s360 := by timed And.intro lean_a72 lean_s359
+let lean_s361 := by timed And.intro lean_a73 lean_s360
+let lean_s362 := by timed And.intro lean_a74 lean_s361
+let lean_s363 := by timed And.intro lean_a75 lean_s362
+let lean_s364 := by timed And.intro lean_a76 lean_s363
+let lean_s365 := by timed And.intro lean_a77 lean_s364
+let lean_s366 := by timed And.intro lean_a78 lean_s365
+let lean_s367 := by timed And.intro lean_a79 lean_s366
+let lean_s368 := by timed And.intro lean_a80 lean_s367
+let lean_s369 := by timed And.intro lean_a81 lean_s368
+let lean_s370 := by timed And.intro lean_a82 lean_s369
+let lean_s371 := by timed And.intro lean_a83 lean_s370
+let lean_s372 := by timed And.intro lean_a84 lean_s371
+let lean_s373 := by timed And.intro lean_a85 lean_s372
+let lean_s374 := by timed And.intro lean_a86 lean_s373
+let lean_s375 := by timed And.intro lean_a87 lean_s374
+let lean_s376 := by timed And.intro lean_a88 lean_s375
+have lean_s377 : let203 := by timed And.intro lean_s341 lean_s376
+have lean_s378 : let167 := by andElim lean_s377, 2
+have lean_s379 : (Eq let73 let204) := by timed congr lean_s298 lean_s378
+have lean_s380 : (Eq let219 let205) := by timed congr lean_s296 lean_s379
+have lean_s381 : let205 := by timed eqResolve lean_s294 lean_s380
+let lean_s382 := by timed And.intro lean_a54 lean_a53
+let lean_s383 := by timed And.intro lean_a55 lean_s382
+let lean_s384 := by timed And.intro lean_a56 lean_s383
+let lean_s385 := by timed And.intro lean_a57 lean_s384
+let lean_s386 := by timed And.intro lean_a58 lean_s385
+let lean_s387 := by timed And.intro lean_a59 lean_s386
+let lean_s388 := by timed And.intro lean_a60 lean_s387
+let lean_s389 := by timed And.intro lean_a61 lean_s388
+let lean_s390 := by timed And.intro lean_a62 lean_s389
+let lean_s391 := by timed And.intro lean_a63 lean_s390
+let lean_s392 := by timed And.intro lean_a64 lean_s391
+let lean_s393 := by timed And.intro lean_a65 lean_s392
+let lean_s394 := by timed And.intro lean_a66 lean_s393
+let lean_s395 := by timed And.intro lean_a67 lean_s394
+let lean_s396 := by timed And.intro lean_a68 lean_s395
+let lean_s397 := by timed And.intro lean_a69 lean_s396
+let lean_s398 := by timed And.intro lean_a70 lean_s397
+let lean_s399 := by timed And.intro lean_a71 lean_s398
+let lean_s400 := by timed And.intro lean_a72 lean_s399
+let lean_s401 := by timed And.intro lean_a73 lean_s400
+let lean_s402 := by timed And.intro lean_a74 lean_s401
+let lean_s403 := by timed And.intro lean_a75 lean_s402
+let lean_s404 := by timed And.intro lean_a76 lean_s403
+let lean_s405 := by timed And.intro lean_a77 lean_s404
+let lean_s406 := by timed And.intro lean_a78 lean_s405
+let lean_s407 := by timed And.intro lean_a79 lean_s406
+let lean_s408 := by timed And.intro lean_a80 lean_s407
+let lean_s409 := by timed And.intro lean_a81 lean_s408
+let lean_s410 := by timed And.intro lean_a82 lean_s409
+let lean_s411 := by timed And.intro lean_a83 lean_s410
+let lean_s412 := by timed And.intro lean_a84 lean_s411
+let lean_s413 := by timed And.intro lean_a85 lean_s412
+let lean_s414 := by timed And.intro lean_a86 lean_s413
+let lean_s415 := by timed And.intro lean_a87 lean_s414
+let lean_s416 := by timed And.intro lean_a88 lean_s415
+let lean_s417 := by timed And.intro lean_s341 lean_s416
+have lean_s418 : let206 := by timed And.intro lean_s381 lean_s417
+have lean_s419 : let157 := by andElim lean_s418, 8
+let lean_s420 := by timed congr lean_s235 lean_s419
+have lean_s421 : let159 := by andElim lean_s418, 7
+let lean_s422 := by timed congr lean_s235 lean_s421
+have lean_s423 : let161 := by andElim lean_s418, 6
+let lean_s424 := by timed congr lean_s235 lean_s423
+have lean_s425 : let163 := by andElim lean_s418, 5
+let lean_s426 := by timed congr lean_s235 lean_s425
+have lean_s427 : let165 := by andElim lean_s418, 4
+let lean_s428 := by timed congr lean_s235 lean_s427
+have lean_s429 : (Eq yx243033 yx243033) := by timed rfl
+let lean_s430 := by timed congr lean_s235 lean_s429
+have lean_s431 : let205 := by andElim lean_s418, 0
+let lean_s432 := by timed congr lean_s430 lean_s431
+let lean_s433 := by timed congr lean_s428 lean_s432
+let lean_s434 := by timed congr lean_s426 lean_s433
+let lean_s435 := by timed congr lean_s424 lean_s434
+let lean_s436 := by timed congr lean_s422 lean_s435
+let lean_s437 := by timed congr lean_s420 lean_s436
+let lean_s438 := by timed congr lean_s293 lean_s437
+let lean_s439 := by timed congr lean_s291 lean_s438
+let lean_s440 := by timed congr lean_s289 lean_s439
+let lean_s441 := by timed congr lean_s287 lean_s440
+let lean_s442 := by timed congr lean_s285 lean_s441
+let lean_s443 := by timed congr lean_s283 lean_s442
+let lean_s444 := by timed congr lean_s281 lean_s443
+let lean_s445 := by timed congr lean_s279 lean_s444
+let lean_s446 := by timed congr lean_s277 lean_s445
+let lean_s447 := by timed congr lean_s275 lean_s446
+let lean_s448 := by timed congr lean_s273 lean_s447
+let lean_s449 := by timed congr lean_s271 lean_s448
+let lean_s450 := by timed congr lean_s269 lean_s449
+let lean_s451 := by timed congr lean_s267 lean_s450
+let lean_s452 := by timed congr lean_s265 lean_s451
+let lean_s453 := by timed congr lean_s263 lean_s452
+let lean_s454 := by timed congr lean_s261 lean_s453
+let lean_s455 := by timed congr lean_s259 lean_s454
+let lean_s456 := by timed congr lean_s257 lean_s455
+let lean_s457 := by timed congr lean_s255 lean_s456
+let lean_s458 := by timed congr lean_s253 lean_s457
+let lean_s459 := by timed congr lean_s251 lean_s458
+let lean_s460 := by timed congr lean_s249 lean_s459
+let lean_s461 := by timed congr lean_s247 lean_s460
+let lean_s462 := by timed congr lean_s245 lean_s461
+let lean_s463 := by timed congr lean_s243 lean_s462
+let lean_s464 := by timed congr lean_s241 lean_s463
+let lean_s465 := by timed congr lean_s239 lean_s464
+have lean_s466 : (Eq let173 let207) := by timed congr lean_s237 lean_s465
+have lean_s467 : (Eq let174 let208) := by timed congr lean_s234 lean_s466
+have lean_s468 : let208 := by timed eqResolve lean_a92 lean_s467
+let lean_s469 := by timed And.intro lean_a54 lean_a53
+let lean_s470 := by timed And.intro lean_a55 lean_s469
+let lean_s471 := by timed And.intro lean_a56 lean_s470
+let lean_s472 := by timed And.intro lean_a57 lean_s471
+let lean_s473 := by timed And.intro lean_a58 lean_s472
+let lean_s474 := by timed And.intro lean_a59 lean_s473
+let lean_s475 := by timed And.intro lean_a60 lean_s474
+let lean_s476 := by timed And.intro lean_a61 lean_s475
+let lean_s477 := by timed And.intro lean_a62 lean_s476
+let lean_s478 := by timed And.intro lean_a63 lean_s477
+let lean_s479 := by timed And.intro lean_a64 lean_s478
+let lean_s480 := by timed And.intro lean_a65 lean_s479
+let lean_s481 := by timed And.intro lean_a66 lean_s480
+let lean_s482 := by timed And.intro lean_a67 lean_s481
+let lean_s483 := by timed And.intro lean_a68 lean_s482
+let lean_s484 := by timed And.intro lean_a69 lean_s483
+let lean_s485 := by timed And.intro lean_a70 lean_s484
+let lean_s486 := by timed And.intro lean_a71 lean_s485
+let lean_s487 := by timed And.intro lean_a72 lean_s486
+let lean_s488 := by timed And.intro lean_a73 lean_s487
+let lean_s489 := by timed And.intro lean_a74 lean_s488
+let lean_s490 := by timed And.intro lean_a75 lean_s489
+let lean_s491 := by timed And.intro lean_a76 lean_s490
+let lean_s492 := by timed And.intro lean_a77 lean_s491
+let lean_s493 := by timed And.intro lean_a78 lean_s492
+let lean_s494 := by timed And.intro lean_a79 lean_s493
+let lean_s495 := by timed And.intro lean_a80 lean_s494
+let lean_s496 := by timed And.intro lean_a81 lean_s495
+let lean_s497 := by timed And.intro lean_a82 lean_s496
+let lean_s498 := by timed And.intro lean_a83 lean_s497
+let lean_s499 := by timed And.intro lean_a84 lean_s498
+let lean_s500 := by timed And.intro lean_a85 lean_s499
+let lean_s501 := by timed And.intro lean_a86 lean_s500
+let lean_s502 := by timed And.intro lean_a87 lean_s501
+let lean_s503 := by timed And.intro lean_a88 lean_s502
+let lean_s504 := by timed And.intro lean_s341 lean_s503
+let lean_s505 := by timed And.intro lean_s381 lean_s504
+let lean_s506 := by timed And.intro lean_s468 lean_s505
+let lean_s507 := by timed And.intro lean_s232 lean_s506
+let lean_s508 := by timed And.intro lean_s228 lean_s507
+let lean_s509 := by timed And.intro lean_s224 lean_s508
+let lean_s510 := by timed And.intro lean_s220 lean_s509
+let lean_s511 := by timed And.intro lean_s216 lean_s510
+let lean_s512 := by timed And.intro lean_s212 lean_s511
+let lean_s513 := by timed And.intro lean_s208 lean_s512
+let lean_s514 := by timed And.intro lean_s204 lean_s513
+let lean_s515 := by timed And.intro lean_s200 lean_s514
+let lean_s516 := by timed And.intro lean_s196 lean_s515
+let lean_s517 := by timed And.intro lean_s192 lean_s516
+let lean_s518 := by timed And.intro lean_s188 lean_s517
+let lean_s519 := by timed And.intro lean_s184 lean_s518
+let lean_s520 := by timed And.intro lean_s180 lean_s519
+let lean_s521 := by timed And.intro lean_s176 lean_s520
+let lean_s522 := by timed And.intro lean_s172 lean_s521
+let lean_s523 := by timed And.intro lean_s168 lean_s522
+let lean_s524 := by timed And.intro lean_s164 lean_s523
+let lean_s525 := by timed And.intro lean_s160 lean_s524
+let lean_s526 := by timed And.intro lean_s156 lean_s525
+let lean_s527 := by timed And.intro lean_s152 lean_s526
+let lean_s528 := by timed And.intro lean_s148 lean_s527
+let lean_s529 := by timed And.intro lean_s144 lean_s528
+let lean_s530 := by timed And.intro lean_s140 lean_s529
+let lean_s531 := by timed And.intro lean_s136 lean_s530
+let lean_s532 := by timed And.intro lean_s132 lean_s531
+let lean_s533 := by timed And.intro lean_s128 lean_s532
+let lean_s534 := by timed And.intro lean_s124 lean_s533
+let lean_s535 := by timed And.intro lean_s120 lean_s534
+have lean_s536 : let209 := by timed And.intro lean_s116 lean_s535
+have lean_s537 : let159 := by andElim lean_s536, 38
+have lean_s538 : let156 := by andElim lean_s536, 0
+let lean_s539 := by timed flipCongrArg lean_s538 [Eq]
+have lean_s540 : (Eq yx24vx5ftime1 yx24vx5ftime1) := by timed rfl
+have lean_s541 : (Eq let158 let210) := by timed congr lean_s539 lean_s540
+have lean_s542 : (Eq yx2462 let210) := by timed Eq.trans lean_s537 lean_s541
+have lean_s543 : let210 := by timed eqResolve lean_s113 lean_s542
+let lean_s544 := by timed And.intro lean_a54 lean_a53
+let lean_s545 := by timed And.intro lean_a55 lean_s544
+let lean_s546 := by timed And.intro lean_a56 lean_s545
+let lean_s547 := by timed And.intro lean_a57 lean_s546
+let lean_s548 := by timed And.intro lean_a58 lean_s547
+let lean_s549 := by timed And.intro lean_a59 lean_s548
+let lean_s550 := by timed And.intro lean_a60 lean_s549
+let lean_s551 := by timed And.intro lean_a61 lean_s550
+let lean_s552 := by timed And.intro lean_a62 lean_s551
+let lean_s553 := by timed And.intro lean_a63 lean_s552
+let lean_s554 := by timed And.intro lean_a64 lean_s553
+let lean_s555 := by timed And.intro lean_a65 lean_s554
+let lean_s556 := by timed And.intro lean_a66 lean_s555
+let lean_s557 := by timed And.intro lean_a67 lean_s556
+let lean_s558 := by timed And.intro lean_a68 lean_s557
+let lean_s559 := by timed And.intro lean_a69 lean_s558
+let lean_s560 := by timed And.intro lean_a70 lean_s559
+let lean_s561 := by timed And.intro lean_a71 lean_s560
+let lean_s562 := by timed And.intro lean_a72 lean_s561
+let lean_s563 := by timed And.intro lean_a73 lean_s562
+let lean_s564 := by timed And.intro lean_a74 lean_s563
+let lean_s565 := by timed And.intro lean_a75 lean_s564
+let lean_s566 := by timed And.intro lean_a76 lean_s565
+let lean_s567 := by timed And.intro lean_a77 lean_s566
+let lean_s568 := by timed And.intro lean_a78 lean_s567
+let lean_s569 := by timed And.intro lean_a79 lean_s568
+let lean_s570 := by timed And.intro lean_a80 lean_s569
+let lean_s571 := by timed And.intro lean_a81 lean_s570
+let lean_s572 := by timed And.intro lean_a82 lean_s571
+let lean_s573 := by timed And.intro lean_a83 lean_s572
+let lean_s574 := by timed And.intro lean_a84 lean_s573
+let lean_s575 := by timed And.intro lean_a85 lean_s574
+let lean_s576 := by timed And.intro lean_a86 lean_s575
+let lean_s577 := by timed And.intro lean_a87 lean_s576
+let lean_s578 := by timed And.intro lean_a88 lean_s577
+let lean_s579 := by timed And.intro lean_s341 lean_s578
+let lean_s580 := by timed And.intro lean_s381 lean_s579
+let lean_s581 := by timed And.intro lean_s468 lean_s580
+let lean_s582 := by timed And.intro lean_s232 lean_s581
+let lean_s583 := by timed And.intro lean_s228 lean_s582
+let lean_s584 := by timed And.intro lean_s224 lean_s583
+let lean_s585 := by timed And.intro lean_s220 lean_s584
+let lean_s586 := by timed And.intro lean_s216 lean_s585
+let lean_s587 := by timed And.intro lean_s212 lean_s586
+let lean_s588 := by timed And.intro lean_s208 lean_s587
+let lean_s589 := by timed And.intro lean_s204 lean_s588
+let lean_s590 := by timed And.intro lean_s200 lean_s589
+let lean_s591 := by timed And.intro lean_s196 lean_s590
+let lean_s592 := by timed And.intro lean_s192 lean_s591
+let lean_s593 := by timed And.intro lean_s188 lean_s592
+let lean_s594 := by timed And.intro lean_s184 lean_s593
+let lean_s595 := by timed And.intro lean_s180 lean_s594
+let lean_s596 := by timed And.intro lean_s176 lean_s595
+let lean_s597 := by timed And.intro lean_s172 lean_s596
+let lean_s598 := by timed And.intro lean_s168 lean_s597
+let lean_s599 := by timed And.intro lean_s164 lean_s598
+let lean_s600 := by timed And.intro lean_s160 lean_s599
+let lean_s601 := by timed And.intro lean_s156 lean_s600
+let lean_s602 := by timed And.intro lean_s152 lean_s601
+let lean_s603 := by timed And.intro lean_s148 lean_s602
+let lean_s604 := by timed And.intro lean_s144 lean_s603
+let lean_s605 := by timed And.intro lean_s140 lean_s604
+let lean_s606 := by timed And.intro lean_s136 lean_s605
+let lean_s607 := by timed And.intro lean_s132 lean_s606
+let lean_s608 := by timed And.intro lean_s128 lean_s607
+let lean_s609 := by timed And.intro lean_s124 lean_s608
+let lean_s610 := by timed And.intro lean_s120 lean_s609
+let lean_s611 := by timed And.intro lean_s116 lean_s610
+have lean_s612 : let211 := by timed And.intro lean_s543 lean_s611
+have lean_s613 : let161 := by andElim lean_s612, 38
+have lean_s614 : let156 := by andElim lean_s612, 1
+have lean_s615 : let210 := by andElim lean_s612, 0
+have lean_s616 : let158 := by timed Eq.trans lean_s614 lean_s615
+let lean_s617 := by timed flipCongrArg lean_s616 [Eq]
+have lean_s618 : (Eq yx24vx5ftime2 yx24vx5ftime2) := by timed rfl
+have lean_s619 : (Eq let160 let212) := by timed congr lean_s617 lean_s618
+have lean_s620 : (Eq yx2464 let212) := by timed Eq.trans lean_s613 lean_s619
+have lean_s621 : let212 := by timed eqResolve lean_s111 lean_s620
+let lean_s622 := by timed And.intro lean_a54 lean_a53
+let lean_s623 := by timed And.intro lean_a55 lean_s622
+let lean_s624 := by timed And.intro lean_a56 lean_s623
+let lean_s625 := by timed And.intro lean_a57 lean_s624
+let lean_s626 := by timed And.intro lean_a58 lean_s625
+let lean_s627 := by timed And.intro lean_a59 lean_s626
+let lean_s628 := by timed And.intro lean_a60 lean_s627
+let lean_s629 := by timed And.intro lean_a61 lean_s628
+let lean_s630 := by timed And.intro lean_a62 lean_s629
+let lean_s631 := by timed And.intro lean_a63 lean_s630
+let lean_s632 := by timed And.intro lean_a64 lean_s631
+let lean_s633 := by timed And.intro lean_a65 lean_s632
+let lean_s634 := by timed And.intro lean_a66 lean_s633
+let lean_s635 := by timed And.intro lean_a67 lean_s634
+let lean_s636 := by timed And.intro lean_a68 lean_s635
+let lean_s637 := by timed And.intro lean_a69 lean_s636
+let lean_s638 := by timed And.intro lean_a70 lean_s637
+let lean_s639 := by timed And.intro lean_a71 lean_s638
+let lean_s640 := by timed And.intro lean_a72 lean_s639
+let lean_s641 := by timed And.intro lean_a73 lean_s640
+let lean_s642 := by timed And.intro lean_a74 lean_s641
+let lean_s643 := by timed And.intro lean_a75 lean_s642
+let lean_s644 := by timed And.intro lean_a76 lean_s643
+let lean_s645 := by timed And.intro lean_a77 lean_s644
+let lean_s646 := by timed And.intro lean_a78 lean_s645
+let lean_s647 := by timed And.intro lean_a79 lean_s646
+let lean_s648 := by timed And.intro lean_a80 lean_s647
+let lean_s649 := by timed And.intro lean_a81 lean_s648
+let lean_s650 := by timed And.intro lean_a82 lean_s649
+let lean_s651 := by timed And.intro lean_a83 lean_s650
+let lean_s652 := by timed And.intro lean_a84 lean_s651
+let lean_s653 := by timed And.intro lean_a85 lean_s652
+let lean_s654 := by timed And.intro lean_a86 lean_s653
+let lean_s655 := by timed And.intro lean_a87 lean_s654
+let lean_s656 := by timed And.intro lean_a88 lean_s655
+let lean_s657 := by timed And.intro lean_s341 lean_s656
+let lean_s658 := by timed And.intro lean_s381 lean_s657
+let lean_s659 := by timed And.intro lean_s468 lean_s658
+let lean_s660 := by timed And.intro lean_s232 lean_s659
+let lean_s661 := by timed And.intro lean_s228 lean_s660
+let lean_s662 := by timed And.intro lean_s224 lean_s661
+let lean_s663 := by timed And.intro lean_s220 lean_s662
+let lean_s664 := by timed And.intro lean_s216 lean_s663
+let lean_s665 := by timed And.intro lean_s212 lean_s664
+let lean_s666 := by timed And.intro lean_s208 lean_s665
+let lean_s667 := by timed And.intro lean_s204 lean_s666
+let lean_s668 := by timed And.intro lean_s200 lean_s667
+let lean_s669 := by timed And.intro lean_s196 lean_s668
+let lean_s670 := by timed And.intro lean_s192 lean_s669
+let lean_s671 := by timed And.intro lean_s188 lean_s670
+let lean_s672 := by timed And.intro lean_s184 lean_s671
+let lean_s673 := by timed And.intro lean_s180 lean_s672
+let lean_s674 := by timed And.intro lean_s176 lean_s673
+let lean_s675 := by timed And.intro lean_s172 lean_s674
+let lean_s676 := by timed And.intro lean_s168 lean_s675
+let lean_s677 := by timed And.intro lean_s164 lean_s676
+let lean_s678 := by timed And.intro lean_s160 lean_s677
+let lean_s679 := by timed And.intro lean_s156 lean_s678
+let lean_s680 := by timed And.intro lean_s152 lean_s679
+let lean_s681 := by timed And.intro lean_s148 lean_s680
+let lean_s682 := by timed And.intro lean_s144 lean_s681
+let lean_s683 := by timed And.intro lean_s140 lean_s682
+let lean_s684 := by timed And.intro lean_s136 lean_s683
+let lean_s685 := by timed And.intro lean_s132 lean_s684
+let lean_s686 := by timed And.intro lean_s128 lean_s685
+let lean_s687 := by timed And.intro lean_s124 lean_s686
+let lean_s688 := by timed And.intro lean_s120 lean_s687
+let lean_s689 := by timed And.intro lean_s116 lean_s688
+let lean_s690 := by timed And.intro lean_s543 lean_s689
+have lean_s691 : let213 := by timed And.intro lean_s621 lean_s690
+have lean_s692 : let163 := by andElim lean_s691, 38
+have lean_s693 : let156 := by andElim lean_s691, 2
+have lean_s694 : let210 := by andElim lean_s691, 1
+have lean_s695 : let212 := by andElim lean_s691, 0
+have lean_s696 : (Eq yx24vx5fonx5fright yx24vx5ftime2) := by timed Eq.trans lean_s694 lean_s695
+have lean_s697 : let160 := by timed Eq.trans lean_s693 lean_s696
+let lean_s698 := by timed flipCongrArg lean_s697 [Eq]
+have lean_s699 : (Eq yx24vx5ftotalx5ftime yx24vx5ftotalx5ftime) := by timed rfl
+have lean_s700 : (Eq let162 let214) := by timed congr lean_s698 lean_s699
+have lean_s701 : (Eq yx2466 let214) := by timed Eq.trans lean_s692 lean_s700
+have lean_s702 : let214 := by timed eqResolve lean_s109 lean_s701
+let lean_s703 := by timed And.intro lean_a54 lean_a53
+let lean_s704 := by timed And.intro lean_a55 lean_s703
+let lean_s705 := by timed And.intro lean_a56 lean_s704
+let lean_s706 := by timed And.intro lean_a57 lean_s705
+let lean_s707 := by timed And.intro lean_a58 lean_s706
+let lean_s708 := by timed And.intro lean_a59 lean_s707
+let lean_s709 := by timed And.intro lean_a60 lean_s708
+let lean_s710 := by timed And.intro lean_a61 lean_s709
+let lean_s711 := by timed And.intro lean_a62 lean_s710
+let lean_s712 := by timed And.intro lean_a63 lean_s711
+let lean_s713 := by timed And.intro lean_a64 lean_s712
+let lean_s714 := by timed And.intro lean_a65 lean_s713
+let lean_s715 := by timed And.intro lean_a66 lean_s714
+let lean_s716 := by timed And.intro lean_a67 lean_s715
+let lean_s717 := by timed And.intro lean_a68 lean_s716
+let lean_s718 := by timed And.intro lean_a69 lean_s717
+let lean_s719 := by timed And.intro lean_a70 lean_s718
+let lean_s720 := by timed And.intro lean_a71 lean_s719
+let lean_s721 := by timed And.intro lean_a72 lean_s720
+let lean_s722 := by timed And.intro lean_a73 lean_s721
+let lean_s723 := by timed And.intro lean_a74 lean_s722
+let lean_s724 := by timed And.intro lean_a75 lean_s723
+let lean_s725 := by timed And.intro lean_a76 lean_s724
+let lean_s726 := by timed And.intro lean_a77 lean_s725
+let lean_s727 := by timed And.intro lean_a78 lean_s726
+let lean_s728 := by timed And.intro lean_a79 lean_s727
+let lean_s729 := by timed And.intro lean_a80 lean_s728
+let lean_s730 := by timed And.intro lean_a81 lean_s729
+let lean_s731 := by timed And.intro lean_a82 lean_s730
+let lean_s732 := by timed And.intro lean_a83 lean_s731
+let lean_s733 := by timed And.intro lean_a84 lean_s732
+let lean_s734 := by timed And.intro lean_a85 lean_s733
+let lean_s735 := by timed And.intro lean_a86 lean_s734
+let lean_s736 := by timed And.intro lean_a87 lean_s735
+let lean_s737 := by timed And.intro lean_a88 lean_s736
+let lean_s738 := by timed And.intro lean_s341 lean_s737
+let lean_s739 := by timed And.intro lean_s381 lean_s738
+let lean_s740 := by timed And.intro lean_s468 lean_s739
+let lean_s741 := by timed And.intro lean_s232 lean_s740
+let lean_s742 := by timed And.intro lean_s228 lean_s741
+let lean_s743 := by timed And.intro lean_s224 lean_s742
+let lean_s744 := by timed And.intro lean_s220 lean_s743
+let lean_s745 := by timed And.intro lean_s216 lean_s744
+let lean_s746 := by timed And.intro lean_s212 lean_s745
+let lean_s747 := by timed And.intro lean_s208 lean_s746
+let lean_s748 := by timed And.intro lean_s204 lean_s747
+let lean_s749 := by timed And.intro lean_s200 lean_s748
+let lean_s750 := by timed And.intro lean_s196 lean_s749
+let lean_s751 := by timed And.intro lean_s192 lean_s750
+let lean_s752 := by timed And.intro lean_s188 lean_s751
+let lean_s753 := by timed And.intro lean_s184 lean_s752
+let lean_s754 := by timed And.intro lean_s180 lean_s753
+let lean_s755 := by timed And.intro lean_s176 lean_s754
+let lean_s756 := by timed And.intro lean_s172 lean_s755
+let lean_s757 := by timed And.intro lean_s168 lean_s756
+let lean_s758 := by timed And.intro lean_s164 lean_s757
+let lean_s759 := by timed And.intro lean_s160 lean_s758
+let lean_s760 := by timed And.intro lean_s156 lean_s759
+let lean_s761 := by timed And.intro lean_s152 lean_s760
+let lean_s762 := by timed And.intro lean_s148 lean_s761
+let lean_s763 := by timed And.intro lean_s144 lean_s762
+let lean_s764 := by timed And.intro lean_s140 lean_s763
+let lean_s765 := by timed And.intro lean_s136 lean_s764
+let lean_s766 := by timed And.intro lean_s132 lean_s765
+let lean_s767 := by timed And.intro lean_s128 lean_s766
+let lean_s768 := by timed And.intro lean_s124 lean_s767
+let lean_s769 := by timed And.intro lean_s120 lean_s768
+let lean_s770 := by timed And.intro lean_s116 lean_s769
+let lean_s771 := by timed And.intro lean_s543 lean_s770
+let lean_s772 := by timed And.intro lean_s621 lean_s771
+have lean_s773 : let215 := by timed And.intro lean_s702 lean_s772
+have lean_s774 : let165 := by andElim lean_s773, 38
+have lean_s775 : let156 := by andElim lean_s773, 3
+have lean_s776 : let210 := by andElim lean_s773, 2
+have lean_s777 : let212 := by andElim lean_s773, 1
+have lean_s778 : let214 := by andElim lean_s773, 0
+have lean_s779 : (Eq yx24vx5ftime1 yx24vx5ftotalx5ftime) := by timed Eq.trans lean_s777 lean_s778
+have lean_s780 : (Eq yx24vx5fonx5fright yx24vx5ftotalx5ftime) := by timed Eq.trans lean_s776 lean_s779
+have lean_s781 : let162 := by timed Eq.trans lean_s775 lean_s780
+let lean_s782 := by timed flipCongrArg lean_s781 [Eq]
+have lean_s783 : let92 := by timed rfl
+have lean_s784 : (Eq let164 let216) := by timed congr lean_s782 lean_s783
+have lean_s785 : (Eq yx2468 let216) := by timed Eq.trans lean_s774 lean_s784
+have lean_s786 : let216 := by timed eqResolve lean_s107 lean_s785
+let lean_s787 := by timed And.intro lean_a54 lean_a53
+let lean_s788 := by timed And.intro lean_a55 lean_s787
+let lean_s789 := by timed And.intro lean_a56 lean_s788
+let lean_s790 := by timed And.intro lean_a57 lean_s789
+let lean_s791 := by timed And.intro lean_a58 lean_s790
+let lean_s792 := by timed And.intro lean_a59 lean_s791
+let lean_s793 := by timed And.intro lean_a60 lean_s792
+let lean_s794 := by timed And.intro lean_a61 lean_s793
+let lean_s795 := by timed And.intro lean_a62 lean_s794
+let lean_s796 := by timed And.intro lean_a63 lean_s795
+let lean_s797 := by timed And.intro lean_a64 lean_s796
+let lean_s798 := by timed And.intro lean_a65 lean_s797
+let lean_s799 := by timed And.intro lean_a66 lean_s798
+let lean_s800 := by timed And.intro lean_a67 lean_s799
+let lean_s801 := by timed And.intro lean_a68 lean_s800
+let lean_s802 := by timed And.intro lean_a69 lean_s801
+let lean_s803 := by timed And.intro lean_a70 lean_s802
+let lean_s804 := by timed And.intro lean_a71 lean_s803
+let lean_s805 := by timed And.intro lean_a72 lean_s804
+let lean_s806 := by timed And.intro lean_a73 lean_s805
+let lean_s807 := by timed And.intro lean_a74 lean_s806
+let lean_s808 := by timed And.intro lean_a75 lean_s807
+let lean_s809 := by timed And.intro lean_a76 lean_s808
+let lean_s810 := by timed And.intro lean_a77 lean_s809
+let lean_s811 := by timed And.intro lean_a78 lean_s810
+let lean_s812 := by timed And.intro lean_a79 lean_s811
+let lean_s813 := by timed And.intro lean_a80 lean_s812
+let lean_s814 := by timed And.intro lean_a81 lean_s813
+let lean_s815 := by timed And.intro lean_a82 lean_s814
+let lean_s816 := by timed And.intro lean_a83 lean_s815
+let lean_s817 := by timed And.intro lean_a84 lean_s816
+let lean_s818 := by timed And.intro lean_a85 lean_s817
+let lean_s819 := by timed And.intro lean_a86 lean_s818
+let lean_s820 := by timed And.intro lean_a87 lean_s819
+let lean_s821 := by timed And.intro lean_a88 lean_s820
+let lean_s822 := by timed And.intro lean_s341 lean_s821
+let lean_s823 := by timed And.intro lean_s381 lean_s822
+let lean_s824 := by timed And.intro lean_s468 lean_s823
+let lean_s825 := by timed And.intro lean_s232 lean_s824
+let lean_s826 := by timed And.intro lean_s228 lean_s825
+let lean_s827 := by timed And.intro lean_s224 lean_s826
+let lean_s828 := by timed And.intro lean_s220 lean_s827
+let lean_s829 := by timed And.intro lean_s216 lean_s828
+let lean_s830 := by timed And.intro lean_s212 lean_s829
+let lean_s831 := by timed And.intro lean_s208 lean_s830
+let lean_s832 := by timed And.intro lean_s204 lean_s831
+let lean_s833 := by timed And.intro lean_s200 lean_s832
+let lean_s834 := by timed And.intro lean_s196 lean_s833
+let lean_s835 := by timed And.intro lean_s192 lean_s834
+let lean_s836 := by timed And.intro lean_s188 lean_s835
+let lean_s837 := by timed And.intro lean_s184 lean_s836
+let lean_s838 := by timed And.intro lean_s180 lean_s837
+let lean_s839 := by timed And.intro lean_s176 lean_s838
+let lean_s840 := by timed And.intro lean_s172 lean_s839
+let lean_s841 := by timed And.intro lean_s168 lean_s840
+let lean_s842 := by timed And.intro lean_s164 lean_s841
+let lean_s843 := by timed And.intro lean_s160 lean_s842
+let lean_s844 := by timed And.intro lean_s156 lean_s843
+let lean_s845 := by timed And.intro lean_s152 lean_s844
+let lean_s846 := by timed And.intro lean_s148 lean_s845
+let lean_s847 := by timed And.intro lean_s144 lean_s846
+let lean_s848 := by timed And.intro lean_s140 lean_s847
+let lean_s849 := by timed And.intro lean_s136 lean_s848
+let lean_s850 := by timed And.intro lean_s132 lean_s849
+let lean_s851 := by timed And.intro lean_s128 lean_s850
+let lean_s852 := by timed And.intro lean_s124 lean_s851
+let lean_s853 := by timed And.intro lean_s120 lean_s852
+let lean_s854 := by timed And.intro lean_s116 lean_s853
+let lean_s855 := by timed And.intro lean_s543 lean_s854
+let lean_s856 := by timed And.intro lean_s621 lean_s855
+let lean_s857 := by timed And.intro lean_s702 lean_s856
+let lean_s858 := by timed And.intro lean_s786 lean_s857
+let lean_s859 := by timed And.intro lean_s105 lean_s858
+have lean_s860 : let217 := by timed And.intro lean_s102 lean_s859
+have lean_s861 : let202 := by andElim lean_s860, 38
+have lean_s862 : let61 := by andElim lean_s860, 7
+let lean_s863 := by timed flipCongrArg lean_s862 [And]
+have lean_s864 : (Eq yx24n6s8 yx24n6s8) := by timed rfl
+let lean_s865 := by timed flipCongrArg lean_s864 [Eq]
+have lean_s866 : let210 := by andElim lean_s860, 5
+have lean_s867 : let212 := by andElim lean_s860, 4
+have lean_s868 : let214 := by andElim lean_s860, 3
+have lean_s869 : let216 := by andElim lean_s860, 2
+have lean_s870 : let224 := by timed Eq.trans lean_s868 lean_s869
+have lean_s871 : let223 := by timed Eq.trans lean_s867 lean_s870
+have lean_s872 : let222 := by timed Eq.trans lean_s866 lean_s871
+have lean_s873 : (Eq let168 let56) := by timed congr lean_s865 lean_s872
+have lean_s874 : (Eq let201 let57) := by timed congr lean_s863 lean_s873
+have lean_s875 : (Eq yx24id38x5fop let57) := by timed Eq.trans lean_s861 lean_s874
+have lean_s876 : (Eq yx24id38x5fop let56) := by timed Eq.trans lean_s875 lean_r4
+have lean_s877 : let56 := by timed eqResolve lean_s99 lean_s876
+let lean_s878 := by timed And.intro lean_a54 lean_a53
+let lean_s879 := by timed And.intro lean_a55 lean_s878
+let lean_s880 := by timed And.intro lean_a56 lean_s879
+let lean_s881 := by timed And.intro lean_a57 lean_s880
+let lean_s882 := by timed And.intro lean_a58 lean_s881
+let lean_s883 := by timed And.intro lean_a59 lean_s882
+let lean_s884 := by timed And.intro lean_a60 lean_s883
+let lean_s885 := by timed And.intro lean_a61 lean_s884
+let lean_s886 := by timed And.intro lean_a62 lean_s885
+let lean_s887 := by timed And.intro lean_a63 lean_s886
+let lean_s888 := by timed And.intro lean_a64 lean_s887
+let lean_s889 := by timed And.intro lean_a65 lean_s888
+let lean_s890 := by timed And.intro lean_a66 lean_s889
+let lean_s891 := by timed And.intro lean_a67 lean_s890
+let lean_s892 := by timed And.intro lean_a68 lean_s891
+let lean_s893 := by timed And.intro lean_a69 lean_s892
+let lean_s894 := by timed And.intro lean_a70 lean_s893
+let lean_s895 := by timed And.intro lean_a71 lean_s894
+let lean_s896 := by timed And.intro lean_a72 lean_s895
+let lean_s897 := by timed And.intro lean_a73 lean_s896
+let lean_s898 := by timed And.intro lean_a74 lean_s897
+let lean_s899 := by timed And.intro lean_a75 lean_s898
+let lean_s900 := by timed And.intro lean_a76 lean_s899
+let lean_s901 := by timed And.intro lean_a77 lean_s900
+let lean_s902 := by timed And.intro lean_a78 lean_s901
+let lean_s903 := by timed And.intro lean_a79 lean_s902
+let lean_s904 := by timed And.intro lean_a80 lean_s903
+let lean_s905 := by timed And.intro lean_a81 lean_s904
+let lean_s906 := by timed And.intro lean_a82 lean_s905
+let lean_s907 := by timed And.intro lean_a83 lean_s906
+let lean_s908 := by timed And.intro lean_a84 lean_s907
+let lean_s909 := by timed And.intro lean_a85 lean_s908
+let lean_s910 := by timed And.intro lean_a86 lean_s909
+let lean_s911 := by timed And.intro lean_a87 lean_s910
+let lean_s912 := by timed And.intro lean_a88 lean_s911
+let lean_s913 := by timed And.intro lean_s341 lean_s912
+let lean_s914 := by timed And.intro lean_s381 lean_s913
+let lean_s915 := by timed And.intro lean_s468 lean_s914
+let lean_s916 := by timed And.intro lean_s232 lean_s915
+let lean_s917 := by timed And.intro lean_s228 lean_s916
+let lean_s918 := by timed And.intro lean_s224 lean_s917
+let lean_s919 := by timed And.intro lean_s220 lean_s918
+let lean_s920 := by timed And.intro lean_s216 lean_s919
+let lean_s921 := by timed And.intro lean_s212 lean_s920
+let lean_s922 := by timed And.intro lean_s208 lean_s921
+let lean_s923 := by timed And.intro lean_s204 lean_s922
+let lean_s924 := by timed And.intro lean_s200 lean_s923
+let lean_s925 := by timed And.intro lean_s196 lean_s924
+let lean_s926 := by timed And.intro lean_s192 lean_s925
+let lean_s927 := by timed And.intro lean_s188 lean_s926
+let lean_s928 := by timed And.intro lean_s184 lean_s927
+let lean_s929 := by timed And.intro lean_s180 lean_s928
+let lean_s930 := by timed And.intro lean_s176 lean_s929
+let lean_s931 := by timed And.intro lean_s172 lean_s930
+let lean_s932 := by timed And.intro lean_s168 lean_s931
+let lean_s933 := by timed And.intro lean_s164 lean_s932
+let lean_s934 := by timed And.intro lean_s160 lean_s933
+let lean_s935 := by timed And.intro lean_s156 lean_s934
+let lean_s936 := by timed And.intro lean_s152 lean_s935
+let lean_s937 := by timed And.intro lean_s148 lean_s936
+let lean_s938 := by timed And.intro lean_s144 lean_s937
+let lean_s939 := by timed And.intro lean_s140 lean_s938
+let lean_s940 := by timed And.intro lean_s136 lean_s939
+let lean_s941 := by timed And.intro lean_s132 lean_s940
+let lean_s942 := by timed And.intro lean_s128 lean_s941
+let lean_s943 := by timed And.intro lean_s124 lean_s942
+let lean_s944 := by timed And.intro lean_s120 lean_s943
+let lean_s945 := by timed And.intro lean_s116 lean_s944
+let lean_s946 := by timed And.intro lean_s543 lean_s945
+let lean_s947 := by timed And.intro lean_s621 lean_s946
+let lean_s948 := by timed And.intro lean_s702 lean_s947
+let lean_s949 := by timed And.intro lean_s786 lean_s948
+let lean_s950 := by timed And.intro lean_s105 lean_s949
+let lean_s951 := by timed And.intro lean_s102 lean_s950
+have lean_s952 : (And let56 let217) := by timed And.intro lean_s877 lean_s951
+have lean_s953 : let156 := by andElim lean_s952, 7
+have lean_s954 : let210 := by andElim lean_s952, 6
+have lean_s955 : let212 := by andElim lean_s952, 5
+have lean_s956 : let214 := by andElim lean_s952, 4
+have lean_s957 : let216 := by andElim lean_s952, 3
+have lean_s958 : let224 := by timed Eq.trans lean_s956 lean_s957
+have lean_s959 : let223 := by timed Eq.trans lean_s955 lean_s958
+have lean_s960 : let222 := by timed Eq.trans lean_s954 lean_s959
+have lean_s961 : let164 := by timed Eq.trans lean_s953 lean_s960
+let lean_s962 := by timed flipCongrArg lean_s961 [Eq]
+have lean_s963 : (Eq yx24n20s8 yx24n20s8) := by timed rfl
+have lean_s964 : (Eq let49 let97) := by timed congr lean_s962 lean_s963
+have lean_s965 : (Eq let50 let182) := by timed flipCongrArg lean_s964 [Not]
+let lean_s966 := by timed congr lean_s84 lean_s965
+let lean_s967 := by timed flipCongrArg lean_s961 [Eq]
+have lean_s968 : (Eq yx24n30s8 yx24n30s8) := by timed rfl
+have lean_s969 : (Eq let47 let76) := by timed congr lean_s967 lean_s968
+have lean_s970 : (Eq let48 let181) := by timed flipCongrArg lean_s969 [Not]
+let lean_s971 := by timed congr lean_s84 lean_s970
+let lean_s972 := by timed flipCongrArg lean_s961 [Eq]
+have lean_s973 : (Eq yx24n25s8 yx24n25s8) := by timed rfl
+have lean_s974 : (Eq let45 let79) := by timed congr lean_s972 lean_s973
+have lean_s975 : (Eq let46 let180) := by timed flipCongrArg lean_s974 [Not]
+let lean_s976 := by timed congr lean_s84 lean_s975
+let lean_s977 := by timed flipCongrArg lean_s961 [Eq]
+have lean_s978 : (Eq yx24n10s8 yx24n10s8) := by timed rfl
+have lean_s979 : (Eq let43 let81) := by timed congr lean_s977 lean_s978
+have lean_s980 : (Eq let44 let179) := by timed flipCongrArg lean_s979 [Not]
+let lean_s981 := by timed congr lean_s84 lean_s980
+let lean_s982 := by timed flipCongrArg lean_s961 [Eq]
+have lean_s983 : (Eq yx24n5s8 yx24n5s8) := by timed rfl
+have lean_s984 : (Eq let41 let84) := by timed congr lean_s982 lean_s983
+have lean_s985 : (Eq let42 let178) := by timed flipCongrArg lean_s984 [Not]
+let lean_s986 := by timed congr lean_s84 lean_s985
+let lean_s987 := by timed flipCongrArg lean_s961 [Eq]
+have lean_s988 : (Eq yx24n1s8 yx24n1s8) := by timed rfl
+have lean_s989 : (Eq let39 let88) := by timed congr lean_s987 lean_s988
+have lean_s990 : (Eq let40 let177) := by timed flipCongrArg lean_s989 [Not]
+let lean_s991 := by timed congr lean_s84 lean_s990
+let lean_s992 := by timed flipCongrArg lean_s961 [Eq]
+have lean_s993 : let56 := by andElim lean_s952, 0
+have lean_s994 : (Eq let37 let92) := by timed congr lean_s992 lean_s993
+have lean_s995 : (Eq let38 let176) := by timed flipCongrArg lean_s994 [Not]
+let lean_s996 := by timed congr lean_s84 lean_s995
+have lean_s997 : let199 := by timed rfl
+let lean_s998 := by timed congr lean_s84 lean_s997
+have lean_s999 : let198 := by timed rfl
+let lean_s1000 := by timed congr lean_s84 lean_s999
+have lean_s1001 : let197 := by timed rfl
+let lean_s1002 := by timed congr lean_s84 lean_s1001
+have lean_s1003 : let196 := by timed rfl
+let lean_s1004 := by timed congr lean_s84 lean_s1003
+have lean_s1005 : let195 := by timed rfl
+let lean_s1006 := by timed congr lean_s84 lean_s1005
+let lean_s1007 := by timed flipCongrArg lean_s963 [Eq]
+have lean_s1008 : (Eq let28 let96) := by timed congr lean_s1007 lean_s993
+have lean_s1009 : (Eq let29 let111) := by timed flipCongrArg lean_s1008 [Not]
+let lean_s1010 := by timed congr lean_s84 lean_s1009
+have lean_s1011 : let194 := by timed rfl
+let lean_s1012 := by timed congr lean_s84 lean_s1011
+have lean_s1013 : let193 := by timed rfl
+let lean_s1014 := by timed congr lean_s84 lean_s1013
+have lean_s1015 : let192 := by timed rfl
+let lean_s1016 := by timed congr lean_s84 lean_s1015
+have lean_s1017 : let191 := by timed rfl
+let lean_s1018 := by timed congr lean_s84 lean_s1017
+let lean_s1019 := by timed flipCongrArg lean_s968 [Eq]
+have lean_s1020 : (Eq let19 let75) := by timed congr lean_s1019 lean_s993
+have lean_s1021 : (Eq let20 let107) := by timed flipCongrArg lean_s1020 [Not]
+let lean_s1022 := by timed congr lean_s84 lean_s1021
+have lean_s1023 : let190 := by timed rfl
+let lean_s1024 := by timed congr lean_s84 lean_s1023
+have lean_s1025 : let189 := by timed rfl
+let lean_s1026 := by timed congr lean_s84 lean_s1025
+have lean_s1027 : let188 := by timed rfl
+let lean_s1028 := by timed congr lean_s84 lean_s1027
+let lean_s1029 := by timed flipCongrArg lean_s973 [Eq]
+have lean_s1030 : (Eq let12 let78) := by timed congr lean_s1029 lean_s993
+have lean_s1031 : (Eq let13 let104) := by timed flipCongrArg lean_s1030 [Not]
+let lean_s1032 := by timed congr lean_s84 lean_s1031
+have lean_s1033 : let187 := by timed rfl
+let lean_s1034 := by timed congr lean_s84 lean_s1033
+have lean_s1035 : let186 := by timed rfl
+let lean_s1036 := by timed congr lean_s84 lean_s1035
+let lean_s1037 := by timed flipCongrArg lean_s978 [Eq]
+have lean_s1038 : (Eq let8 let80) := by timed congr lean_s1037 lean_s993
+have lean_s1039 : (Eq let9 let103) := by timed flipCongrArg lean_s1038 [Not]
+let lean_s1040 := by timed congr lean_s84 lean_s1039
+have lean_s1041 : let185 := by timed rfl
+let lean_s1042 := by timed congr lean_s84 lean_s1041
+let lean_s1043 := by timed flipCongrArg lean_s983 [Eq]
+have lean_s1044 : (Eq let3 let83) := by timed congr lean_s1043 lean_s993
+have lean_s1045 : (Eq let4 let101) := by timed flipCongrArg lean_s1044 [Not]
+let lean_s1046 := by timed congr lean_s84 lean_s1045
+let lean_s1047 := by timed flipCongrArg lean_s988 [Eq]
+have lean_s1048 : (Eq let1 let87) := by timed congr lean_s1047 lean_s993
+have lean_s1049 : (Eq let2 let100) := by timed flipCongrArg lean_s1048 [Not]
+let lean_s1050 := by timed congr lean_s1046 lean_s1049
+let lean_s1051 := by timed congr lean_s1042 lean_s1050
+let lean_s1052 := by timed congr lean_s1040 lean_s1051
+let lean_s1053 := by timed congr lean_s1036 lean_s1052
+let lean_s1054 := by timed congr lean_s1034 lean_s1053
+let lean_s1055 := by timed congr lean_s1032 lean_s1054
+let lean_s1056 := by timed congr lean_s1028 lean_s1055
+let lean_s1057 := by timed congr lean_s1026 lean_s1056
+let lean_s1058 := by timed congr lean_s1024 lean_s1057
+let lean_s1059 := by timed congr lean_s1022 lean_s1058
+let lean_s1060 := by timed congr lean_s1018 lean_s1059
+let lean_s1061 := by timed congr lean_s1016 lean_s1060
+let lean_s1062 := by timed congr lean_s1014 lean_s1061
+let lean_s1063 := by timed congr lean_s1012 lean_s1062
+let lean_s1064 := by timed congr lean_s1010 lean_s1063
+let lean_s1065 := by timed congr lean_s1006 lean_s1064
+let lean_s1066 := by timed congr lean_s1004 lean_s1065
+let lean_s1067 := by timed congr lean_s1002 lean_s1066
+let lean_s1068 := by timed congr lean_s1000 lean_s1067
+let lean_s1069 := by timed congr lean_s998 lean_s1068
+let lean_s1070 := by timed congr lean_s996 lean_s1069
+let lean_s1071 := by timed congr lean_s991 lean_s1070
+let lean_s1072 := by timed congr lean_s986 lean_s1071
+let lean_s1073 := by timed congr lean_s981 lean_s1072
+let lean_s1074 := by timed congr lean_s976 lean_s1073
+let lean_s1075 := by timed congr lean_s971 lean_s1074
+have lean_s1076 : (Eq let175 let183) := by timed congr lean_s966 lean_s1075
+have lean_s1077 : let184 := by timed rfl
+have lean_s1078 : (Eq let182 let111) := by timed flipCongrArg lean_r36 [Not]
+let lean_s1079 := by timed congr lean_s1077 lean_s1078
+have lean_s1080 : (Eq let181 let107) := by timed flipCongrArg lean_r20 [Not]
+let lean_s1081 := by timed congr lean_s1077 lean_s1080
+have lean_s1082 : (Eq let180 let104) := by timed flipCongrArg lean_r22 [Not]
+let lean_s1083 := by timed congr lean_s1077 lean_s1082
+have lean_s1084 : (Eq let179 let103) := by timed flipCongrArg lean_r23 [Not]
+let lean_s1085 := by timed congr lean_s1077 lean_s1084
+have lean_s1086 : (Eq let178 let101) := by timed flipCongrArg lean_r25 [Not]
+let lean_s1087 := by timed congr lean_s1077 lean_s1086
+have lean_s1088 : (Eq let177 let100) := by timed flipCongrArg lean_r28 [Not]
+let lean_s1089 := by timed congr lean_s1077 lean_s1088
+have lean_s1090 : (Eq let176 let95) := by timed flipCongrArg lean_r32 [Not]
+have lean_s1091 : (Eq let176 False) := by timed Eq.trans lean_s1090 lean_r35
+let lean_s1092 := by timed congr lean_s1077 lean_s1091
+let lean_s1093 := by timed congr lean_s1077 lean_s15
+let lean_s1094 := by timed congr lean_s1077 lean_s17
+have lean_s1095 : let197 := by timed rfl
+let lean_s1096 := by timed congr lean_s1077 lean_s1095
+let lean_s1097 := by timed congr lean_s1077 lean_s21
+have lean_s1098 : let195 := by timed rfl
+let lean_s1099 := by timed congr lean_s1077 lean_s1098
+have lean_s1100 : (Eq let111 let111) := by timed rfl
+let lean_s1101 := by timed congr lean_s1077 lean_s1100
+have lean_s1102 : let194 := by timed rfl
+let lean_s1103 := by timed congr lean_s1077 lean_s1102
+have lean_s1104 : let193 := by timed rfl
+let lean_s1105 := by timed congr lean_s1077 lean_s1104
+let lean_s1106 := by timed congr lean_s1077 lean_s31
+have lean_s1107 : let191 := by timed rfl
+let lean_s1108 := by timed congr lean_s1077 lean_s1107
+have lean_s1109 : (Eq let107 let107) := by timed rfl
+let lean_s1110 := by timed congr lean_s1077 lean_s1109
+have lean_s1111 : let190 := by timed rfl
+let lean_s1112 := by timed congr lean_s1077 lean_s1111
+let lean_s1113 := by timed congr lean_s1077 lean_s39
+have lean_s1114 : let188 := by timed rfl
+let lean_s1115 := by timed congr lean_s1077 lean_s1114
+have lean_s1116 : (Eq let104 let104) := by timed rfl
+let lean_s1117 := by timed congr lean_s1077 lean_s1116
+let lean_s1118 := by timed congr lean_s1077 lean_s45
+let lean_s1119 := by timed congr lean_s1077 lean_s47
+have lean_s1120 : (Eq let103 let103) := by timed rfl
+let lean_s1121 := by timed congr lean_s1077 lean_s1120
+have lean_s1122 : let185 := by timed rfl
+let lean_s1123 := by timed congr lean_s1077 lean_s1122
+have lean_s1124 : (Eq let101 let101) := by timed rfl
+let lean_s1125 := by timed congr lean_s1077 lean_s1124
+have lean_s1126 : (Eq let100 let100) := by timed rfl
+let lean_s1127 := by timed congr lean_s1125 lean_s1126
+let lean_s1128 := by timed congr lean_s1123 lean_s1127
+let lean_s1129 := by timed congr lean_s1121 lean_s1128
+let lean_s1130 := by timed congr lean_s1119 lean_s1129
+let lean_s1131 := by timed congr lean_s1118 lean_s1130
+let lean_s1132 := by timed congr lean_s1117 lean_s1131
+let lean_s1133 := by timed congr lean_s1115 lean_s1132
+let lean_s1134 := by timed congr lean_s1113 lean_s1133
+let lean_s1135 := by timed congr lean_s1112 lean_s1134
+let lean_s1136 := by timed congr lean_s1110 lean_s1135
+let lean_s1137 := by timed congr lean_s1108 lean_s1136
+let lean_s1138 := by timed congr lean_s1106 lean_s1137
+let lean_s1139 := by timed congr lean_s1105 lean_s1138
+let lean_s1140 := by timed congr lean_s1103 lean_s1139
+let lean_s1141 := by timed congr lean_s1101 lean_s1140
+let lean_s1142 := by timed congr lean_s1099 lean_s1141
+let lean_s1143 := by timed congr lean_s1097 lean_s1142
+let lean_s1144 := by timed congr lean_s1096 lean_s1143
+let lean_s1145 := by timed congr lean_s1094 lean_s1144
+let lean_s1146 := by timed congr lean_s1093 lean_s1145
+let lean_s1147 := by timed congr lean_s1092 lean_s1146
+let lean_s1148 := by timed congr lean_s1089 lean_s1147
+let lean_s1149 := by timed congr lean_s1087 lean_s1148
+let lean_s1150 := by timed congr lean_s1085 lean_s1149
+let lean_s1151 := by timed congr lean_s1083 lean_s1150
+let lean_s1152 := by timed congr lean_s1081 lean_s1151
+have lean_s1153 : (Eq let183 let117) := by timed congr lean_s1079 lean_s1152
+have lean_s1154 : (Eq let183 False) := by timed Eq.trans lean_s1153 lean_r39
+have lean_s1155 : (Eq let175 False) := by timed Eq.trans lean_s1076 lean_s1154
+have lean_s1156 : (Eq let52 False) := by timed Eq.trans lean_s83 lean_s1155
+exact (show False from by timed eqResolve lean_a51 lean_s1156)
+
+

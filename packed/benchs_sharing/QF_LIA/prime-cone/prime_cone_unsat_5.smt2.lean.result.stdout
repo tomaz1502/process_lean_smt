@@ -1,0 +1,74 @@
+./benchs_new/QF_LIA/prime-cone/prime_cone_unsat_5.smt2.lean:758:17: warning: `Implies` has been deprecated
+
+./benchs_new/QF_LIA/prime-cone/prime_cone_unsat_5.smt2.lean:761:17: warning: `Implies` has been deprecated
+
+./benchs_new/QF_LIA/prime-cone/prime_cone_unsat_5.smt2.lean:767:17: warning: `Implies` has been deprecated
+
+./benchs_new/QF_LIA/prime-cone/prime_cone_unsat_5.smt2.lean:787:17: warning: `Implies` has been deprecated
+
+./benchs_new/QF_LIA/prime-cone/prime_cone_unsat_5.smt2.lean:811:17: warning: `Implies` has been deprecated
+
+./benchs_new/QF_LIA/prime-cone/prime_cone_unsat_5.smt2.lean:814:17: warning: `Implies` has been deprecated
+
+./benchs_new/QF_LIA/prime-cone/prime_cone_unsat_5.smt2.lean:829:17: warning: `Implies` has been deprecated
+
+./benchs_new/QF_LIA/prime-cone/prime_cone_unsat_5.smt2.lean:847:17: warning: `Implies` has been deprecated
+
+./benchs_new/QF_LIA/prime-cone/prime_cone_unsat_5.smt2.lean:924:17: warning: `Implies` has been deprecated
+
+./benchs_new/QF_LIA/prime-cone/prime_cone_unsat_5.smt2.lean:950:17: warning: `Implies` has been deprecated
+
+./benchs_new/QF_LIA/prime-cone/prime_cone_unsat_5.smt2.lean:953:17: warning: `Implies` has been deprecated
+
+./benchs_new/QF_LIA/prime-cone/prime_cone_unsat_5.smt2.lean:958:17: warning: `Implies` has been deprecated
+
+./benchs_new/QF_LIA/prime-cone/prime_cone_unsat_5.smt2.lean:975:1887: error: application type mismatch
+  let335 = let12
+argument
+  let12
+has type
+  ℚ : Type
+but is expected to have type
+  ℤ : Type
+
+./benchs_new/QF_LIA/prime-cone/prime_cone_unsat_5.smt2.lean:975:3993: error: application type mismatch
+  let517 = let12
+argument
+  let12
+has type
+  ℚ : Type
+but is expected to have type
+  ℤ : Type
+
+./benchs_new/QF_LIA/prime-cone/prime_cone_unsat_5.smt2.lean:975:4434: error: application type mismatch
+  let356 = let12
+argument
+  let12
+has type
+  ℚ : Type
+but is expected to have type
+  ℤ : Type
+
+./benchs_new/QF_LIA/prime-cone/prime_cone_unsat_5.smt2.lean:975:4633: error: application type mismatch
+  let579 = let12
+argument
+  let12
+has type
+  ℚ : Type
+but is expected to have type
+  ℤ : Type
+
+./benchs_new/QF_LIA/prime-cone/prime_cone_unsat_5.smt2.lean:975:6058: error: application type mismatch
+  let672 = let12
+argument
+  let12
+has type
+  ℚ : Type
+but is expected to have type
+  ℤ : Type
+
+./benchs_new/QF_LIA/prime-cone/prime_cone_unsat_5.smt2.lean:976:2: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs_new/QF_LIA/prime-cone/prime_cone_unsat_5.smt2.lean:20:0: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+invalid

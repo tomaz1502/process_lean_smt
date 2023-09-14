@@ -1,0 +1,76 @@
+./benchs/QF_UF/TypeSafe/z3.1184147.lean:43:4: warning: unused variable `lean_a2` [linter.unusedVariables]
+
+./benchs/QF_UF/TypeSafe/z3.1184147.lean:45:4: warning: unused variable `lean_a4` [linter.unusedVariables]
+
+[smt.profile] [`negSymm] start time: 34211141031235ns
+[smt.profile] [`negSymm]  end time: 34211141454715ns
+
+[smt.profile] [`Eq.symm] start time: 34211141891159ns
+[smt.profile] [`Eq.symm]  end time: 34211142124832ns
+
+[smt.profile] [`And.intro] start time: 34211142657471ns
+[smt.profile] [`And.intro]  end time: 34211142879964ns
+
+[smt.profile] [andElim] start time: 34211143280797ns
+[smt.profile] [andElim] end time: 34211143935770ns
+
+[smt.profile] [`rfl] start time: 34211144281421ns
+[smt.profile] [`rfl] end time: 34211144428254ns
+
+[smt.profile] ["flipCongrArg"] start time: 34211144630132ns
+[smt.profile] ["flipCongrArg"]  end time: 34211144993002ns
+
+[smt.profile] [`rfl] start time: 34211145330312ns
+[smt.profile] [`rfl] end time: 34211145466937ns
+
+[smt.profile] [`congr] start time: 34211145667878ns
+[smt.profile] [`congr]  end time: 34211146084593ns
+
+[smt.profile] [`rfl] start time: 34211146441177ns
+[smt.profile] [`rfl] end time: 34211146566502ns
+
+[smt.profile] [`congr] start time: 34211146787474ns
+[smt.profile] [`congr]  end time: 34211147212249ns
+
+[smt.profile] [`rfl] start time: 34211147553861ns
+[smt.profile] [`rfl] end time: 34211147688808ns
+
+[smt.profile] [`congr] start time: 34211147902903ns
+[smt.profile] [`congr]  end time: 34211148300143ns
+
+[smt.profile] [andElim] start time: 34211148683020ns
+[smt.profile] [andElim] end time: 34211149218180ns
+
+[smt.profile] [`congr] start time: 34211149766399ns
+[smt.profile] [`congr]  end time: 34211150144057ns
+
+[smt.profile] [`Eq.trans] start time: 34211150627464ns
+[smt.profile] [`Eq.trans]  end time: 34211150953785ns
+
+[smt.profile] ["flipCongrArg"] start time: 34211151191906ns
+[smt.profile] ["flipCongrArg"]  end time: 34211151627159ns
+
+[smt.profile] [`rfl] start time: 34211152200134ns
+[smt.profile] [`rfl] end time: 34211152352191ns
+
+[smt.profile] [`congr] start time: 34211153185838ns
+[smt.profile] [`congr]  end time: 34211153603789ns
+
+[smt.profile] ["flipCongrArg"] start time: 34211154525911ns
+[smt.profile] ["flipCongrArg"]  end time: 34211154914130ns
+
+[smt.profile] ["flipCongrArg"] start time: 34211155669895ns
+[smt.profile] ["flipCongrArg"]  end time: 34211156037278ns
+
+[smt.profile] [`Eq.trans] start time: 34211156743366ns
+[smt.profile] [`Eq.trans]  end time: 34211157085039ns
+
+[smt.profile] [`Eq.trans] start time: 34211157733453ns
+[smt.profile] [`Eq.trans]  end time: 34211158052681ns
+
+[smt.profile] [`eqResolve] start time: 34211158389953ns
+[smt.profile] [`eqResolve]  end time: 34211158600106ns
+
+valid
+0.44user 0.11system 0:00.56elapsed 99%CPU (0avgtext+0avgdata 1051036maxresident)k
+8inputs+8outputs (0major+38354minor)pagefaults 0swaps

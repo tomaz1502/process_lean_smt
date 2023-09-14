@@ -1,0 +1,40 @@
+./benchs/QF_UFLIA/TwoSquares/smtlib.606691.lean:26:4: warning: unused variable `lean_a5` [linter.unusedVariables]
+
+./benchs/QF_UFLIA/TwoSquares/smtlib.606691.lean:28:4: warning: unused variable `lean_a7` [linter.unusedVariables]
+
+[smt.profile] [`eqResolve] start time: 61838383375541ns
+[smt.profile] [`eqResolve]  end time: 61838383582744ns
+
+[smt.profile] [`rfl] start time: 61838383939634ns
+[smt.profile] [`rfl] end time: 61838384038327ns
+
+[smt.profile] ["flipCongrArg"] start time: 61838384178839ns
+[smt.profile] ["flipCongrArg"]  end time: 61838384667591ns
+
+[smt.profile] [`congr] start time: 61838386787727ns
+[smt.profile] [`congr]  end time: 61838387097080ns
+
+[smt.profile] [`Eq.trans] start time: 61838388531268ns
+[smt.profile] [`Eq.trans]  end time: 61838388759022ns
+
+[smt.profile] ["flipCongrArg"] start time: 61838390250121ns
+[smt.profile] ["flipCongrArg"]  end time: 61838390505999ns
+
+[smt.profile] [`Eq.trans] start time: 61838391982419ns
+[smt.profile] [`Eq.trans]  end time: 61838392207296ns
+
+[smt.profile] [`Eq.trans] start time: 61838393681671ns
+[smt.profile] [`Eq.trans]  end time: 61838393913178ns
+
+[smt.profile] ["flipCongrArg"] start time: 61838395450396ns
+[smt.profile] ["flipCongrArg"]  end time: 61838395707861ns
+
+[smt.profile] [`eqResolve] start time: 61838396226040ns
+[smt.profile] [`eqResolve]  end time: 61838396408410ns
+
+[smt.profile] [`contradiction] start time: 61838396737642ns
+[smt.profile] [`contradiction]  end time: 61838396909133ns
+
+valid
+0.34user 0.10system 0:00.44elapsed 99%CPU (0avgtext+0avgdata 1046720maxresident)k
+8inputs+8outputs (0major+37732minor)pagefaults 0swaps

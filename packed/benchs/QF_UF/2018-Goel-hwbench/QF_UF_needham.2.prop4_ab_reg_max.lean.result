@@ -1,0 +1,110 @@
+./benchs/QF_UF/2018-Goel-hwbench/QF_UF_needham.2.prop4_ab_reg_max.lean:346:99: error: function expected at
+  yx24n0s16 ≠ yx24n1771s16
+term has type
+  Prop
+
+./benchs/QF_UF/2018-Goel-hwbench/QF_UF_needham.2.prop4_ab_reg_max.lean:346:453: error: function expected at
+  yx24n15s32 ≠ yx24n75s32
+term has type
+  Prop
+
+./benchs/QF_UF/2018-Goel-hwbench/QF_UF_needham.2.prop4_ab_reg_max.lean:349:15: error: function expected at
+  yx24n0s16 ≠ yx24n1771s16
+term has type
+  Prop
+
+./benchs/QF_UF/2018-Goel-hwbench/QF_UF_needham.2.prop4_ab_reg_max.lean:350:15: error: function expected at
+  yx24n15s32 ≠ yx24n75s32
+term has type
+  Prop
+
+[smt.profile] [`cnfEquivPos1] start time: 17480800186726ns
+[smt.profile] [`cnfEquivPos1] end time: 17480800402339ns
+
+[smt.profile] [`eqResolve] start time: 17480802964491ns
+[smt.profile] [`eqResolve]  end time: 17480803195525ns
+
+[smt.profile] [andElim] start time: 17480803450481ns
+[smt.profile] [andElim] end time: 17480805350995ns
+
+[smt.profile] [`rfl] start time: 17480805749414ns
+[smt.profile] [`rfl] end time: 17480805895000ns
+
+[smt.profile] ["flipCongrArg"] start time: 17480806130408ns
+[smt.profile] ["flipCongrArg"]  end time: 17480806612486ns
+
+[smt.profile] [`congr] start time: 17480807282122ns
+[smt.profile] [`congr]  end time: 17480807650914ns
+
+[smt.profile] [`eqResolve] start time: 17480808120806ns
+[smt.profile] [`eqResolve]  end time: 17480808300230ns
+
+[smt.profile] [`eqResolve] start time: 17480808655352ns
+[smt.profile] [`eqResolve]  end time: 17480808829839ns
+
+[smt.profile] [`equivElim1] start time: 17480809208605ns
+[smt.profile] [`equivElim1]  end time: 17480809398188ns
+
+[smt.profile] [`equivElim1] start time: 17480809797455ns
+[smt.profile] [`equivElim1]  end time: 17480809985782ns
+
+[smt.profile] [`eqResolve] start time: 17480812514423ns
+[smt.profile] [`eqResolve]  end time: 17480812720290ns
+
+[smt.profile] [andElim] start time: 17480813015141ns
+[smt.profile] [andElim] end time: 17480814840338ns
+
+[smt.profile] [resolution_2] start time: 17480815208857ns
+[smt.profile] [resolution_2] end time: 17480816638488ns
+
+[smt.profile] [resolution_1] start time: 17480817022648ns
+[smt.profile] [resolution_1] end time: 17480818270687ns
+
+[smt.profile] [`Eq.symm] start time: 17480818738325ns
+[smt.profile] [`Eq.symm]  end time: 17480818980604ns
+
+[smt.profile] [`eqResolve] start time: 17480819277001ns
+[smt.profile] [`eqResolve]  end time: 17480819464062ns
+
+[smt.profile] [resolution_2] start time: 17480819727828ns
+[smt.profile] [resolution_2] end time: 17480821097452ns
+
+[smt.profile] [(Term.explicit "@" `cnfAndPos)] start time: 17480821588560ns
+[smt.profile] [(Term.explicit "@" `cnfAndPos)]  end time: 17480823354951ns
+
+[smt.profile] [`equivElim1] start time: 17480823863718ns
+[smt.profile] [`equivElim1]  end time: 17480824071272ns
+
+[smt.profile] [(Term.explicit "@" `cnfAndPos)] start time: 17480824532834ns
+[smt.profile] [(Term.explicit "@" `cnfAndPos)]  end time: 17480825790280ns
+
+[smt.profile] [`equivElim1] start time: 17480826266730ns
+[smt.profile] [`equivElim1]  end time: 17480826475914ns
+
+[smt.profile] [`eqResolve] start time: 17480829149180ns
+[smt.profile] [`eqResolve]  end time: 17480829363315ns
+
+[smt.profile] [andElim] start time: 17480829674620ns
+[smt.profile] [andElim] end time: 17480830560762ns
+
+[smt.profile] [resolution_2] start time: 17480830954505ns
+[smt.profile] [resolution_2] end time: 17480832169518ns
+
+[smt.profile] [resolution_1] start time: 17480832596501ns
+[smt.profile] [resolution_1] end time: 17480833844876ns
+
+[smt.profile] [resolution_1] start time: 17480834239969ns
+[smt.profile] [resolution_1] end time: 17480835537398ns
+
+[smt.profile] [resolution_1] start time: 17480835968069ns
+[smt.profile] [resolution_1] end time: 17480837214917ns
+
+[smt.profile] [resolution_1] start time: 17480837763998ns
+[smt.profile] [resolution_1] end time: 17480839058909ns
+
+[smt.profile] [`contradiction] start time: 17480839451427ns
+[smt.profile] [`contradiction]  end time: 17480839638642ns
+
+invalid
+2.40user 0.14system 0:02.54elapsed 99%CPU (0avgtext+0avgdata 1201696maxresident)k
+328inputs+8outputs (0major+78478minor)pagefaults 0swaps

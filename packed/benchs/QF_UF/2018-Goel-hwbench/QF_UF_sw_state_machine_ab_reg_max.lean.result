@@ -1,0 +1,52 @@
+./benchs/QF_UF/2018-Goel-hwbench/QF_UF_sw_state_machine_ab_reg_max.lean:72:15: error: function expected at
+  yx24n0s32 ≠ yx24n1s32
+term has type
+  Prop
+
+./benchs/QF_UF/2018-Goel-hwbench/QF_UF_sw_state_machine_ab_reg_max.lean:73:15: error: function expected at
+  yx24n0s32 ≠ yx24n1s32
+term has type
+  Prop
+
+[smt.profile] [`eqResolve] start time: 26111989728048ns
+[smt.profile] [`eqResolve]  end time: 26111989927201ns
+
+[smt.profile] [andElim] start time: 26111990145880ns
+[smt.profile] [andElim] end time: 26111990987340ns
+
+[smt.profile] [`eqResolve] start time: 26111991328954ns
+[smt.profile] [`eqResolve]  end time: 26111991507879ns
+
+[smt.profile] [`cnfEquivPos1] start time: 26111991941233ns
+[smt.profile] [`cnfEquivPos1] end time: 26111992128217ns
+
+[smt.profile] [`eqResolve] start time: 26111992825936ns
+[smt.profile] [`eqResolve]  end time: 26111993010025ns
+
+[smt.profile] [andElim] start time: 26111993217621ns
+[smt.profile] [andElim] end time: 26111993733782ns
+
+[smt.profile] [resolution_2] start time: 26111993928626ns
+[smt.profile] [resolution_2] end time: 26111995458417ns
+
+[smt.profile] [`equivElim1] start time: 26111995804595ns
+[smt.profile] [`equivElim1]  end time: 26111996015705ns
+
+[smt.profile] [`eqResolve] start time: 26111996705118ns
+[smt.profile] [`eqResolve]  end time: 26111996894580ns
+
+[smt.profile] [andElim] start time: 26111997121838ns
+[smt.profile] [andElim] end time: 26111997901345ns
+
+[smt.profile] [resolution_2] start time: 26111998189277ns
+[smt.profile] [resolution_2] end time: 26111999459923ns
+
+[smt.profile] [resolution_1] start time: 26111999854422ns
+[smt.profile] [resolution_1] end time: 26112001112914ns
+
+[smt.profile] [`contradiction] start time: 26112001403380ns
+[smt.profile] [`contradiction]  end time: 26112001586928ns
+
+invalid
+0.48user 0.10system 0:00.58elapsed 99%CPU (0avgtext+0avgdata 1055964maxresident)k
+272inputs+8outputs (0major+38779minor)pagefaults 0swaps

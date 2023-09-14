@@ -1,0 +1,86 @@
+./benchs_new/QF_UF/2018-Goel-hwbench/QF_UF_msmie.1.prop1_ab_reg_max.smt2.lean:238:18: error: function expected at
+  yx24n0s8 ≠ yx24n3s8
+term has type
+  Prop
+
+./benchs_new/QF_UF/2018-Goel-hwbench/QF_UF_msmie.1.prop1_ab_reg_max.smt2.lean:255:15: error: function expected at
+  yx24n0s8 ≠ yx24n3s8
+term has type
+  Prop
+
+[smt.profile] [`cnfEquivPos2] start time: 28471761575485ns
+[smt.profile] [`cnfEquivPos2] end time: 28471761805363ns
+
+[smt.profile] [`equivElim1] start time: 28471762141856ns
+[smt.profile] [`equivElim1]  end time: 28471762378006ns
+
+[smt.profile] [(Term.explicit "@" `cnfAndPos)] start time: 28471762684857ns
+[smt.profile] [(Term.explicit "@" `cnfAndPos)]  end time: 28471764470445ns
+
+[smt.profile] [`equivElim1] start time: 28471764836054ns
+[smt.profile] [`equivElim1]  end time: 28471765094987ns
+
+[smt.profile] [`eqResolve] start time: 28471765353409ns
+[smt.profile] [`eqResolve]  end time: 28471765547937ns
+
+[smt.profile] [andElim] start time: 28471765787518ns
+[smt.profile] [andElim] end time: 28471766442169ns
+
+[smt.profile] [resolution_2] start time: 28471766716739ns
+[smt.profile] [resolution_2] end time: 28471768172636ns
+
+[smt.profile] [resolution_1] start time: 28471768450995ns
+[smt.profile] [resolution_1] end time: 28471769786677ns
+
+[smt.profile] [resolution_1] start time: 28471770067615ns
+[smt.profile] [resolution_1] end time: 28471771361852ns
+
+[smt.profile] [resolution_1] start time: 28471771607947ns
+[smt.profile] [resolution_1] end time: 28471773062615ns
+
+[smt.profile] [`eqResolve] start time: 28471773342769ns
+[smt.profile] [`eqResolve]  end time: 28471773546892ns
+
+[smt.profile] [andElim] start time: 28471773786094ns
+[smt.profile] [andElim] end time: 28471775640779ns
+
+[smt.profile] [`rfl] start time: 28471776026685ns
+[smt.profile] [`rfl] end time: 28471776172042ns
+
+[smt.profile] ["flipCongrArg"] start time: 28471776419935ns
+[smt.profile] ["flipCongrArg"]  end time: 28471776922349ns
+
+[smt.profile] [`congr] start time: 28471777316680ns
+[smt.profile] [`congr]  end time: 28471777754018ns
+
+[smt.profile] [`eqResolve] start time: 28471778038789ns
+[smt.profile] [`eqResolve]  end time: 28471778236994ns
+
+[smt.profile] [`eqResolve] start time: 28471778500041ns
+[smt.profile] [`eqResolve]  end time: 28471778673242ns
+
+[smt.profile] [`equivElim1] start time: 28471779011085ns
+[smt.profile] [`equivElim1]  end time: 28471779239391ns
+
+[smt.profile] [`equivElim1] start time: 28471779578498ns
+[smt.profile] [`equivElim1]  end time: 28471779794837ns
+
+[smt.profile] [`eqResolve] start time: 28471780073016ns
+[smt.profile] [`eqResolve]  end time: 28471780253781ns
+
+[smt.profile] [andElim] start time: 28471780502264ns
+[smt.profile] [andElim] end time: 28471782363138ns
+
+[smt.profile] [resolution_2] start time: 28471782661258ns
+[smt.profile] [resolution_2] end time: 28471783954695ns
+
+[smt.profile] [resolution_1] start time: 28471784248127ns
+[smt.profile] [resolution_1] end time: 28471785553699ns
+
+[smt.profile] [resolution_2] start time: 28471785845209ns
+[smt.profile] [resolution_2] end time: 28471787195366ns
+
+[smt.profile] [`contradiction] start time: 28471787542970ns
+[smt.profile] [`contradiction]  end time: 28471787740351ns
+
+invalid

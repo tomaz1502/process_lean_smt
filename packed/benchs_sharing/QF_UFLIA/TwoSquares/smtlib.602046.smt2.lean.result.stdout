@@ -1,0 +1,37 @@
+./benchs_new/QF_UFLIA/TwoSquares/smtlib.602046.smt2.lean:52:49: error: application type mismatch
+  congr lean_s0
+argument
+  lean_s0
+has type
+  LE.le let4 = LE.le let3 : Prop
+but is expected to have type
+  Int.NonNeg = Int.NonNeg : Prop
+
+[smt.profile] ["flipCongrArg"] start time: 37822177194613ns
+[smt.profile] ["flipCongrArg"]  end time: 37822178046552ns
+
+[smt.profile] [`rfl] start time: 37822178439468ns
+[smt.profile] [`rfl] end time: 37822178609931ns
+
+[smt.profile] [`congr] start time: 37822178932672ns
+[smt.profile] [`congr]  end time: 37822191533364ns
+
+[smt.profile] [`Eq.trans] start time: 37822191962089ns
+[smt.profile] [`Eq.trans]  end time: 37822192324453ns
+
+[smt.profile] ["flipCongrArg"] start time: 37822192645906ns
+[smt.profile] ["flipCongrArg"]  end time: 37822193067451ns
+
+[smt.profile] [`Eq.trans] start time: 37822193387566ns
+[smt.profile] [`Eq.trans]  end time: 37822193731760ns
+
+[smt.profile] [`eqResolve] start time: 37822193963667ns
+[smt.profile] [`eqResolve]  end time: 37822194264521ns
+
+[smt.profile] [`eqResolve] start time: 37822194492678ns
+[smt.profile] [`eqResolve]  end time: 37822194738032ns
+
+[smt.profile] [`contradiction] start time: 37822195005897ns
+[smt.profile] [`contradiction]  end time: 37822195216108ns
+
+invalid

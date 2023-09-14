@@ -1,0 +1,25 @@
+./benchs/QF_UF/20170829-Rodin/smt4458073420585573738.lean:25:4: warning: unused variable `lean_a0` [linter.unusedVariables]
+
+./benchs/QF_UF/20170829-Rodin/smt4458073420585573738.lean:26:4: warning: unused variable `lean_a1` [linter.unusedVariables]
+
+[smt.profile] [notOrElim] start time: 6122837031922ns
+[smt.profile] [notOrElim] end time: 6122837460194ns
+
+[smt.profile] [notOrElim] start time: 6122837660571ns
+[smt.profile] [notOrElim] end time: 6122838010981ns
+
+[smt.profile] [`notNotElim] start time: 6122838145049ns
+[smt.profile] [`notNotElim]  end time: 6122838259323ns
+
+[smt.profile] [`And.intro] start time: 6122838432655ns
+[smt.profile] [`And.intro]  end time: 6122838566057ns
+
+[smt.profile] [notOrElim] start time: 6122838750015ns
+[smt.profile] [notOrElim] end time: 6122839088360ns
+
+[smt.profile] [`contradiction] start time: 6122839257896ns
+[smt.profile] [`contradiction]  end time: 6122839371262ns
+
+valid
+0.30user 0.08system 0:00.39elapsed 99%CPU (0avgtext+0avgdata 1050656maxresident)k
+8inputs+8outputs (0major+37270minor)pagefaults 0swaps

@@ -1,0 +1,35 @@
+./benchs_new/QF_LIA/prime-cone/prime_cone_unsat_3.smt2.lean:379:17: warning: `Implies` has been deprecated
+
+./benchs_new/QF_LIA/prime-cone/prime_cone_unsat_3.smt2.lean:385:17: warning: `Implies` has been deprecated
+
+./benchs_new/QF_LIA/prime-cone/prime_cone_unsat_3.smt2.lean:400:17: warning: `Implies` has been deprecated
+
+./benchs_new/QF_LIA/prime-cone/prime_cone_unsat_3.smt2.lean:445:426: error: application type mismatch
+  let86 = let36
+argument
+  let36
+has type
+  ℚ : Type
+but is expected to have type
+  ℤ : Type
+
+./benchs_new/QF_LIA/prime-cone/prime_cone_unsat_3.smt2.lean:808:17: warning: `Implies` has been deprecated
+
+./benchs_new/QF_LIA/prime-cone/prime_cone_unsat_3.smt2.lean:814:17: warning: `Implies` has been deprecated
+
+./benchs_new/QF_LIA/prime-cone/prime_cone_unsat_3.smt2.lean:829:17: warning: `Implies` has been deprecated
+
+./benchs_new/QF_LIA/prime-cone/prime_cone_unsat_3.smt2.lean:898:25: error: application type mismatch
+  let86 = let36
+argument
+  let36
+has type
+  ℚ : Type
+but is expected to have type
+  ℤ : Type
+
+./benchs_new/QF_LIA/prime-cone/prime_cone_unsat_3.smt2.lean:446:2: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs_new/QF_LIA/prime-cone/prime_cone_unsat_3.smt2.lean:16:0: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+invalid

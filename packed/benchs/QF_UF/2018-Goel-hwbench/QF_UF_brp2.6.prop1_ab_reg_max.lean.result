@@ -1,0 +1,120 @@
+./benchs/QF_UF/2018-Goel-hwbench/QF_UF_brp2.6.prop1_ab_reg_max.lean:241:68: error: function expected at
+  yx24n0s8 ≠ yx24n1s8
+term has type
+  Prop
+
+./benchs/QF_UF/2018-Goel-hwbench/QF_UF_brp2.6.prop1_ab_reg_max.lean:241:102: error: function expected at
+  yx24n0s16 ≠ yx24n3s16
+term has type
+  Prop
+
+./benchs/QF_UF/2018-Goel-hwbench/QF_UF_brp2.6.prop1_ab_reg_max.lean:241:153: error: function expected at
+  yx24n16s32 ≠ yx24n1s32
+term has type
+  Prop
+
+./benchs/QF_UF/2018-Goel-hwbench/QF_UF_brp2.6.prop1_ab_reg_max.lean:243:15: error: function expected at
+  yx24n0s8 ≠ yx24n1s8
+term has type
+  Prop
+
+./benchs/QF_UF/2018-Goel-hwbench/QF_UF_brp2.6.prop1_ab_reg_max.lean:244:15: error: function expected at
+  yx24n0s16 ≠ yx24n3s16
+term has type
+  Prop
+
+./benchs/QF_UF/2018-Goel-hwbench/QF_UF_brp2.6.prop1_ab_reg_max.lean:245:15: error: function expected at
+  yx24n16s32 ≠ yx24n1s32
+term has type
+  Prop
+
+[smt.profile] [`cnfEquivPos1] start time: 14173299872898ns
+[smt.profile] [`cnfEquivPos1] end time: 14173300032119ns
+
+[smt.profile] [`eqResolve] start time: 14173301494906ns
+[smt.profile] [`eqResolve]  end time: 14173301650556ns
+
+[smt.profile] [andElim] start time: 14173301837669ns
+[smt.profile] [andElim] end time: 14173303108625ns
+
+[smt.profile] [`rfl] start time: 14173303376092ns
+[smt.profile] [`rfl] end time: 14173303485497ns
+
+[smt.profile] ["flipCongrArg"] start time: 14173303654165ns
+[smt.profile] ["flipCongrArg"]  end time: 14173304022745ns
+
+[smt.profile] [`congr] start time: 14173304524215ns
+[smt.profile] [`congr]  end time: 14173304801098ns
+
+[smt.profile] [`eqResolve] start time: 14173305145984ns
+[smt.profile] [`eqResolve]  end time: 14173305289413ns
+
+[smt.profile] [`eqResolve] start time: 14173305567359ns
+[smt.profile] [`eqResolve]  end time: 14173305694271ns
+
+[smt.profile] [`equivElim1] start time: 14173305960885ns
+[smt.profile] [`equivElim1]  end time: 14173306116804ns
+
+[smt.profile] [`equivElim1] start time: 14173306430279ns
+[smt.profile] [`equivElim1]  end time: 14173306563658ns
+
+[smt.profile] [`eqResolve] start time: 14173308068111ns
+[smt.profile] [`eqResolve]  end time: 14173308210854ns
+
+[smt.profile] [andElim] start time: 14173308432512ns
+[smt.profile] [andElim] end time: 14173309635552ns
+
+[smt.profile] [resolution_2] start time: 14173309896601ns
+[smt.profile] [resolution_2] end time: 14173311002910ns
+
+[smt.profile] [resolution_1] start time: 14173311267575ns
+[smt.profile] [resolution_1] end time: 14173312197978ns
+
+[smt.profile] [`Eq.symm] start time: 14173312539382ns
+[smt.profile] [`Eq.symm]  end time: 14173312711774ns
+
+[smt.profile] [`eqResolve] start time: 14173312931076ns
+[smt.profile] [`eqResolve]  end time: 14173313065966ns
+
+[smt.profile] [resolution_2] start time: 14173313249789ns
+[smt.profile] [resolution_2] end time: 14173314256615ns
+
+[smt.profile] [(Term.explicit "@" `cnfAndPos)] start time: 14173314593259ns
+[smt.profile] [(Term.explicit "@" `cnfAndPos)]  end time: 14173315880465ns
+
+[smt.profile] [`equivElim1] start time: 14173316237395ns
+[smt.profile] [`equivElim1]  end time: 14173316392510ns
+
+[smt.profile] [(Term.explicit "@" `cnfAndPos)] start time: 14173316706731ns
+[smt.profile] [(Term.explicit "@" `cnfAndPos)]  end time: 14173317682272ns
+
+[smt.profile] [`equivElim1] start time: 14173318014867ns
+[smt.profile] [`equivElim1]  end time: 14173318160839ns
+
+[smt.profile] [`eqResolve] start time: 14173319684306ns
+[smt.profile] [`eqResolve]  end time: 14173319834268ns
+
+[smt.profile] [andElim] start time: 14173320050453ns
+[smt.profile] [andElim] end time: 14173320522034ns
+
+[smt.profile] [resolution_2] start time: 14173320784080ns
+[smt.profile] [resolution_2] end time: 14173321691457ns
+
+[smt.profile] [resolution_1] start time: 14173322002730ns
+[smt.profile] [resolution_1] end time: 14173322909331ns
+
+[smt.profile] [resolution_1] start time: 14173323181137ns
+[smt.profile] [resolution_1] end time: 14173324154082ns
+
+[smt.profile] [resolution_1] start time: 14173324465558ns
+[smt.profile] [resolution_1] end time: 14173325381376ns
+
+[smt.profile] [resolution_1] start time: 14173325759175ns
+[smt.profile] [resolution_1] end time: 14173326727692ns
+
+[smt.profile] [`contradiction] start time: 14173327007417ns
+[smt.profile] [`contradiction]  end time: 14173327147290ns
+
+invalid
+1.11user 0.12system 0:01.24elapsed 99%CPU (0avgtext+0avgdata 1132980maxresident)k
+96inputs+16outputs (4major+58438minor)pagefaults 0swaps

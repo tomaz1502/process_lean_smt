@@ -1,0 +1,81 @@
+./benchs_new/QF_UF/20170829-Rodin/smt7452810379672948208.smt2.lean:46:53: warning: `Implies` has been deprecated
+
+./benchs_new/QF_UF/20170829-Rodin/smt7452810379672948208.smt2.lean:46:74: warning: `Implies` has been deprecated
+
+./benchs_new/QF_UF/20170829-Rodin/smt7452810379672948208.smt2.lean:46:95: warning: `Implies` has been deprecated
+
+./benchs_new/QF_UF/20170829-Rodin/smt7452810379672948208.smt2.lean:62:15: warning: `Implies` has been deprecated
+
+./benchs_new/QF_UF/20170829-Rodin/smt7452810379672948208.smt2.lean:63:15: warning: `Implies` has been deprecated
+
+./benchs_new/QF_UF/20170829-Rodin/smt7452810379672948208.smt2.lean:64:15: warning: `Implies` has been deprecated
+
+./benchs_new/QF_UF/20170829-Rodin/smt7452810379672948208.smt2.lean:42:6: warning: unused variable `let8` [linter.unusedVariables]
+
+./benchs_new/QF_UF/20170829-Rodin/smt7452810379672948208.smt2.lean:43:6: warning: unused variable `let9` [linter.unusedVariables]
+
+./benchs_new/QF_UF/20170829-Rodin/smt7452810379672948208.smt2.lean:44:6: warning: unused variable `let10` [linter.unusedVariables]
+
+./benchs_new/QF_UF/20170829-Rodin/smt7452810379672948208.smt2.lean:45:6: warning: unused variable `let11` [linter.unusedVariables]
+
+./benchs_new/QF_UF/20170829-Rodin/smt7452810379672948208.smt2.lean:58:4: warning: unused variable `lean_a0` [linter.unusedVariables]
+
+./benchs_new/QF_UF/20170829-Rodin/smt7452810379672948208.smt2.lean:60:4: warning: unused variable `lean_a2` [linter.unusedVariables]
+
+./benchs_new/QF_UF/20170829-Rodin/smt7452810379672948208.smt2.lean:61:4: warning: unused variable `lean_a3` [linter.unusedVariables]
+
+./benchs_new/QF_UF/20170829-Rodin/smt7452810379672948208.smt2.lean:64:4: warning: unused variable `lean_a6` [linter.unusedVariables]
+
+./benchs_new/QF_UF/20170829-Rodin/smt7452810379672948208.smt2.lean:65:4: warning: unused variable `lean_a7` [linter.unusedVariables]
+
+./benchs_new/QF_UF/20170829-Rodin/smt7452810379672948208.smt2.lean:66:4: warning: unused variable `lean_a8` [linter.unusedVariables]
+
+./benchs_new/QF_UF/20170829-Rodin/smt7452810379672948208.smt2.lean:67:4: warning: unused variable `lean_a9` [linter.unusedVariables]
+
+./benchs_new/QF_UF/20170829-Rodin/smt7452810379672948208.smt2.lean:68:4: warning: unused variable `lean_a10` [linter.unusedVariables]
+
+./benchs_new/QF_UF/20170829-Rodin/smt7452810379672948208.smt2.lean:69:4: warning: unused variable `lean_a11` [linter.unusedVariables]
+
+[smt.profile] [`cnfEquivNeg1] start time: 13436688818729ns
+[smt.profile] [`cnfEquivNeg1] end time: 13436688968518ns
+
+[smt.profile] [`impliesElim] start time: 13436689173785ns
+[smt.profile] [`impliesElim]  end time: 13436689341159ns
+
+[smt.profile] [(Term.explicit "@" `cnfAndPos)] start time: 13436689519876ns
+[smt.profile] [(Term.explicit "@" `cnfAndPos)]  end time: 13436690949669ns
+
+[smt.profile] [resolution_2] start time: 13436691137251ns
+[smt.profile] [resolution_2] end time: 13436692222561ns
+
+[smt.profile] [resolution_1] start time: 13436692391523ns
+[smt.profile] [resolution_1] end time: 13436693309036ns
+
+[smt.profile] [resolution_1] start time: 13436693450952ns
+[smt.profile] [resolution_1] end time: 13436694443382ns
+
+[smt.profile] [(Term.explicit "@" `cnfAndPos)] start time: 13436694660993ns
+[smt.profile] [(Term.explicit "@" `cnfAndPos)]  end time: 13436695619971ns
+
+[smt.profile] [`impliesElim] start time: 13436695847157ns
+[smt.profile] [`impliesElim]  end time: 13436696015614ns
+
+[smt.profile] [(Term.explicit "@" `cnfAndPos)] start time: 13436696211974ns
+[smt.profile] [(Term.explicit "@" `cnfAndPos)]  end time: 13436697548763ns
+
+[smt.profile] [resolution_2] start time: 13436697732310ns
+[smt.profile] [resolution_2] end time: 13436698707568ns
+
+[smt.profile] [resolution_1] start time: 13436698890474ns
+[smt.profile] [resolution_1] end time: 13436699830616ns
+
+[smt.profile] [resolution_1] start time: 13436699999722ns
+[smt.profile] [resolution_1] end time: 13436700927076ns
+
+[smt.profile] [resolution_1] start time: 13436701093146ns
+[smt.profile] [resolution_1] end time: 13436701996043ns
+
+[smt.profile] [`contradiction] start time: 13436702190956ns
+[smt.profile] [`contradiction]  end time: 13436702326404ns
+
+valid

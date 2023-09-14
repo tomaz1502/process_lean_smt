@@ -1,0 +1,108 @@
+./benchs_new/QF_UF/2018-Goel-hwbench/QF_UF_needham.3.prop4_ab_reg_max.smt2.lean:403:49: error: function expected at
+  yx24n0s16 ≠ yx24n1771s16
+term has type
+  Prop
+
+./benchs_new/QF_UF/2018-Goel-hwbench/QF_UF_needham.3.prop4_ab_reg_max.smt2.lean:403:416: error: function expected at
+  yx24n75s32 ≠ yx24n16s32
+term has type
+  Prop
+
+./benchs_new/QF_UF/2018-Goel-hwbench/QF_UF_needham.3.prop4_ab_reg_max.smt2.lean:423:15: error: function expected at
+  yx24n0s16 ≠ yx24n1771s16
+term has type
+  Prop
+
+./benchs_new/QF_UF/2018-Goel-hwbench/QF_UF_needham.3.prop4_ab_reg_max.smt2.lean:424:15: error: function expected at
+  yx24n75s32 ≠ yx24n16s32
+term has type
+  Prop
+
+[smt.profile] [`cnfEquivPos1] start time: 26628365188653ns
+[smt.profile] [`cnfEquivPos1] end time: 26628365433997ns
+
+[smt.profile] [`eqResolve] start time: 26628365747238ns
+[smt.profile] [`eqResolve]  end time: 26628365947323ns
+
+[smt.profile] [andElim] start time: 26628366228506ns
+[smt.profile] [andElim] end time: 26628368572577ns
+
+[smt.profile] [`rfl] start time: 26628368995083ns
+[smt.profile] [`rfl] end time: 26628369158788ns
+
+[smt.profile] ["flipCongrArg"] start time: 26628369416563ns
+[smt.profile] ["flipCongrArg"]  end time: 26628369956897ns
+
+[smt.profile] [`congr] start time: 26628370358882ns
+[smt.profile] [`congr]  end time: 26628370818050ns
+
+[smt.profile] [`eqResolve] start time: 26628371110179ns
+[smt.profile] [`eqResolve]  end time: 26628371312908ns
+
+[smt.profile] [`eqResolve] start time: 26628371604697ns
+[smt.profile] [`eqResolve]  end time: 26628371793610ns
+
+[smt.profile] [`equivElim1] start time: 26628372150203ns
+[smt.profile] [`equivElim1]  end time: 26628372380549ns
+
+[smt.profile] [`equivElim1] start time: 26628372738986ns
+[smt.profile] [`equivElim1]  end time: 26628372971762ns
+
+[smt.profile] [`eqResolve] start time: 26628373256971ns
+[smt.profile] [`eqResolve]  end time: 26628373440563ns
+
+[smt.profile] [andElim] start time: 26628373722114ns
+[smt.profile] [andElim] end time: 26628375978629ns
+
+[smt.profile] [resolution_2] start time: 26628376309474ns
+[smt.profile] [resolution_2] end time: 26628377866382ns
+
+[smt.profile] [resolution_1] start time: 26628378195202ns
+[smt.profile] [resolution_1] end time: 26628379543587ns
+
+[smt.profile] [`Eq.symm] start time: 26628379990491ns
+[smt.profile] [`Eq.symm]  end time: 26628380261173ns
+
+[smt.profile] [`eqResolve] start time: 26628380576738ns
+[smt.profile] [`eqResolve]  end time: 26628380791786ns
+
+[smt.profile] [resolution_2] start time: 26628381073853ns
+[smt.profile] [resolution_2] end time: 26628382572649ns
+
+[smt.profile] [(Term.explicit "@" `cnfAndPos)] start time: 26628382981884ns
+[smt.profile] [(Term.explicit "@" `cnfAndPos)]  end time: 26628384840111ns
+
+[smt.profile] [`equivElim1] start time: 26628385275342ns
+[smt.profile] [`equivElim1]  end time: 26628385527994ns
+
+[smt.profile] [(Term.explicit "@" `cnfAndPos)] start time: 26628385898718ns
+[smt.profile] [(Term.explicit "@" `cnfAndPos)]  end time: 26628387254781ns
+
+[smt.profile] [`equivElim1] start time: 26628387697243ns
+[smt.profile] [`equivElim1]  end time: 26628387954875ns
+
+[smt.profile] [`eqResolve] start time: 26628388261248ns
+[smt.profile] [`eqResolve]  end time: 26628388442411ns
+
+[smt.profile] [andElim] start time: 26628388751598ns
+[smt.profile] [andElim] end time: 26628389832132ns
+
+[smt.profile] [resolution_2] start time: 26628390163560ns
+[smt.profile] [resolution_2] end time: 26628391508866ns
+
+[smt.profile] [resolution_1] start time: 26628391827461ns
+[smt.profile] [resolution_1] end time: 26628393245061ns
+
+[smt.profile] [resolution_1] start time: 26628393579652ns
+[smt.profile] [resolution_1] end time: 26628394922119ns
+
+[smt.profile] [resolution_1] start time: 26628395264098ns
+[smt.profile] [resolution_1] end time: 26628396639241ns
+
+[smt.profile] [resolution_1] start time: 26628396985450ns
+[smt.profile] [resolution_1] end time: 26628398396196ns
+
+[smt.profile] [`contradiction] start time: 26628398790268ns
+[smt.profile] [`contradiction]  end time: 26628398990329ns
+
+invalid

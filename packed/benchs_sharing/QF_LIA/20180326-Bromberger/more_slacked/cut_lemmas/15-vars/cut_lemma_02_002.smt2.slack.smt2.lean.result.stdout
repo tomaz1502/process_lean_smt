@@ -1,0 +1,59 @@
+./benchs_new/QF_LIA/20180326-Bromberger/more_slacked/cut_lemmas/15-vars/cut_lemma_02_002.smt2.slack.smt2.lean:381:1504: error: application type mismatch
+  let234 = let130
+argument
+  let130
+has type
+  ℚ : Type
+but is expected to have type
+  ℤ : Type
+
+./benchs_new/QF_LIA/20180326-Bromberger/more_slacked/cut_lemmas/15-vars/cut_lemma_02_002.smt2.slack.smt2.lean:381:1616: error: application type mismatch
+  let245 = let130
+argument
+  let130
+has type
+  ℚ : Type
+but is expected to have type
+  ℤ : Type
+
+./benchs_new/QF_LIA/20180326-Bromberger/more_slacked/cut_lemmas/15-vars/cut_lemma_02_002.smt2.slack.smt2.lean:381:1658: error: application type mismatch
+  let247 = let130
+argument
+  let130
+has type
+  ℚ : Type
+but is expected to have type
+  ℤ : Type
+
+./benchs_new/QF_LIA/20180326-Bromberger/more_slacked/cut_lemmas/15-vars/cut_lemma_02_002.smt2.slack.smt2.lean:775:26: error: application type mismatch
+  let234 = let130
+argument
+  let130
+has type
+  ℚ : Type
+but is expected to have type
+  ℤ : Type
+
+./benchs_new/QF_LIA/20180326-Bromberger/more_slacked/cut_lemmas/15-vars/cut_lemma_02_002.smt2.slack.smt2.lean:781:26: error: application type mismatch
+  let245 = let130
+argument
+  let130
+has type
+  ℚ : Type
+but is expected to have type
+  ℤ : Type
+
+./benchs_new/QF_LIA/20180326-Bromberger/more_slacked/cut_lemmas/15-vars/cut_lemma_02_002.smt2.slack.smt2.lean:783:26: error: application type mismatch
+  let247 = let130
+argument
+  let130
+has type
+  ℚ : Type
+but is expected to have type
+  ℤ : Type
+
+./benchs_new/QF_LIA/20180326-Bromberger/more_slacked/cut_lemmas/15-vars/cut_lemma_02_002.smt2.slack.smt2.lean:382:2: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs_new/QF_LIA/20180326-Bromberger/more_slacked/cut_lemmas/15-vars/cut_lemma_02_002.smt2.slack.smt2.lean:66:0: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+invalid

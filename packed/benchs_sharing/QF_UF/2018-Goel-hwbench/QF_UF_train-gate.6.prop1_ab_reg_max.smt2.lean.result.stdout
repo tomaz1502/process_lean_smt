@@ -1,0 +1,108 @@
+./benchs_new/QF_UF/2018-Goel-hwbench/QF_UF_train-gate.6.prop1_ab_reg_max.smt2.lean:354:18: error: function expected at
+  yx24n0s8 ≠ yx24n7s8
+term has type
+  Prop
+
+./benchs_new/QF_UF/2018-Goel-hwbench/QF_UF_train-gate.6.prop1_ab_reg_max.smt2.lean:354:127: error: function expected at
+  yx24n1s32 ≠ yx24n0s32
+term has type
+  Prop
+
+./benchs_new/QF_UF/2018-Goel-hwbench/QF_UF_train-gate.6.prop1_ab_reg_max.smt2.lean:373:15: error: function expected at
+  yx24n0s8 ≠ yx24n7s8
+term has type
+  Prop
+
+./benchs_new/QF_UF/2018-Goel-hwbench/QF_UF_train-gate.6.prop1_ab_reg_max.smt2.lean:374:15: error: function expected at
+  yx24n1s32 ≠ yx24n0s32
+term has type
+  Prop
+
+[smt.profile] [`cnfEquivPos1] start time: 24898063073049ns
+[smt.profile] [`cnfEquivPos1] end time: 24898063320398ns
+
+[smt.profile] [`eqResolve] start time: 24898063624199ns
+[smt.profile] [`eqResolve]  end time: 24898063820624ns
+
+[smt.profile] [andElim] start time: 24898064065096ns
+[smt.profile] [andElim] end time: 24898066566747ns
+
+[smt.profile] [`rfl] start time: 24898066961737ns
+[smt.profile] [`rfl] end time: 24898067108219ns
+
+[smt.profile] ["flipCongrArg"] start time: 24898067344942ns
+[smt.profile] ["flipCongrArg"]  end time: 24898067867022ns
+
+[smt.profile] [`congr] start time: 24898068256087ns
+[smt.profile] [`congr]  end time: 24898068682538ns
+
+[smt.profile] [`eqResolve] start time: 24898068964952ns
+[smt.profile] [`eqResolve]  end time: 24898069163789ns
+
+[smt.profile] [`eqResolve] start time: 24898069426433ns
+[smt.profile] [`eqResolve]  end time: 24898069612469ns
+
+[smt.profile] [`equivElim1] start time: 24898069941007ns
+[smt.profile] [`equivElim1]  end time: 24898070173980ns
+
+[smt.profile] [`equivElim1] start time: 24898070512720ns
+[smt.profile] [`equivElim1]  end time: 24898070740959ns
+
+[smt.profile] [`eqResolve] start time: 24898071022653ns
+[smt.profile] [`eqResolve]  end time: 24898071202940ns
+
+[smt.profile] [andElim] start time: 24898071487933ns
+[smt.profile] [andElim] end time: 24898073972622ns
+
+[smt.profile] [resolution_2] start time: 24898074285032ns
+[smt.profile] [resolution_2] end time: 24898075799858ns
+
+[smt.profile] [resolution_1] start time: 24898076128750ns
+[smt.profile] [resolution_1] end time: 24898077437044ns
+
+[smt.profile] [`Eq.symm] start time: 24898077865784ns
+[smt.profile] [`Eq.symm]  end time: 24898078132458ns
+
+[smt.profile] [`eqResolve] start time: 24898078431828ns
+[smt.profile] [`eqResolve]  end time: 24898078647289ns
+
+[smt.profile] [resolution_2] start time: 24898078901518ns
+[smt.profile] [resolution_2] end time: 24898080328167ns
+
+[smt.profile] [(Term.explicit "@" `cnfAndPos)] start time: 24898080731986ns
+[smt.profile] [(Term.explicit "@" `cnfAndPos)]  end time: 24898082642296ns
+
+[smt.profile] [`equivElim1] start time: 24898083061751ns
+[smt.profile] [`equivElim1]  end time: 24898083309135ns
+
+[smt.profile] [(Term.explicit "@" `cnfAndPos)] start time: 24898083679523ns
+[smt.profile] [(Term.explicit "@" `cnfAndPos)]  end time: 24898085004407ns
+
+[smt.profile] [`equivElim1] start time: 24898085425952ns
+[smt.profile] [`equivElim1]  end time: 24898085674757ns
+
+[smt.profile] [`eqResolve] start time: 24898085976649ns
+[smt.profile] [`eqResolve]  end time: 24898086153067ns
+
+[smt.profile] [andElim] start time: 24898086441991ns
+[smt.profile] [andElim] end time: 24898087183074ns
+
+[smt.profile] [resolution_2] start time: 24898087516898ns
+[smt.profile] [resolution_2] end time: 24898088801919ns
+
+[smt.profile] [resolution_1] start time: 24898089127925ns
+[smt.profile] [resolution_1] end time: 24898090465528ns
+
+[smt.profile] [resolution_1] start time: 24898090786178ns
+[smt.profile] [resolution_1] end time: 24898092095276ns
+
+[smt.profile] [resolution_1] start time: 24898092424815ns
+[smt.profile] [resolution_1] end time: 24898093780652ns
+
+[smt.profile] [resolution_1] start time: 24898094103852ns
+[smt.profile] [resolution_1] end time: 24898095449229ns
+
+[smt.profile] [`contradiction] start time: 24898095838625ns
+[smt.profile] [`contradiction]  end time: 24898096028194ns
+
+invalid

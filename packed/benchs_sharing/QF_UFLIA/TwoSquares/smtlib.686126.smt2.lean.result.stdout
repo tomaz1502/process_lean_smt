@@ -1,0 +1,185 @@
+./benchs_new/QF_UFLIA/TwoSquares/smtlib.686126.smt2.lean:57:16: warning: `Implies` has been deprecated
+
+./benchs_new/QF_UFLIA/TwoSquares/smtlib.686126.smt2.lean:60:16: warning: `Implies` has been deprecated
+
+./benchs_new/QF_UFLIA/TwoSquares/smtlib.686126.smt2.lean:98:16: warning: `Implies` has been deprecated
+
+./benchs_new/QF_UFLIA/TwoSquares/smtlib.686126.smt2.lean:101:16: warning: `Implies` has been deprecated
+
+./benchs_new/QF_UFLIA/TwoSquares/smtlib.686126.smt2.lean:131:51: error: application type mismatch
+  congr lean_s12
+argument
+  lean_s12
+has type
+  HMul.hMul let13 = HMul.hMul let13 : Prop
+but is expected to have type
+  (Int.add.match_1 (fun m n => ℤ) let13 let5 (fun m n => Int.ofNat (m * n)) (fun m n => Int.negOfNat (m * Nat.succ n))
+      fun m n => Int.negOfNat (Nat.succ m * n)) =
+    Int.add.match_1 (fun m n => ℤ) let13 let20 (fun m n => Int.ofNat (m * n)) (fun m n => Int.negOfNat (m * Nat.succ n))
+      fun m n => Int.negOfNat (Nat.succ m * n) : Prop
+
+./benchs_new/QF_UFLIA/TwoSquares/smtlib.686126.smt2.lean:133:51: error: application type mismatch
+  congr lean_s10
+argument
+  lean_s10
+has type
+  HAdd.hAdd let7 = HAdd.hAdd let22 : Prop
+but is expected to have type
+  (Int.add.match_1 (fun m n => ℤ) let7 let14 (fun m n => Int.ofNat (m + n)) (fun m n => Int.subNatNat m (Nat.succ n))
+      fun m n => Int.subNatNat n (Nat.succ m)) =
+    Int.add.match_1 (fun m n => ℤ) let22 let19 (fun m n => Int.ofNat (m + n)) (fun m n => Int.subNatNat m (Nat.succ n))
+      fun m n => Int.subNatNat n (Nat.succ m) : Prop
+
+./benchs_new/QF_UFLIA/TwoSquares/smtlib.686126.smt2.lean:138:50: error: application type mismatch
+  congr lean_s18
+argument
+  lean_s18
+has type
+  HAdd.hAdd let8 = HAdd.hAdd let24 : Prop
+but is expected to have type
+  (Int.add.match_1 (fun m n => ℤ) let8 let1 (fun m n => Int.ofNat (m + n)) (fun m n => Int.subNatNat m (Nat.succ n))
+      fun m n => Int.subNatNat n (Nat.succ m)) =
+    Int.add.match_1 (fun m n => ℤ) let24 let1 (fun m n => Int.ofNat (m + n)) (fun m n => Int.subNatNat m (Nat.succ n))
+      fun m n => Int.subNatNat n (Nat.succ m) : Prop
+
+./benchs_new/QF_UFLIA/TwoSquares/smtlib.686126.smt2.lean:140:51: error: application type mismatch
+  congr lean_s9
+argument
+  lean_s9
+has type
+  GE.ge let7 = GE.ge let22 : Prop
+but is expected to have type
+  Int.NonNeg = Int.NonNeg : Prop
+
+./benchs_new/QF_UFLIA/TwoSquares/smtlib.686126.smt2.lean:144:48: warning: `Implies` has been deprecated
+
+./benchs_new/QF_UFLIA/TwoSquares/smtlib.686126.smt2.lean:146:51: error: application type mismatch
+  congr lean_s27
+argument
+  lean_s27
+has type
+  GE.ge let5 = GE.ge let20 : Prop
+but is expected to have type
+  Int.NonNeg = Int.NonNeg : Prop
+
+[smt.profile] ["flipCongrArg"] start time: 37798649630306ns
+[smt.profile] ["flipCongrArg"]  end time: 37798650107742ns
+
+[smt.profile] [`rfl] start time: 37798650485259ns
+[smt.profile] [`rfl] end time: 37798650639136ns
+
+[smt.profile] [`rfl] start time: 37798650965955ns
+[smt.profile] [`rfl] end time: 37798651111465ns
+
+[smt.profile] [`congrHAdd] start time: 37798651308787ns
+[smt.profile] [`congrHAdd]  end time: 37798652231781ns
+
+[smt.profile] [`congrHAdd] start time: 37798652614802ns
+[smt.profile] [`congrHAdd]  end time: 37798653687840ns
+
+[smt.profile] [`Eq.trans] start time: 37798654060803ns
+[smt.profile] [`Eq.trans]  end time: 37798654450644ns
+
+[smt.profile] [`Eq.trans] start time: 37798654795886ns
+[smt.profile] [`Eq.trans]  end time: 37798655143590ns
+
+[smt.profile] [`Eq.trans] start time: 37798655503842ns
+[smt.profile] [`Eq.trans]  end time: 37798655837579ns
+
+[smt.profile] [`congr] start time: 37798656201510ns
+[smt.profile] [`congr]  end time: 37798656663389ns
+
+[smt.profile] ["flipCongrArg"] start time: 37798656903158ns
+[smt.profile] ["flipCongrArg"]  end time: 37798657658849ns
+
+[smt.profile] ["flipCongrArg"] start time: 37798657892691ns
+[smt.profile] ["flipCongrArg"]  end time: 37798659035137ns
+
+[smt.profile] [`rfl] start time: 37798659434178ns
+[smt.profile] [`rfl] end time: 37798659599611ns
+
+[smt.profile] ["flipCongrArg"] start time: 37798659829739ns
+[smt.profile] ["flipCongrArg"]  end time: 37798660950974ns
+
+[smt.profile] [`congr] start time: 37798661368160ns
+[smt.profile] [`congr]  end time: 37798676961203ns
+
+[smt.profile] [`Eq.trans] start time: 37798677469804ns
+[smt.profile] [`Eq.trans]  end time: 37798677846566ns
+
+[smt.profile] [`congr] start time: 37798678236954ns
+[smt.profile] [`congr]  end time: 37798689827250ns
+
+[smt.profile] [`Eq.trans] start time: 37798690369272ns
+[smt.profile] [`Eq.trans]  end time: 37798690755286ns
+
+[smt.profile] [`Eq.trans] start time: 37798691148281ns
+[smt.profile] [`Eq.trans]  end time: 37798691503939ns
+
+[smt.profile] ["flipCongrArg"] start time: 37798691761251ns
+[smt.profile] ["flipCongrArg"]  end time: 37798692938798ns
+
+[smt.profile] [`rfl] start time: 37798693369075ns
+[smt.profile] [`rfl] end time: 37798693525518ns
+
+[smt.profile] [`congr] start time: 37798693949897ns
+[smt.profile] [`congr]  end time: 37798708306752ns
+
+[smt.profile] [`Eq.trans] start time: 37798708903601ns
+[smt.profile] [`Eq.trans]  end time: 37798709288624ns
+
+[smt.profile] [`congr] start time: 37798709712616ns
+[smt.profile] [`congr]  end time: 37798725763618ns
+
+[smt.profile] [`Eq.trans] start time: 37798726336684ns
+[smt.profile] [`Eq.trans]  end time: 37798726716578ns
+
+[smt.profile] ["flipCongrArg"] start time: 37798727121918ns
+[smt.profile] ["flipCongrArg"]  end time: 37798727542391ns
+
+[smt.profile] [`Eq.trans] start time: 37798727961033ns
+[smt.profile] [`Eq.trans]  end time: 37798728290527ns
+
+[smt.profile] ["flipCongrArg"] start time: 37798728592403ns
+[smt.profile] ["flipCongrArg"]  end time: 37798728991917ns
+
+[smt.profile] ["flipCongrArg"] start time: 37798729283280ns
+[smt.profile] ["flipCongrArg"]  end time: 37798730063642ns
+
+[smt.profile] [`congr] start time: 37798730519543ns
+[smt.profile] [`congr]  end time: 37798743332181ns
+
+[smt.profile] [`Eq.trans] start time: 37798743933058ns
+[smt.profile] [`Eq.trans]  end time: 37798744317580ns
+
+[smt.profile] ["flipCongrArg"] start time: 37798744756096ns
+[smt.profile] ["flipCongrArg"]  end time: 37798745200676ns
+
+[smt.profile] [`Eq.trans] start time: 37798745633375ns
+[smt.profile] [`Eq.trans]  end time: 37798745987862ns
+
+[smt.profile] [`congr] start time: 37798746431155ns
+[smt.profile] [`congr]  end time: 37798747032180ns
+
+[smt.profile] ["flipCongrArg"] start time: 37798747484655ns
+[smt.profile] ["flipCongrArg"]  end time: 37798747906947ns
+
+[smt.profile] [`eqResolve] start time: 37798748260088ns
+[smt.profile] [`eqResolve]  end time: 37798748528783ns
+
+[smt.profile] [`notImplies2] start time: 37798748913328ns
+[smt.profile] [`notImplies2]  end time: 37798749183458ns
+
+[smt.profile] [`notNotElim] start time: 37798749533900ns
+[smt.profile] [`notNotElim]  end time: 37798749750522ns
+
+[smt.profile] [`eqResolve] start time: 37798750067242ns
+[smt.profile] [`eqResolve]  end time: 37798750312798ns
+
+[smt.profile] [`notImplies1] start time: 37798750627245ns
+[smt.profile] [`notImplies1]  end time: 37798750865432ns
+
+[smt.profile] [`contradiction] start time: 37798751250600ns
+[smt.profile] [`contradiction]  end time: 37798751480295ns
+
+invalid

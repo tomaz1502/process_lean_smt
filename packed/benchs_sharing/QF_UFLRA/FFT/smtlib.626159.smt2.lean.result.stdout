@@ -1,0 +1,61 @@
+./benchs_new/QF_UFLRA/FFT/smtlib.626159.smt2.lean:76:49: error: application type mismatch
+  congr lean_s1
+argument
+  lean_s1
+has type
+  GE.ge let2 = GE.ge let2 : Prop
+but is expected to have type
+  Eq (Rat.blt let2 let1) = Eq (Rat.blt let2 let11) : Prop
+
+[smt.profile] [`rfl] start time: 32268712075591ns
+[smt.profile] [`rfl] end time: 32268712278051ns
+
+[smt.profile] ["flipCongrArg"] start time: 32268712504862ns
+[smt.profile] ["flipCongrArg"]  end time: 32268713380576ns
+
+[smt.profile] [`rfl] start time: 32268713758325ns
+[smt.profile] [`rfl] end time: 32268713906686ns
+
+[smt.profile] ["flipCongrArg"] start time: 32268714112115ns
+[smt.profile] ["flipCongrArg"]  end time: 32268715341319ns
+
+[smt.profile] [`congr] start time: 32268715727469ns
+[smt.profile] [`congr]  end time: 32268716740698ns
+
+[smt.profile] [`Eq.trans] start time: 32268717143430ns
+[smt.profile] [`Eq.trans]  end time: 32268717535123ns
+
+[smt.profile] [`congr] start time: 32268717925552ns
+[smt.profile] [`congr]  end time: 32268738367649ns
+
+[smt.profile] [`Eq.trans] start time: 32268738883240ns
+[smt.profile] [`Eq.trans]  end time: 32268739285475ns
+
+[smt.profile] ["flipCongrArg"] start time: 32268739651812ns
+[smt.profile] ["flipCongrArg"]  end time: 32268740086555ns
+
+[smt.profile] [`Eq.trans] start time: 32268740464079ns
+[smt.profile] [`Eq.trans]  end time: 32268740834936ns
+
+[smt.profile] ["flipCongrArg"] start time: 32268741214703ns
+[smt.profile] ["flipCongrArg"]  end time: 32268741661651ns
+
+[smt.profile] [`Eq.trans] start time: 32268742034793ns
+[smt.profile] [`Eq.trans]  end time: 32268742404667ns
+
+[smt.profile] [`eqResolve] start time: 32268742668889ns
+[smt.profile] [`eqResolve]  end time: 32268742985880ns
+
+[smt.profile] ["flipCongrArg"] start time: 32268743367789ns
+[smt.profile] ["flipCongrArg"]  end time: 32268743828591ns
+
+[smt.profile] [`Eq.trans] start time: 32268744206540ns
+[smt.profile] [`Eq.trans]  end time: 32268744588944ns
+
+[smt.profile] [`eqResolve] start time: 32268744898957ns
+[smt.profile] [`eqResolve]  end time: 32268745191249ns
+
+[smt.profile] [`contradiction] start time: 32268745507306ns
+[smt.profile] [`contradiction]  end time: 32268745751112ns
+
+invalid

@@ -1,0 +1,649 @@
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:41:12014: error: application type mismatch
+  Int.ofNat 1 / Int.ofNat 4 * Int.ofNat 0 = Rat.ofInt 0
+argument
+  Rat.ofInt 0
+has type
+  ℚ : Type
+but is expected to have type
+  ℤ : Type
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:41:16319: error: application type mismatch
+  Int.ofNat 11 / Int.ofNat 8 * Int.ofNat 0 = Rat.ofInt 0
+argument
+  Rat.ofInt 0
+has type
+  ℚ : Type
+but is expected to have type
+  ℤ : Type
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:41:21878: error: application type mismatch
+  -(Int.ofNat 15 / Int.ofNat 8) * Int.ofNat 0 = Rat.ofInt 0
+argument
+  Rat.ofInt 0
+has type
+  ℚ : Type
+but is expected to have type
+  ℤ : Type
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:61:101: error: application type mismatch
+  Int.ofNat 1 / Int.ofNat 4 * Int.ofNat 0 = Rat.ofInt 0
+argument
+  Rat.ofInt 0
+has type
+  ℚ : Type
+but is expected to have type
+  ℤ : Type
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:79:102: error: application type mismatch
+  Int.ofNat 11 / Int.ofNat 8 * Int.ofNat 0 = Rat.ofInt 0
+argument
+  Rat.ofInt 0
+has type
+  ℚ : Type
+but is expected to have type
+  ℤ : Type
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:91:112: error: application type mismatch
+  -(Int.ofNat 15 / Int.ofNat 8) * Int.ofNat 0 = Rat.ofInt 0
+argument
+  Rat.ofInt 0
+has type
+  ℚ : Type
+but is expected to have type
+  ℤ : Type
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:228:50: warning: `Implies` has been deprecated
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:235:51: warning: `Implies` has been deprecated
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:239:51: warning: `Implies` has been deprecated
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:243:51: warning: `Implies` has been deprecated
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:247:51: warning: `Implies` has been deprecated
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:251:51: warning: `Implies` has been deprecated
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:258:51: warning: `Implies` has been deprecated
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:265:51: warning: `Implies` has been deprecated
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:272:51: warning: `Implies` has been deprecated
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:276:51: warning: `Implies` has been deprecated
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:280:51: warning: `Implies` has been deprecated
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:287:51: warning: `Implies` has been deprecated
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:294:51: warning: `Implies` has been deprecated
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:300:51: warning: `Implies` has been deprecated
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:313:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:312:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:311:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:310:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:309:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:308:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:307:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:306:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:305:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:304:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:303:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:302:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:301:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:300:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:299:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:298:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:297:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:296:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:295:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:294:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:293:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:292:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:291:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:290:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:289:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:288:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:287:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:286:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:285:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:284:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:283:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:282:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:281:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:280:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:279:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:278:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:277:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:276:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:275:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:274:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:273:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:272:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:271:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:270:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:269:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:268:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:267:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:266:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:265:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:264:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:263:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:262:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:261:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:260:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:259:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:258:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:257:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:256:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:255:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:254:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:253:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:252:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:251:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:250:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:249:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:248:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:247:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:246:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:245:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:244:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:243:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:242:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:241:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:240:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:239:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:238:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:237:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:236:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:235:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:234:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:233:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:232:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:231:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:230:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:229:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:228:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:227:34: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:225:40: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:225:32: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:224:30: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:223:30: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:222:30: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:220:36: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:219:34: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:218:32: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:217:30: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:216:28: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:215:26: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:214:24: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:213:22: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:212:20: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:211:18: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:210:16: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:209:14: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:208:12: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:207:10: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:207:2: error: (deterministic) timeout at 'isDefEq', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:221:134: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:222:90: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:223:95: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:226:105: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:227:144: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:228:262: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:229:162: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:230:139: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:231:140: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:232:95: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:233:101: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:234:180: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:235:367: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:236:232: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:237:151: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:238:201: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:239:420: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:240:264: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:241:151: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:242:330: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:243:678: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:244:393: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:245:116: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:246:429: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:247:841: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:248:457: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:249:151: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:250:519: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:251:1056: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:252:582: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:253:141: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:254:947: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:255:499: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:256:504: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:257:584: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:258:1176: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:259:637: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:260:141: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:261:545: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:262:298: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:263:303: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:264:383: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:265:774: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:266:436: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:267:140: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:268:547: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:269:299: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:270:304: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:271:383: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:272:773: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:273:435: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:274:150: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:275:337: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:276:691: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:277:399: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:278:150: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:279:789: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:280:1595: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:281:851: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:282:140: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:283:637: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:284:344: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:285:349: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:286:428: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:287:863: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:288:480: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:289:141: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:290:321: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:291:186: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:292:191: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:293:271: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:294:550: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:295:324: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:296:139: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:297:95: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:298:100: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:299:180: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:300:368: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:301:233: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:302:5397: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:303:211: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:304:233: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:305:211: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:306:59: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:307:59: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:308:59: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:309:59: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:310:59: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:311:59: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:312:59: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:313:59: error: (deterministic) timeout at 'elaborator', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean:314:50: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+[smt.profile] [`Eq.symm] start time: 62885730236616ns
+
+[smt.profile] [`eqResolve] start time: 62885731134891ns
+
+[smt.profile] [`trueElim] start time: 62885732766838ns
+
+[smt.profile] [`And.intro] start time: 62885733543104ns
+
+[smt.profile] [arithMulPos] start time: 62885734367808ns
+
+[smt.profile] [`modusPonens] start time: 62885735176443ns
+
+[smt.profile] [`trueElim] start time: 62885735989440ns
+
+[smt.profile] [`Eq.symm] start time: 62885736792667ns
+
+[smt.profile] [`eqResolve] start time: 62885737610028ns
+
+[smt.profile] [`And.intro] start time: 62885739308705ns
+
+[smt.profile] [arithMulPos] start time: 62885740248870ns
+
+[smt.profile] [`modusPonens] start time: 62885741198136ns
+
+[smt.profile] [`trueElim] start time: 62885742174023ns
+
+[smt.profile] [`And.intro] start time: 62885743178110ns
+
+[smt.profile] [arithMulNeg] start time: 62885744239972ns
+
+[smt.profile] [`modusPonens] start time: 62885745340270ns
+
+[smt.profile] [`trueElim] start time: 62885746451514ns
+
+[smt.profile] [`And.intro] start time: 62885747622213ns
+
+[smt.profile] [arithMulNeg] start time: 62885748948891ns
+
+[smt.profile] [`modusPonens] start time: 62885750305678ns
+
+[smt.profile] [`trueElim] start time: 62885751664993ns
+
+[smt.profile] [`And.intro] start time: 62885753123948ns
+
+[smt.profile] [arithMulNeg] start time: 62885754714622ns
+
+[smt.profile] [`modusPonens] start time: 62885756365607ns
+
+[smt.profile] [`trueElim] start time: 62885757985412ns
+
+[smt.profile] [`And.intro] start time: 62885759672481ns
+
+[smt.profile] [arithMulNeg] start time: 62885761600355ns
+
+[smt.profile] [`modusPonens] start time: 62885763591786ns
+
+[smt.profile] [`trueElim] start time: 62885765607798ns
+
+[smt.profile] [`Eq.symm] start time: 62885767876555ns
+
+[smt.profile] [`eqResolve] start time: 62885770225088ns
+
+[smt.profile] [`And.intro] start time: 62885775192268ns
+
+[smt.profile] [arithMulPos] start time: 62885778096967ns
+
+[smt.profile] [`modusPonens] start time: 62885781164787ns
+
+[smt.profile] [`trueElim] start time: 62885784199718ns
+
+[smt.profile] [`Eq.symm] start time: 62885787368123ns
+
+[smt.profile] [`eqResolve] start time: 62885790567905ns
+
+[smt.profile] [`And.intro] start time: 62885797077338ns
+
+[smt.profile] [arithMulPos] start time: 62885800615018ns
+
+[smt.profile] [`modusPonens] start time: 62885804193937ns
+
+[smt.profile] [`trueElim] start time: 62885807788223ns
+
+[smt.profile] [`Eq.symm] start time: 62885811481976ns
+
+[smt.profile] [`eqResolve] start time: 62885815172774ns
+
+[smt.profile] [`And.intro] start time: 62885822803903ns
+
+[smt.profile] [arithMulPos] start time: 62885826835985ns
+
+[smt.profile] [`modusPonens] start time: 62885830999512ns
+
+[smt.profile] [`trueElim] start time: 62885835184418ns
+
+[smt.profile] [`And.intro] start time: 62885839341456ns
+
+[smt.profile] [arithMulNeg] start time: 62885843561714ns
+
+[smt.profile] [`modusPonens] start time: 62885847853771ns
+
+[smt.profile] [`trueElim] start time: 62885852114254ns
+
+[smt.profile] [`And.intro] start time: 62885856579983ns
+
+[smt.profile] [arithMulNeg] start time: 62885861431420ns
+
+[smt.profile] [`modusPonens] start time: 62885866441983ns
+
+[smt.profile] [`trueElim] start time: 62885871429361ns
+
+[smt.profile] [`Eq.symm] start time: 62885876534427ns
+
+[smt.profile] [`eqResolve] start time: 62885881666224ns
+
+[smt.profile] [`And.intro] start time: 62885892203293ns
+
+[smt.profile] [arithMulPos] start time: 62885897726066ns
+
+[smt.profile] [`modusPonens] start time: 62885903296666ns
+
+[smt.profile] [`trueElim] start time: 62885908871095ns
+
+[smt.profile] [`Eq.symm] start time: 62885914487014ns
+
+[smt.profile] [`eqResolve] start time: 62885920198918ns
+
+[smt.profile] [`And.intro] start time: 62885931746009ns
+
+[smt.profile] [arithMulPos] start time: 62885937637402ns
+
+[smt.profile] [`modusPonens] start time: 62885943535317ns
+
+[smt.profile] [`Eq.symm] start time: 62885949439070ns
+
+[smt.profile] [`eqResolve] start time: 62885955368738ns
+
+[smt.profile] [`And.intro] start time: 62885967251784ns
+
+[smt.profile] [arithMulPos] start time: 62885973354385ns
+
+[smt.profile] [`modusPonens] start time: 62885979430154ns
+
+[smt.profile] [`rfl] start time: 62885991898340ns
+
+[smt.profile] [`rfl] start time: 62885998180893ns
+
+[smt.profile] [`rfl] start time: 62886004471191ns
+
+[smt.profile] [`congrHAdd] start time: 62886010855992ns
+
+[smt.profile] [`congrHAdd] start time: 62886017234205ns
+
+[smt.profile] [`congrHAdd] start time: 62886023749696ns
+
+[smt.profile] [`congrHAdd] start time: 62886030156035ns
+
+[smt.profile] [`congrHAdd] start time: 62886036489763ns
+
+[smt.profile] [`congrHAdd] start time: 62886042803527ns
+
+[smt.profile] [`congrHAdd] start time: 62886049061049ns
+
+[smt.profile] [`congrHAdd] start time: 62886055306369ns
+
+[smt.profile] [`congrHAdd] start time: 62886061650202ns
+
+invalid
+69.96user 2.82system 1:12.78elapsed 99%CPU (0avgtext+0avgdata 8121588maxresident)k
+704inputs+104outputs (0major+2103911minor)pagefaults 0swaps

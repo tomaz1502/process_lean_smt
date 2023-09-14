@@ -1,0 +1,59 @@
+./benchs_new/QF_LIA/20180326-Bromberger/more_slacked/CAV_2009_benchmarks/smt/10-vars/v10_problem__032.smt2.slack.smt2.lean:251:250: error: application type mismatch
+  let75 = let64
+argument
+  let64
+has type
+  ℚ : Type
+but is expected to have type
+  ℤ : Type
+
+./benchs_new/QF_LIA/20180326-Bromberger/more_slacked/CAV_2009_benchmarks/smt/10-vars/v10_problem__032.smt2.slack.smt2.lean:251:285: error: application type mismatch
+  let78 = let64
+argument
+  let64
+has type
+  ℚ : Type
+but is expected to have type
+  ℤ : Type
+
+./benchs_new/QF_LIA/20180326-Bromberger/more_slacked/CAV_2009_benchmarks/smt/10-vars/v10_problem__032.smt2.slack.smt2.lean:251:778: error: application type mismatch
+  let82 = let64
+argument
+  let64
+has type
+  ℚ : Type
+but is expected to have type
+  ℤ : Type
+
+./benchs_new/QF_LIA/20180326-Bromberger/more_slacked/CAV_2009_benchmarks/smt/10-vars/v10_problem__032.smt2.slack.smt2.lean:465:25: error: application type mismatch
+  let75 = let64
+argument
+  let64
+has type
+  ℚ : Type
+but is expected to have type
+  ℤ : Type
+
+./benchs_new/QF_LIA/20180326-Bromberger/more_slacked/CAV_2009_benchmarks/smt/10-vars/v10_problem__032.smt2.slack.smt2.lean:468:25: error: application type mismatch
+  let78 = let64
+argument
+  let64
+has type
+  ℚ : Type
+but is expected to have type
+  ℤ : Type
+
+./benchs_new/QF_LIA/20180326-Bromberger/more_slacked/CAV_2009_benchmarks/smt/10-vars/v10_problem__032.smt2.slack.smt2.lean:495:25: error: application type mismatch
+  let82 = let64
+argument
+  let64
+has type
+  ℚ : Type
+but is expected to have type
+  ℤ : Type
+
+./benchs_new/QF_LIA/20180326-Bromberger/more_slacked/CAV_2009_benchmarks/smt/10-vars/v10_problem__032.smt2.slack.smt2.lean:252:2: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs_new/QF_LIA/20180326-Bromberger/more_slacked/CAV_2009_benchmarks/smt/10-vars/v10_problem__032.smt2.slack.smt2.lean:50:0: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+invalid

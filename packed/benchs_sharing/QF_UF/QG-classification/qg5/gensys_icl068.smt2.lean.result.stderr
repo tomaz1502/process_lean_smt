@@ -1,0 +1,5 @@
+libc++abi: terminating due to uncaught exception of type lean::stack_space_exception: deep recursion was detected at 'replace' (potential solution: increase stack space in your system)
+timeout: the monitored command dumped core
+Command terminated by signal 6
+178.74user 5.11system 3:03.93elapsed 99%CPU (0avgtext+0avgdata 2482384maxresident)k
+0inputs+8outputs (0major+5330612minor)pagefaults 0swaps

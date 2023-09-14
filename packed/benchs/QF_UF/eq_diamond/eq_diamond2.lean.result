@@ -1,0 +1,47 @@
+./benchs/QF_UF/eq_diamond/eq_diamond2.lean:22:191: warning: `Implies` has been deprecated
+
+./benchs/QF_UF/eq_diamond/eq_diamond2.lean:23:191: warning: `Implies` has been deprecated
+
+./benchs/QF_UF/eq_diamond/eq_diamond2.lean:25:104: warning: `Implies` has been deprecated
+
+./benchs/QF_UF/eq_diamond/eq_diamond2.lean:28:16: warning: `Implies` has been deprecated
+
+[smt.profile] [`eqResolve] start time: 10092294160082ns
+[smt.profile] [`eqResolve]  end time: 10092294321414ns
+
+[smt.profile] [andElim] start time: 10092294765394ns
+[smt.profile] [andElim] end time: 10092295191537ns
+
+[smt.profile] [(Term.explicit "@" `cnfOrNeg)] start time: 10092295779716ns
+[smt.profile] [(Term.explicit "@" `cnfOrNeg)]  end time: 10092297366982ns
+
+[smt.profile] [andElim] start time: 10092297935863ns
+[smt.profile] [andElim] end time: 10092298318526ns
+
+[smt.profile] [`impliesElim] start time: 10092298868513ns
+[smt.profile] [`impliesElim]  end time: 10092299023581ns
+
+[smt.profile] [andElim] start time: 10092300968324ns
+[smt.profile] [andElim] end time: 10092301342467ns
+
+[smt.profile] [resolution_1] start time: 10092301851143ns
+[smt.profile] [resolution_1] end time: 10092302782727ns
+
+[smt.profile] [resolution_1] start time: 10092303162060ns
+[smt.profile] [resolution_1] end time: 10092304329807ns
+
+[smt.profile] [resolution_1] start time: 10092304530504ns
+[smt.profile] [resolution_1] end time: 10092305550445ns
+
+[smt.profile] [(Term.explicit "@" `cnfOrNeg)] start time: 10092306180051ns
+[smt.profile] [(Term.explicit "@" `cnfOrNeg)]  end time: 10092307342858ns
+
+[smt.profile] [resolution_1] start time: 10092307772298ns
+[smt.profile] [resolution_1] end time: 10092308965193ns
+
+[smt.profile] [resolution_1] start time: 10092309226847ns
+[smt.profile] [resolution_1] end time: 10092309908587ns
+
+valid
+0.31user 0.08system 0:00.39elapsed 99%CPU (0avgtext+0avgdata 1052960maxresident)k
+8inputs+8outputs (0major+37875minor)pagefaults 0swaps

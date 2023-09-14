@@ -1,0 +1,7 @@
+./benchs_new/QF_UF/QG-classification/qg5/gensys_icl060.smt2.lean:1078:2: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+./benchs_new/QF_UF/QG-classification/qg5/gensys_icl060.smt2.lean:25:0: error: (deterministic) timeout at 'whnf', maximum number of heartbeats (500000) has been reached (use 'set_option maxHeartbeats <num>' to set the limit)
+
+invalid
+75.27user 2.33system 1:17.62elapsed 99%CPU (0avgtext+0avgdata 1798588maxresident)k
+0inputs+8outputs (1major+2029713minor)pagefaults 0swaps
