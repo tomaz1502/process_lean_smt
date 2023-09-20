@@ -4,8 +4,8 @@ import Smt
 open Lean Elab Term Tactic Meta
 
 def f : String → String → CoreM Unit := fun sourceCode fileName => do
-  let opt : Options := KVMap.insert KVMap.empty `trace.smt.profile (DataValue.ofBool true)
-  let (_, log) ← Lean.Elab.process sourceCode (← Lean.getEnv) opt fileName
+  /- let opt : Options := KVMap.insert KVMap.empty `trace.smt.profile (DataValue.ofBool true) -/
+  let (_, log) ← Lean.Elab.process sourceCode (← Lean.getEnv) .empty fileName
   for m in log.msgs do
     IO.println s!"{← m.toString}"
   if log.hasErrors then

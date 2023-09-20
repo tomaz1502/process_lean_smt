@@ -1,0 +1,182 @@
+benchs/QF_LIA/pidgeons/pigeon-hole-2.lean * cvc5 fault -> And.intro uses a variable introduced by scope with a wrong type
+benchs/QF_LIA/prime-cone/prime_cone_unsat_3.lean * cvc5 applying equality between Int and Rat AND casting problem (congrHAdd + binrel)
+benchs/QF_LIA/prime-cone/prime_cone_unsat_5.lean * cvc5 applying equality between Int and Rat AND casting problem (congrHAdd + binrel)
+benchs/QF_LIA/prime-cone/prime_cone_unsat_4.lean * cvc5 applying equality between Int and Rat AND casting problem (congrHAdd + binrel)
+benchs/QF_LIA/tightrhombus/tightrhombus-273-245-0.lean * cvc5 applying equality between Int and Rat AND casting problem (congrHAdd + binrel)
+benchs/QF_LIA/tightrhombus/tightrhombus-283-245-0.lean * cvc5 applying equality between Int and Rat AND casting problem (congrHAdd + binrel)
+benchs/QF_LIA/CAV_2009_benchmarks/smt/20-vars/problem_2__026.lean * Eq Int Rat
+benchs/QF_LIA/CAV_2009_benchmarks/smt/20-vars/problem__031.lean * Eq Int Rat
+benchs/QF_LIA/CAV_2009_benchmarks/smt/20-vars/problem__018.lean * Eq Int Rat
+benchs/QF_LIA/CAV_2009_benchmarks/smt/20-vars/problem__029.lean * Eq Int Rat
+benchs/QF_LIA/CAV_2009_benchmarks/smt/20-vars/problem_2__032.lean * Eq Int Rat
+benchs/QF_LIA/CAV_2009_benchmarks/smt/20-vars/problem_2__033.lean * Eq Int Rat
+benchs/QF_LIA/CAV_2009_benchmarks/smt/20-vars/problem_2__027.lean * Eq Int Rat
+benchs/QF_LIA/CAV_2009_benchmarks/smt/20-vars/problem__032.lean * Eq Int Rat
+benchs/QF_LIA/CAV_2009_benchmarks/smt/20-vars/problem__023.lean * Eq Int Rat
+benchs/QF_LIA/CAV_2009_benchmarks/smt/20-vars/problem__027.lean * Eq Int Rat
+benchs/QF_LIA/CAV_2009_benchmarks/smt/20-vars/problem__016.lean * Eq Int Rat
+benchs/QF_LIA/CAV_2009_benchmarks/smt/20-vars/problem__033.lean * Eq Int Rat
+benchs/QF_LIA/CAV_2009_benchmarks/smt/20-vars/problem_2__030.lean * Eq Int Rat
+benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__022.lean
+benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem__016.lean
+benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem__023.lean
+benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem__022.lean
+benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem__024.lean
+benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__025.lean
+benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__021.lean
+benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__024.lean
+benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__020.lean
+benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__011.lean
+benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem__025.lean
+benchs/QF_LIA/CAV_2009_benchmarks/smt/15-vars/problem_2__019.lean
+benchs/QF_LIA/CAV_2009_benchmarks/smt/10-vars/problem__030.lean
+benchs/QF_LIA/CAV_2009_benchmarks/smt/10-vars/problem__020.lean
+benchs/QF_LIA/CAV_2009_benchmarks/smt/10-vars/problem_2__016.lean
+benchs/QF_LIA/CAV_2009_benchmarks/smt/10-vars/problem_2__012.lean
+benchs/QF_LIA/CAV_2009_benchmarks/smt/10-vars/problem_2__021.lean
+benchs/QF_LIA/CAV_2009_benchmarks/smt/10-vars/problem__027.lean
+benchs/QF_LIA/CAV_2009_benchmarks/smt/10-vars/problem_2__031.lean
+benchs/QF_LIA/CAV_2009_benchmarks/smt/10-vars/problem_2__029.lean
+benchs/QF_LIA/20180326-Bromberger/more_slacked/CAV_2009_benchmarks/smt/10-vars/v10_problem__022.smt2.slack.lean
+benchs/QF_LIA/20180326-Bromberger/more_slacked/CAV_2009_benchmarks/smt/10-vars/v10_problem_2__032.smt2.slack.lean
+benchs/QF_LIA/20180326-Bromberger/more_slacked/CAV_2009_benchmarks/smt/10-vars/v10_problem_2__012.smt2.slack.lean
+benchs/QF_LIA/20180326-Bromberger/more_slacked/CAV_2009_benchmarks/smt/10-vars/v10_problem_2__033.smt2.slack.lean
+benchs/QF_LIA/20180326-Bromberger/more_slacked/CAV_2009_benchmarks/smt/10-vars/v10_problem__021.smt2.slack.lean
+benchs/QF_LIA/20180326-Bromberger/more_slacked/CAV_2009_benchmarks/smt/10-vars/v10_problem_2__031.smt2.slack.lean
+benchs/QF_LIA/20180326-Bromberger/more_slacked/CAV_2009_benchmarks/smt/10-vars/v10_problem__027.smt2.slack.lean
+benchs/QF_LIA/20180326-Bromberger/more_slacked/CAV_2009_benchmarks/smt/10-vars/v10_problem__035.smt2.slack.lean
+benchs/QF_LIA/20180326-Bromberger/more_slacked/CAV_2009_benchmarks/smt/10-vars/v10_problem_2__025.smt2.slack.lean
+benchs/QF_LIA/20180326-Bromberger/more_slacked/CAV_2009_benchmarks/smt/10-vars/v10_problem__025.smt2.slack.lean
+benchs/QF_LIA/20180326-Bromberger/more_slacked/CAV_2009_benchmarks/smt/10-vars/v10_problem_2__024.smt2.slack.lean
+benchs/QF_LIA/20180326-Bromberger/more_slacked/CAV_2009_benchmarks/smt/10-vars/v10_problem_2__034.smt2.slack.lean
+benchs/QF_LIA/20180326-Bromberger/more_slacked/CAV_2009_benchmarks/smt/15-vars/v15_problem_2__019.smt2.slack.lean
+benchs/QF_LIA/20180326-Bromberger/more_slacked/CAV_2009_benchmarks/smt/15-vars/v15_problem_2__024.smt2.slack.lean
+benchs/QF_LIA/20180326-Bromberger/more_slacked/CAV_2009_benchmarks/smt/15-vars/v15_problem__022.smt2.slack.lean
+benchs/QF_LIA/20180326-Bromberger/more_slacked/CAV_2009_benchmarks/smt/15-vars/v15_problem__023.smt2.slack.lean
+benchs/QF_LIA/20180326-Bromberger/more_slacked/CAV_2009_benchmarks/smt/15-vars/v15_problem__025.smt2.slack.lean
+benchs/QF_LIA/20180326-Bromberger/more_slacked/CAV_2009_benchmarks/smt/15-vars/v15_problem__024.smt2.slack.lean
+benchs/QF_LIA/20180326-Bromberger/more_slacked/CAV_2009_benchmarks/smt/15-vars/v15_problem_2__022.smt2.slack.lean
+benchs/QF_LIA/20180326-Bromberger/more_slacked/CAV_2009_benchmarks/smt/15-vars/v15_problem__016.smt2.slack.lean
+benchs/QF_LIA/20180326-Bromberger/more_slacked/CAV_2009_benchmarks/smt/15-vars/v15_problem_2__011.smt2.slack.lean
+benchs/QF_LIA/20180326-Bromberger/more_slacked/CAV_2009_benchmarks/smt/15-vars/v15_problem_2__020.smt2.slack.lean
+benchs/QF_LIA/20180326-Bromberger/more_slacked/CAV_2009_benchmarks/coef-size/smt/size-10/c10_problem__002.smt2.slack.lean
+benchs/QF_LIA/20180326-Bromberger/more_slacked/CAV_2009_benchmarks/coef-size/smt/size-20/c20_problem__004.smt2.slack.lean
+benchs/QF_LIA/20180326-Bromberger/more_slacked/CAV_2009_benchmarks/coef-size/smt/size-50/c50_problem__002.smt2.slack.lean
+benchs/QF_LIA/20180326-Bromberger/more_slacked/cut_lemmas/10-vars/cut_lemma_02_009.smt2.slack.lean
+benchs/QF_LIA/20180326-Bromberger/more_slacked/cut_lemmas/10-vars/cut_lemma_02_008.smt2.slack.lean
+benchs/QF_LIA/20180326-Bromberger/more_slacked/cut_lemmas/10-vars/cut_lemma_01_001.smt2.slack.lean
+benchs/QF_LIA/20180326-Bromberger/more_slacked/cut_lemmas/10-vars/cut_lemma_02_001.smt2.slack.lean
+benchs/QF_LIA/20180326-Bromberger/more_slacked/cut_lemmas/20-vars/cut_lemma_01_015.smt2.slack.lean
+benchs/QF_LIA/20180326-Bromberger/more_slacked/cut_lemmas/20-vars/cut_lemma_01_008.smt2.slack.lean
+benchs/QF_LIA/20180326-Bromberger/more_slacked/cut_lemmas/15-vars/cut_lemma_02_004.smt2.slack.lean
+benchs/QF_LIA/20180326-Bromberger/more_slacked/cut_lemmas/15-vars/cut_lemma_03_001.smt2.slack.lean
+benchs/QF_LIA/20180326-Bromberger/more_slacked/cut_lemmas/15-vars/cut_lemma_02_005.smt2.slack.lean
+benchs/QF_LIA/20180326-Bromberger/more_slacked/cut_lemmas/15-vars/cut_lemma_02_001.smt2.slack.lean
+benchs/QF_LIA/20180326-Bromberger/more_slacked/cut_lemmas/15-vars/cut_lemma_01_003.smt2.slack.lean
+benchs/QF_LIA/20180326-Bromberger/more_slacked/cut_lemmas/15-vars/cut_lemma_03_004.smt2.slack.lean
+benchs/QF_LIA/20180326-Bromberger/more_slacked/cut_lemmas/15-vars/cut_lemma_01_012.smt2.slack.lean
+benchs/QF_LIA/20180326-Bromberger/more_slacked/cut_lemmas/15-vars/cut_lemma_02_002.smt2.slack.lean
+benchs/QF_LIA/cut_lemmas/20-vars/cut_lemma_01_012.lean
+benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_003.lean
+benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_03_002.lean
+benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_002.lean
+benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_008.lean
+benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_004.lean
+benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_01_012.lean
+benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_02_001.lean
+benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_03_008.lean
+benchs/QF_LIA/cut_lemmas/15-vars/cut_lemma_01_003.lean
+benchs/QF_LIA/cut_lemmas/10-vars/cut_lemma_01_001.lean
+benchs/QF_LIA/cut_lemmas/10-vars/cut_lemma_02_009.lean
+benchs/QF_LIA/cut_lemmas/10-vars/cut_lemma_02_001.lean
+benchs/QF_LIA/cut_lemmas/10-vars/cut_lemma_02_005.lean
+benchs/QF_LIA/check/bignum_lia1.lean
+benchs/QF_LRA/keymaera/water_tank-node17126.lean
+benchs/QF_LRA/keymaera/water_tank-node21443.lean
+benchs/QF_LRA/keymaera/water_tank-node23593.lean
+benchs/QF_LRA/keymaera/bouncing-ball-inv-node1886.lean
+benchs/QF_LRA/keymaera/bouncing-ball-simple-node1628.lean
+benchs/QF_LRA/keymaera/bouncing-ball-simple-node1629.lean
+benchs/QF_LRA/keymaera/water_tank-node28604.lean
+benchs/QF_LRA/keymaera/water_tank-node5964.lean
+benchs/QF_LRA/keymaera/water_tank-node15243.lean
+benchs/QF_LRA/keymaera/intersection-example-onelane.proof-node846.lean
+benchs/QF_LRA/keymaera/water_tank-node4029.lean
+benchs/QF_LRA/keymaera/water_tank-node28718.lean
+benchs/QF_LRA/keymaera/bouncing-ball-inv-node1935.lean
+benchs/QF_LRA/meti-tarski/bottom-plate-mixer/bottom-plate-mixer-chunk-0020.lean
+benchs/QF_LRA/meti-tarski/bottom-plate-mixer/bottom-plate-mixer-chunk-0024.lean
+benchs/QF_LRA/meti-tarski/bottom-plate-mixer/bottom-plate-mixer-chunk-0025.lean
+benchs/QF_LRA/meti-tarski/bottom-plate-mixer/bottom-plate-mixer-chunk-0018.lean
+benchs/QF_LRA/meti-tarski/bottom-plate-mixer/bottom-plate-mixer-chunk-0023.lean
+benchs/QF_LRA/meti-tarski/bottom-plate-mixer/bottom-plate-mixer-chunk-0016.lean
+benchs/QF_LRA/meti-tarski/sqrt/1mcosq/7/sqrt-1mcosq-7-chunk-0061.lean
+benchs/QF_LRA/meti-tarski/sqrt/1mcosq/7/sqrt-1mcosq-7-chunk-0016.lean
+benchs/QF_LRA/meti-tarski/sqrt/1mcosq/8/sqrt-1mcosq-8-chunk-0707.lean
+benchs/QF_LRA/meti-tarski/sqrt/1mcosq/8/sqrt-1mcosq-8-chunk-0029.lean
+benchs/QF_LRA/meti-tarski/sqrt/1mcosq/8/sqrt-1mcosq-8-chunk-0035.lean
+benchs/QF_LRA/meti-tarski/sqrt/1mcosq/8/sqrt-1mcosq-8-chunk-0415.lean
+benchs/QF_LRA/meti-tarski/atan/problem/2/weak2/atan-problem-2-weak2-chunk-0030.lean
+benchs/QF_LRA/meti-tarski/atan/problem/2/weak2/atan-problem-2-weak2-chunk-0037.lean
+benchs/QF_LRA/meti-tarski/sin/344/4/sin-344-4-chunk-0020.lean
+benchs/QF_LRA/meti-tarski/sin/344/4/sin-344-4-chunk-0017.lean
+benchs/QF_LRA/meti-tarski/sin/344/3/sin-344-3-chunk-0016.lean
+benchs/QF_LRA/meti-tarski/sin/344/3/sin-344-3-weak-chunk-0013.lean
+benchs/QF_LRA/meti-tarski/sin/344/3/sin-344-3-weak-chunk-0016.lean
+benchs/QF_LRA/meti-tarski/sin/344/3/sin-344-3-chunk-0013.lean
+benchs/QF_LRA/meti-tarski/sin/problem/8/weak/sin-problem-8-weak-chunk-0036.lean
+benchs/QF_LRA/meti-tarski/sin/problem/8/weak/sin-problem-8-weak-chunk-0032.lean
+benchs/QF_LRA/meti-tarski/sin/problem/8/weak/sin-problem-8-weak-chunk-0012.lean
+benchs/QF_LRA/meti-tarski/sin/problem/8/weak/sin-problem-8-weak-chunk-0023.lean
+benchs/QF_LRA/meti-tarski/sin/problem/8/weak/sin-problem-8-weak-chunk-0010.lean
+benchs/QF_LRA/meti-tarski/sin/problem/8/weak/sin-problem-8-weak-chunk-0042.lean
+benchs/QF_LRA/meti-tarski/sin/problem/8/sin-problem-8-chunk-0032.lean
+benchs/QF_LRA/meti-tarski/sin/problem/7/weak/sin-problem-7-weak-chunk-0067.lean
+benchs/QF_LRA/meti-tarski/sin/problem/7/weak/sin-problem-7-weak-chunk-0012.lean
+benchs/QF_LRA/meti-tarski/sin/problem/7/weak2/sin-problem-7-weak2-chunk-0012.lean
+benchs/QF_LRA/meti-tarski/sin/problem/7/sin-problem-7-chunk-0049.lean
+benchs/QF_LRA/meti-tarski/sin/problem/7/sin-problem-7-chunk-0070.lean
+benchs/QF_LRA/meti-tarski/cbrt/3/cbrt-problem-3-chunk-0041.lean
+benchs/QF_LRA/meti-tarski/cbrt/3/cbrt-problem-3-chunk-0074.lean
+benchs/QF_LRA/meti-tarski/cbrt/3/cbrt-problem-3-chunk-0060.lean
+benchs/QF_LRA/meti-tarski/cbrt/3/cbrt-problem-3-chunk-0037.lean
+benchs/QF_LRA/meti-tarski/cbrt/3/cbrt-problem-3-chunk-0048.lean
+benchs/QF_LRA/meti-tarski/cbrt/3/cbrt-problem-3-chunk-0040.lean
+benchs/QF_LRA/meti-tarski/cbrt/3/cbrt-problem-3-chunk-0058.lean
+benchs/QF_LRA/meti-tarski/cbrt/3/cbrt-problem-3-chunk-0044.lean
+benchs/QF_LRA/meti-tarski/cbrt/3/cbrt-problem-3-chunk-0042.lean
+benchs/QF_LRA/meti-tarski/cbrt/3/cbrt-problem-3-chunk-0046.lean
+benchs/QF_LRA/meti-tarski/cbrt/3/cbrt-problem-3-chunk-0072.lean
+benchs/QF_LRA/meti-tarski/cbrt/3/weak/cbrt-problem-3-weak-chunk-0066.lean
+benchs/QF_LRA/meti-tarski/cbrt/3/weak/cbrt-problem-3-weak-chunk-0083.lean
+benchs/QF_LRA/meti-tarski/cbrt/3/weak/cbrt-problem-3-weak-chunk-0056.lean
+benchs/QF_LRA/meti-tarski/cbrt/3/weak/cbrt-problem-3-weak-chunk-0052.lean
+benchs/QF_LRA/meti-tarski/cbrt/3/weak/cbrt-problem-3-weak-chunk-0098.lean
+benchs/QF_LRA/meti-tarski/cbrt/3/weak/cbrt-problem-3-weak-chunk-0054.lean
+benchs/QF_LRA/meti-tarski/cbrt/3/weak/cbrt-problem-3-weak-chunk-0050.lean
+benchs/QF_LRA/meti-tarski/cbrt/3/weak/cbrt-problem-3-weak-chunk-0048.lean
+benchs/QF_LRA/meti-tarski/cbrt/3/weak/cbrt-problem-3-weak-chunk-0049.lean
+benchs/QF_LRA/meti-tarski/cbrt/3/weak/cbrt-problem-3-weak-chunk-0045.lean
+benchs/QF_LRA/meti-tarski/cbrt/3/weak/cbrt-problem-3-weak-chunk-0099.lean
+benchs/QF_LRA/meti-tarski/cbrt/3/weak/cbrt-problem-3-weak-chunk-0081.lean
+benchs/QF_LRA/meti-tarski/cbrt/3/weak/cbrt-problem-3-weak-chunk-0068.lean
+benchs/QF_LRA/meti-tarski/cbrt/3/weak/cbrt-problem-3-weak-chunk-0012.lean
+benchs/QF_LRA/meti-tarski/Chua/1/VC1/L/Chua-1-VC1-L-chunk-0155.lean
+benchs/QF_LRA/meti-tarski/Chua/1/VC2/U/Chua-1-VC2-U-chunk-0155.lean
+benchs/QF_LRA/meti-tarski/Chua/1/IL/L/Chua-1-IL-L-chunk-0112.lean
+benchs/QF_LRA/meti-tarski/Chua/1/IL/L/Chua-1-IL-L-chunk-0155.lean
+benchs/QF_LRA/meti-tarski/Chua/1/IL/L/Chua-1-IL-L-chunk-0156.lean
+benchs/QF_LRA/meti-tarski/polypaver/bench-exp-3d/polypaver-bench-exp-3d-chunk-0044.lean
+benchs/QF_LRA/meti-tarski/polypaver/bench-exp-3d/polypaver-bench-exp-3d-chunk-0047.lean
+benchs/QF_LRA/meti-tarski/CMOS/CMOS-opamp-chunk-0024.lean
+benchs/QF_LRA/check/bignum_lra2.lean
+benchs/QF_LRA/sal/pursuit/pursuit-safety-1.lean
+benchs/QF_LRA/sal/gasburner/gasburner-prop3-1.lean
+benchs/QF_LRA/sal/gasburner/gasburner-prop3-2.lean
+benchs/QF_UF/2018-Goel-hwbench/QF_UF_h_b04_ab_cti_max.lean
+benchs/QF_UF/2018-Goel-hwbench/QF_UF_resistance.1.prop2_ab_reg_max.lean
+benchs/QF_UF/2018-Goel-hwbench/QF_UF_pipeline_ab_cti_max.lean
+benchs/QF_UF/2018-Goel-hwbench/QF_UF_eq_sdp_v7_ab_cti_max.lean
+benchs/QF_UF/2018-Goel-hwbench/QF_UF_h_traffic_light_example_ab_cti_max.lean
+benchs/QF_UF/2018-Goel-hwbench/QF_UF_cache_coherence_three_ab_reg_max.lean
+benchs/QF_UFLIA/TwoSquares/smtlib.769286.lean
